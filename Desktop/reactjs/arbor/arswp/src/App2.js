@@ -194,6 +194,20 @@ class Home extends React.Component {
               elit ut aliquam, purus sit amet luctus venenatis, lectus magna
               fringilla urna, porttitor.
             </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+              fringilla urna, porttitor.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+              urna, porttitor Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+              fringilla urna, porttitor.
+            </p>
           </div>
         </div>
       </div>
