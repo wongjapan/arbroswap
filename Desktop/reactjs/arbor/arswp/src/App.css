@@ -711,14 +711,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 120%;
-/* identical to box height, or 17px */
-
 text-align: right;
 letter-spacing: 0.02em;
 text-transform: uppercase;
-
-/* Light/Text/Normal */
-
 color: #464754;
 }
 .pd-20px{
