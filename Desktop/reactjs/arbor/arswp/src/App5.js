@@ -120,7 +120,7 @@ class Home extends React.Component {
         {/* content1 */}
 
         {/*  */}
-        <div className="form-block sec_2_header">
+        <div className="form-block">
           <div className="top-nav">
             <ul className="breadcrumb">
               <li>Pools</li>
@@ -159,7 +159,7 @@ class Home extends React.Component {
                   <img src="/img/RIP_logo (1).png" alt="" />
                 </div>
                 <div class="img_top_right_title_block_1 fl-right">
-                  <p>Swipe Coin</p>
+                  <p>Arbor Project</p>
 
                   <span class="inner_img_top_right_button_block_1 fl-right">
                     Private
@@ -306,20 +306,12 @@ class Home extends React.Component {
               </div>
             </div>
             {/* section 3 */}
-            <div className="contain2_section4 clear">
-              <div className="contain2_section4_middle">
-                <button>Join Sale</button>
-              </div>
+            <div className="contain2_section_red_whil">
+              Your Wallet is not Whitelisted
             </div>
-            {/* section  */}
-            <button id="myBtn">Open Modal</button>
-
-            {/* <!-- The Modal --> */}
-            <div id="myModal" class="modal">
-              {/* <!-- Modal content --> */}
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
+            <div className="contain2_section4 clear">
+              <div className="app5_contain2_section4_middle_join">
+                <button>Join Sale</button>
               </div>
             </div>
             {/* section 4 */}

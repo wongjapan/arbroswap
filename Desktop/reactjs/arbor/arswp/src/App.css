@@ -376,8 +376,9 @@ color: #A69F9F;
 }
 
 
-.block-right{margin-top: 2%;
-  margin-right: 7%;
+.block-right{
+  margin-top: 2%;
+  
 }
 .block-right img{
   padding-right: 20px;
@@ -663,6 +664,7 @@ color: #FFFFFF;
 background: #00783F;
 border-radius: 6px;
 border: none;
+cursor: pointer;
 }
 .contain2_section4_middle_button_red button{
   padding: 13px 104px;
@@ -826,25 +828,338 @@ border-radius: 10px;
   text-decoration: none ;
 }
 /* pages 5-------------------- */
-
-@media only screen and (max-width: 767px) {
-  .In_box {
-    width: 100%;
+.contain2_section_red_whil{
+  
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  
+  text-align: center;
+  letter-spacing: 0.02em;
+  
+  
+  color: #E56060;
+  
+  }
+  .app5_contain2_section4_middle_join button{
+    padding: 13px 90px;
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #00783F;
+  border-radius: 6px;
+  border: none;
+  }
+  
+  /* page6--------------------  */
+  .app6_form_section_button button{
+    background: #00783F;
+border-radius: 6px;
+padding: 15px 40px;
+border: none;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #FFFFFF;
+  }
+  
+  .form_section_radio{
+      width: 60%;
+      height: auto;
+      background: #fff;
+      border-radius: 10px;
+      margin-right: 1.3%;
+      padding: 35px;
+     
+      clear: both;
+      overflow: hidden;
+      margin: 0 auto;
+  
+  }
+  
+  .label input{margin-top:15px}
+  
+  
+    .label {
+      border: 1.5px solid rgba(166, 159, 159, 0.5);
+      border-radius: 8px;
+      width: 47%;
+      padding: 10px 20px;
+      margin-top: 25px;
+  
+  }
+  .label label{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  
+  /* Light/Text/Normal */
+  
+  color: #464754;
+  }
+  
+  
+  /* pages 7--------------------------- */
+  .container_app7{
+    margin-top: 10%;
     height: auto;
+    width: 320px;
+    position: absolute;
+    left: 50%;
+    margin-left: -160px;
+  }
+  .app7_contain_section {
     background: #fff;
-    border-radius: 2rem;
-    margin-right: 10%;
-    margin-top:20px;
+    border-radius: 10px;
     float: left;
+    padding: 20px;
+    width: 320px
 }
-  .outer_box {
-    width: 97%;
-    clear: both;
-    overflow: hidden;
-    margin: 0 auto;
-}
+  .app7_join_pool{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #464754;
+  }
+  .app7_close{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    
+    color: #464754;
+  }
+  .app7_close a{
+    text-decoration: none;
+  }
 
-}
 
 
-
+  
+  .app7_from{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  /* Light/Text/Normal */
+  
+  color: #464754;
+  line-height: 34px;
+  
+  }
+  
+  .app7_RBA {
+    
+    padding: 4px 104px 4px 10px;
+    background: #FAF8F5;
+  border-radius: 6px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #464754;
+  }
+  .app7_RBA img{
+    padding-right: 4px;
+  }
+  .app7_contain_section_block_2{
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  .app7_amount{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #807373;
+  }
+  .app7_balance{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.001em;
+  color: #A69F9F;
+  }
+  .appy7_contain_section_block_4{
+    padding: 10px;
+    background: #F5F1EB;
+  border-radius: 6px;
+  }
+  .app7_num{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #464754;
+  }
+  .app7_half{
+    background: rgba(194, 157, 70, 0.08);
+    border-radius: 2px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #C89211;
+    padding: 2px 16px;
+    width: 60px;
+    text-align: center;
+  }
+  .app7_num2{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #807373;
+  }
+  .app7_max{
+    background: rgba(0, 120, 63, 0.08);
+  border-radius: 2px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #00783F;
+  opacity: 0.7;
+  padding: 2px 16px;
+  }
+  .app7_hr_rotate90 hr{
+    border: 1px dashed #A69F9F;
+    width: 40%;
+    height: auto;
+  /* transform: rotate(90deg); */
+  }
+  .app7_contain_middle_translogo img{
+    margin-left: 40%;
+  }
+  .app7_logo_hei img{
+    width: 24px;
+      height: 20px;
+  }
+  .app7_dolend{
+    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #807373;
+  }
+  
+  .app7_contain_bottom_section_middle button{
+    padding: 13px 114px;
+    width:100%;
+    background: #00783F;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-top: 5%;
+  }
+  .app7_contain_bottom_section{
+ 
+  }
+  
+  /* page8 ====---------------- */
+  /* .app8_top-right-nav{
+    padding: 13px 20px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  } */
+  .app8_button_admin_edit button{
+    padding: 8px 23px 6px 18px;
+    border: none;
+    background: #fff;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #464754;
+    border-radius: 7px;
+    line-height: 38px;
+  }
+  .swih {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 23px;
+    margin: 8px 0 0 13px;
+    float: right;
+  }
+  
+  .swih input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slid {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slid:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 5px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slid {
+    background-color: #00783F;
+  }
+  input:checked + .slid:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slid.round {
+    border-radius: 34px;
+  }
+  
+  .slid.round:before {
+    border-radius: 50%;
+  } 

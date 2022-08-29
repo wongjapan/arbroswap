@@ -120,7 +120,7 @@ class Home extends React.Component {
         {/* content1 */}
 
         {/*  */}
-        <div className="form-block sec_2_header">
+        <div className="form-block">
           <div className="top-nav">
             <ul className="breadcrumb">
               <li>Pools</li>
@@ -145,10 +145,23 @@ class Home extends React.Component {
             <a href="">
               <img src="assets/images/notification-bing.png" />
             </a>
+            <div className="app8_button_admin_edit">
+              <button>
+                Admin Mode
+                <label class="swih">
+                  <input type="checkbox" />
+                  <span class="slid round"></span>
+                </label>
+              </button>
+            </div>
+
             {/* <a href="">
               <img src="assets/images/setting-2.png" />
             </a> */}
           </div>
+          {/* <div className="app8_top-right-nav">
+            <div className="inner_app8_op-right-nav">Admin Mode</div>
+          </div> */}
 
           <div className="clear mar-22"></div>
           {/* content1  */}
@@ -159,7 +172,7 @@ class Home extends React.Component {
                   <img src="/img/RIP_logo (1).png" alt="" />
                 </div>
                 <div class="img_top_right_title_block_1 fl-right">
-                  <p>Swipe Coin</p>
+                  <p>Arbor Project</p>
 
                   <span class="inner_img_top_right_button_block_1 fl-right">
                     Private
@@ -260,92 +273,6 @@ class Home extends React.Component {
           </div>
 
           {/* content2 */}
-          <div className="contain2 fl-right">
-            <div className="contain2_section1 clear">
-              <div className="contain2_section1_sub1 fl-left ">
-                Soft/Hard Cap
-              </div>
-              <div className="contain2_section1_sub2 fl-right">Live</div>
-            </div>
-            {/* section1 */}
-            <div className="contain2_section2 clear">
-              <div className="contain2_section2_sub1 fl-left">
-                <img src="/img/RIP.png" alt="" srcset="" />
-              </div>
-              <div className="contain2_section2_sub2 fl-left">240,000</div>
-            </div>
-            {/* section 2 */}
-            <div className="contain2_section3 clear">
-              <div className="contain2_section3_sub1 pg30 fl-left">
-                Min Allocation
-              </div>
-              <div className="contain2_section3_sub2 pg30 fl-right">
-                100 RBA
-              </div>
-              <div className="clear"></div>
-              <div className="contain2_section3_sub1 pg20 fl-left">
-                Max Allocation
-              </div>
-              <div className="contain2_section3_sub2 pg20 fl-right">
-                10,000 RBA
-              </div>
-              <div className="clear"></div>
-              <div className="contain2_section3_sub1_sm1 pg30 fl-left">
-                120,000 RBA
-              </div>
-              <div className="contain2_section3_sub2_sm2 pg30 fl-right">
-                240,000 RBA
-              </div>
-              <div className="contain2_section3_bar fl-left">
-                <div className="box3 clear">
-                  <div class="w3-light-grey">
-                    <div class="w3-container w3-green w3-center">25%</div>
-                  </div>
-                  <br />
-                </div>
-              </div>
-            </div>
-            {/* section 3 */}
-            <div className="contain2_section4 clear">
-              <div className="contain2_section4_middle">
-                <button>Join Sale</button>
-              </div>
-            </div>
-            {/* section  */}
-            <button id="myBtn">Open Modal</button>
-
-            {/* <!-- The Modal --> */}
-            <div id="myModal" class="modal">
-              {/* <!-- Modal content --> */}
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Some text in the Modal..</p>
-              </div>
-            </div>
-            {/* section 4 */}
-            <div className="contain2_section5 clear">
-              <div className="contain_section5_middle">Sale Ends in</div>
-              <div className="contain_section5_timer_day fl-left">
-                00 <br /> <span>Days</span>
-              </div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-right">
-                04
-                <br /> <span>Hours</span>
-              </div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-left">
-                21
-                <br /> <span>Mins</span>
-                <br /> <span></span>
-              </div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-left">
-                38
-                <br /> <span>Secs</span>
-              </div>
-            </div>
-          </div>
         </div>
 
         <div className="clear"></div>
