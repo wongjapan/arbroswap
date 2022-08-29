@@ -123,18 +123,17 @@ class Home extends React.Component {
         <div className="form-block">
           <div className="top-nav">
             <ul className="breadcrumb">
-              <li>Launchpad</li>
+              <li>Pools</li>
               <li>
                 {" "}
                 <img src="/img/Line 2.png" alt="" srcset="" />{" "}
               </li>
               <li>
-                <a href="#" className="active">
-                  Pools
+                <a href="#" className="activ">
+                  Swipe coin
                 </a>
               </li>
             </ul>
-            <p>Discover upcoming or live sales.</p>
           </div>
 
           <div className="top-right-nav">
@@ -151,7 +150,7 @@ class Home extends React.Component {
             </a> */}
           </div>
 
-          <div className="clear"></div>
+          <div className="clear mar-22"></div>
           {/* content1  */}
           <div className="contain fl-left">
             <div className="block_section_1">
@@ -190,14 +189,14 @@ class Home extends React.Component {
               </p>
             </div>
             <div className="block_section_3_bg clear">
-              <div className="fl-left contain1_block_section_3">
-                <span>Sale details</span>
+              <div className="fl-left tet_dec contain1_block_section_3">
+                <a href="#">Sale details</a>
               </div>
-              <div className="fl-left contain2_block_section_3">
-                <span>Tokenomics</span>
+              <div className="fl-left tet_dec contain2_block_section_3">
+                <a href="#">Tokenomics</a>
               </div>
-              <div className="fl-left contain3_block_section_3">
-                <span>Team</span>
+              <div className="fl-left  tet_dec contain3_block_section_3">
+                <a href="#">Team</a>
               </div>
             </div>
 
@@ -267,8 +266,12 @@ class Home extends React.Component {
                 <div className="contain2_section1_sub1 fl-left ">
                   Soft/Hard Cap
                 </div>
-                <div className="contain2_section1_sub2 fl-right">Live</div>
+                <div className="contain2_section1_sub2 fl-right">
+                  <img src="/img/tick-circle.png" alt="" />
+                  Sold out
+                </div>
               </div>
+
               {/* section1 */}
               <div className="contain2_section2 clear">
                 <div className="contain2_section2_sub1 fl-left">
@@ -301,7 +304,9 @@ class Home extends React.Component {
                 <div className="contain2_section3_bar fl-left">
                   <div className="box3 clear">
                     <div class="w3-light-grey">
-                      <div class="w3-container w3-green w3-center">25%</div>
+                      <div class="w3-container_100 w3-green w3-center_right">
+                        100%
+                      </div>
                     </div>
                     <br />
                   </div>
@@ -309,21 +314,33 @@ class Home extends React.Component {
               </div>
               {/* section 3 */}
               <div className="contain2_section4 clear">
-                <div className="contain2_section4_middle">
-                  <button></button>
+                <div className="contain2_section4_middle_button_red">
+                  <button>Sold Out</button>
                 </div>
               </div>
               {/* section 4 */}
-              {/* <div className="contain2_section5 clear">
-              <div className="contain_section5_middle">Sale Ends in</div>
-              <div className="contain_section5_timer_day fl-left">00</div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-right">04</div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-left">21</div>
-              <div className="contain_section5_timer_dot">:</div>
-              <div className="contain_section5_timer_day fl-left">38</div>
-            </div> */}
+              <div className="contain2_section5 clear">
+                <div className="contain_section5_middle">Sale Ends in</div>
+                <div className="contain_section5_timer_day fl-left">
+                  00 <br /> <span>Days</span>
+                </div>
+                <div className="contain_section5_timer_dot">:</div>
+                <div className="contain_section5_timer_day fl-right">
+                  04
+                  <br /> <span>Hours</span>
+                </div>
+                <div className="contain_section5_timer_dot">:</div>
+                <div className="contain_section5_timer_day fl-left">
+                  21
+                  <br /> <span>Mins</span>
+                  <br /> <span></span>
+                </div>
+                <div className="contain_section5_timer_dot">:</div>
+                <div className="contain_section5_timer_day fl-left">
+                  38
+                  <br /> <span>Secs</span>
+                </div>
+              </div>
             </div>
             <div className="clear"></div>
 

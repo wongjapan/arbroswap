@@ -1,3 +1,7 @@
+.activ{
+  color: #464754;
+}
+
 
 .In_box {
   width: 32%;
@@ -367,7 +371,9 @@ color: #A69F9F;
 .contain2{  background: #fff;
   border-radius: 10px;
   margin-right: 1.3%;
-  padding: 35px;margin-bottom:20px}
+  padding: 35px;margin-bottom:20px;
+
+}
 
 
 .block-right{margin-top: 2%;
@@ -612,11 +618,27 @@ color: #807373;
 
 
 /* app3====================================== */
-.contain_section5_timer_day {width:24%; float:left; text-align:Center;
+.contain_section5_timer_day {width: 24%;
+  float: left;
+  text-align: Center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #807373;
 }
 .contain_section5_timer_dot{width:1%; text-align:center; float:left}
 
- 
+.contain_section5_timer_day span{    font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* line-height: 120%; */
+  letter-spacing: 0.02em;
+  color: #A69F9F;
+  margin-top: 20px;}
 /*  */
 .contain2_section3_sub2_sm2{
   font-family: 'Gilroy';
@@ -641,6 +663,28 @@ color: #FFFFFF;
 background: #00783F;
 border-radius: 6px;
 border: none;
+}
+.contain2_section4_middle_button_red button{
+  padding: 13px 104px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #FFFFFF;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #E56060;
+border-radius: 6px;
+border: none;
+}
+.clear.mar-22{
+  margin-bottom: 8%;
+}
+.w3-center_right{
+  text-align: right !important;
+}
+.w3-container_75{
+  width: 75%;
 }
 .contain2_section4_middle{
   padding-top: 15px;
@@ -724,7 +768,7 @@ color: #464754;
 border: 1px dashed #A69F9F;
 }
 .contain3_section_middle button{
-  padding: 13px 100px;
+  padding: 13px 115px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -739,7 +783,7 @@ border: none;
 
 /* pages 4-------------------- */
 .contain2_section4_middle_black button{
-  padding: 13px 121px;
+  padding: 13px 112px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -752,7 +796,7 @@ border-radius: 6px;
 border: none;
 }
 .contain3_section_middle_done button{
-  padding: 13px 123px;
+  padding: 13px 114px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -778,7 +822,9 @@ border: none;
 border: 0.5px dashed #464754;
 border-radius: 10px;
 }
-
+.tet_dec a{
+  text-decoration: none ;
+}
 /* pages 5-------------------- */
 
 @media only screen and (max-width: 767px) {

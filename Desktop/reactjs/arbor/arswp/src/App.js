@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <App1 /> */}
+        <App1 />
         {/* <App2 /> */}
         {/* <App3 /> */}
-        <App4 />
+        {/* <App4 /> */}
       </div>
     </>
   );
