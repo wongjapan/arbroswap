@@ -7,12 +7,12 @@ import Sort_by from "./Components/Sort_by";
 import My_Pools from "./Components/My_Pools";
 import Search_sec from "./Components/Search_sec";
 import Launchpad_pool from "./Components/Topnavbar_section/Launchpad_pool";
-import Arbor_project from "./Components/Box_section.js/Arbor_project";
-import Venus from "./Components/Box_section.js/Venus";
-import Voyagar from "./Components/Box_section.js/Voyagar";
-import Waxp from "./Components/Box_section.js/Waxp";
-import Xsg_token from "./Components/Box_section.js/Xsg_token";
-import Gnosis from "./Components/Box_section.js/Gnosis";
+import Arbor_project from "./Components/Box_section/Arbor_project";
+import Venus from "./Components/Box_section/Venus";
+import Voyagar from "./Components/Box_section/Voyagar";
+import Waxp from "./Components/Box_section/Waxp";
+import Xsg_token from "./Components/Box_section/Xsg_token";
+import Gnosis from "./Components/Box_section/Gnosis";
 
 class Home extends React.Component {
   render() {
