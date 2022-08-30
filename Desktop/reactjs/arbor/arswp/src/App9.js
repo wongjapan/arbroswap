@@ -1,7 +1,7 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Rightsec_btn_on from "./Components/Right_sec_components/Rightsec_btn_on";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec.js/Swipe_coin_secbig";
+import Swipe_coin_edit_on from "./Components/Middle_contain_sec.js/Swipe_coin_edit_on";
+import Admin_addre_whli from "./Components/Right_sec_components/Admin_addre_whli";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
 import Topnavicon_admin_mode from "./Components/Topnavbar_section/Topnavicon_admin_mode";
 
@@ -20,13 +20,14 @@ class Home extends React.Component {
 
           <div className="clear mar-22"></div>
           {/* content1  */}
-          <Swipe_coin_secbig />
+          <Swipe_coin_edit_on />
 
           {/* content2 */}
-          <Rightsec_btn_on />
-        </div>
+          <Admin_addre_whli />
+          <div className="clear"></div>
 
-        <div className="clear"></div>
+          {/* content3 */}
+        </div>
       </div>
     );
   }

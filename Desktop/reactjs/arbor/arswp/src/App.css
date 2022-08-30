@@ -653,7 +653,7 @@ letter-spacing: 0.02em;
 color: #A69F9F;
 }
 .contain2_section4_middle button{
-  padding: 13px 90px;
+  padding: 13px 0px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -665,19 +665,21 @@ background: #00783F;
 border-radius: 6px;
 border: none;
 cursor: pointer;
+width: 100%;
 }
 .contain2_section4_middle_button_red button{
-  padding: 13px 104px;
+  padding: 13px 0px;
   font-family: 'Gilroy';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #FFFFFF;
-background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #E56060;
-border-radius: 6px;
-border: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #E56060;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
 }
 .clear.mar-22{
   margin-bottom: 8%;
@@ -770,7 +772,7 @@ color: #464754;
 border: 1px dashed #A69F9F;
 }
 .contain3_section_middle button{
-  padding: 13px 115px;
+  padding: 13px 0px;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -781,11 +783,13 @@ color: #FFFFFF;
 background: #00783F;
 border-radius: 6px;
 border: none;
+width: 100%;
 }
 
 /* pages 4-------------------- */
 .contain2_section4_middle_black button{
-  padding: 13px 112px;
+  padding: 13px 0px;
+  width: 100%;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -798,7 +802,8 @@ border-radius: 6px;
 border: none;
 }
 .contain3_section_middle_done button{
-  padding: 13px 114px;
+  padding: 13px 0px;
+  width: 100%;
   font-family: 'Gilroy';
 font-style: normal;
 font-weight: 700;
@@ -843,7 +848,7 @@ border-radius: 10px;
   
   }
   .app5_contain2_section4_middle_join button{
-    padding: 13px 90px;
+    padding: 13px 0px;
     font-family: 'Gilroy';
   font-style: normal;
   font-weight: 700;
@@ -854,6 +859,7 @@ border-radius: 10px;
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #00783F;
   border-radius: 6px;
   border: none;
+  width: 100%;
   }
   
   /* page6--------------------  */
@@ -861,6 +867,7 @@ border-radius: 10px;
     background: #00783F;
 border-radius: 6px;
 padding: 15px 40px;
+width: 100%;
 border: none;
 font-family: 'Gilroy';
 font-style: normal;
@@ -1084,9 +1091,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-top: 5%;
   }
-  .app7_contain_bottom_section{
  
-  }
   
   /* page8 ====---------------- */
   /* .app8_top-right-nav{
@@ -1163,3 +1168,123 @@ color: #FFFFFF;
   .slid.round:before {
     border-radius: 50%;
   } 
+
+/**/
+.app8_button_admin_edit button{
+  padding: 8px 23px 6px 18px;
+  border: none;
+  background: #fff;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #464754;
+  border-radius: 7px;
+  line-height: 38px;
+}
+/* page 9-------------------------- */
+.app9_pdtp_10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.app9_pdtp_10 hr{
+  margin-top: 13%;
+}
+.app9_contain2{
+  width: 30%;
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 1.3%;
+    padding: 35px;
+    margin-bottom: 20px;
+  
+  }
+.app9_contain3_section_middle_done button{
+  padding: 13px 0px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #464754;
+border-radius: 6px;
+border: none;
+background: #cbcbce;
+width: 100%;
+}
+.app9_edit{
+  padding: 10px 20px;
+background: rgba(0, 120, 63, 0.08);
+border-radius: 6px;
+}
+.app9_edit img{
+  padding-right: 10px;
+}
+.app9_edit{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+text-align: center;
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+
+
+color: #00783F;
+
+opacity: 0.7;
+
+}
+.contain3_section_subpart2.pd-20px.fl-right hr{
+  margin-top: 32px;
+}
+
+/* page 10 -------------------- */
+
+.app10_section_heading_middle{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+
+
+color: #00783F;
+} 
+.app10_section_heading_middle hr{
+opacity: 0.5;
+/* Primary */
+
+border: 1px solid #00783F;
+}
+.app10_contain2_section1_inner_a{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+letter-spacing: 0.02em;
+
+/* Light/Text/Semi */
+
+color: #807373;
+text-align: center;
+}
+.app10_contain2{
+width: 30%;
+background: #fff;
+border-radius: 10px;
+margin-right: 1.3%;
+padding: 35px;margin-bottom:20px;
+
+}
+.app10_contain2_section1_inner_b.fl-right img{
+  padding-right: 5px;
+}
