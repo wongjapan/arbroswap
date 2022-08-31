@@ -2,7 +2,7 @@ import React from "react";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
+import Swipe_coin_secbig from "./Components/Middle_contain_sec.js/Swipe_coin_secbig";
 import Rightsec_btn_whl_list from "./Components/Right_sec_components/Rightsec_btn_whl_list";
 
 class Home extends React.Component {

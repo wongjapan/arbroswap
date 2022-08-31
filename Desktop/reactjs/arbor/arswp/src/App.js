@@ -8,6 +8,9 @@ import App6 from "./App6";
 import App7 from "./App7";
 import App8 from "./App8";
 import App9 from "./App9";
+import App10 from "./App10";
+import App11 from "./App11";
+import L_App1 from "./L_App1";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
         {/* <App6 /> */}
         {/* <App7 /> */}
         {/* <App8 /> */}
-        <App9 />
+        {/* <App9 /> */}
+        <App10 />
+        {/* <App11 /> */}
+        {/* <L_App1 /> */}
       </div>
     </>
   );

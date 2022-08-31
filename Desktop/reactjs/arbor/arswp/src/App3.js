@@ -3,7 +3,7 @@ import Aside from "./Components/Aside";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
 import More_det_claims from "./Components/Right_sec_components/More_det_claims";
 import Rightsec_btn_off from "./Components/Right_sec_components/Rightsec_btn_off";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
+import Swipe_coin_secbig from "./Components/Middle_contain_sec.js/Swipe_coin_secbig";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
 class Home extends React.Component {

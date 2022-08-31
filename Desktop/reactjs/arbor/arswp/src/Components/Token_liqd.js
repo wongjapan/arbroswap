@@ -1,0 +1,19 @@
+import React from "react";
+
+export default function live_end_upcom() {
+  return (
+    <>
+      <div>
+        <div className="inner_box2 fl-left">
+          {" "}
+          <a href="#">Token</a>{" "}
+        </div>
+        <div className="inner_box1 fl-left">
+          {" "}
+          <a href="#">Liquidity</a>{" "}
+        </div>
+        
+      </div>
+    </>
+  );
+}
