@@ -1,7 +1,7 @@
 import React from "react";
 import Aside from "./Components/Aside";
 import Rightsec_btn_on from "./Components/Right_sec_components/Rightsec_btn_on";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec.js/Swipe_coin_secbig";
+import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
 import Topnavicon_admin_mode from "./Components/Topnavbar_section/Topnavicon_admin_mode";
 

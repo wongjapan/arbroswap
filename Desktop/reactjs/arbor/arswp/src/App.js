@@ -11,6 +11,9 @@ import App9 from "./App9";
 import App10 from "./App10";
 import App11 from "./App11";
 import L_App1 from "./L_App1";
+import L_App2 from "./L_App2";
+import L_App3 from "./L_App3";
+import L_App4 from "./L_App4";
 
 function App() {
   return (
@@ -25,9 +28,12 @@ function App() {
         {/* <App7 /> */}
         {/* <App8 /> */}
         {/* <App9 /> */}
-        <App10 />
+        {/* <App10 /> */}
         {/* <App11 /> */}
         {/* <L_App1 /> */}
+        {/* <L_App2 /> */}
+        <L_App3 />
+        {/* <L_App4 /> */}
       </div>
     </>
   );

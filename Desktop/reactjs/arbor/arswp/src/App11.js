@@ -1,6 +1,6 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Swipe_coin_edit_off from "./Components/Middle_contain_sec.js/Swipe_coin_edit_off";
+import Swipe_coin_edit_off from "./Components/Middle_contain_sec/Swipe_coin_edit_off";
 import Admin_panel_det_2 from "./Components/Right_sec_components/Admin_panel_det_2";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
 import Topnavicon_admin_mode from "./Components/Topnavbar_section/Topnavicon_admin_mode";

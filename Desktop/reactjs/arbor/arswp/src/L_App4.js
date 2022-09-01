@@ -1,10 +1,10 @@
 import React from "react";
-import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
+import Locker_coin from "./Components/Topnavbar_section/Locker_coin";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
 import Rightsec_btn_whl_list from "./Components/Right_sec_components/Rightsec_btn_whl_list";
-
+import Locker_middle_sec from "./Components/Middle_contain_sec/Locker_middle_sec";
+import Locker_Claim from "./Components/Right_sec_components/Locker_Claim";
 class Home extends React.Component {
   render() {
     return (
@@ -14,16 +14,16 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Poolswipe_nav_sec />
+          <Locker_coin />
 
           <Topnavicon2 />
 
           <div className="clear mar-22"></div>
           {/* content1  */}
-          <Swipe_coin_secbig />
-
+          {/* <Locker_coin_sec /> */}
+          <Locker_middle_sec />
           {/* content2 */}
-          <Rightsec_btn_whl_list />
+          <Locker_Claim />
         </div>
 
         <div className="clear"></div>

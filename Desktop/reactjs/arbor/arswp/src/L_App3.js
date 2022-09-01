@@ -7,10 +7,21 @@ import My_Pools from "./Components/My_Pools";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
 import Live_end_upcom from "./Components/Live_end_upcom";
-import Token_liqd from "./Components/Token_liqd";
-import Icon_both from "./Components/Icon_both";
-import GUSD from "./Components/Box_section/GUSD"
-export default function L_App1() {
+import Token_liqd from "./Components/Token_liqd2";
+import Icon_bot from "./Components/Icon_Bot2";
+import GUSD from "./Components/Box_section/GUSD";
+import Box1 from "./Components/Box_section/Box1";
+import Box2 from "./Components/Box_section/Box2";
+import Box3 from "./Components/Box_section/Box3";
+import Box4 from "./Components/Box_section/Box4";
+import Box5 from "./Components/Box_section/Box5";
+import Box6 from "./Components/Box_section/Box6";
+import Box7 from "./Components/Box_section/Box7";
+import Box8 from "./Components/Box_section/Box8";
+import Box9 from "./Components/Box_section/Box9";
+import Box10 from "./Components/Box_section/Box10";
+
+export default function L_App4() {
   return (
     <>
       <Aside />
@@ -28,7 +39,7 @@ export default function L_App1() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both /> 
+          <Icon_bot />
           <div className="outer_box_1 fl-left">
             <Token_liqd />
           </div>
@@ -43,24 +54,17 @@ export default function L_App1() {
         </div>
 
         <div className="outer_box">
-            {/* box1 */}
-            <GUSD />
-            {/* box2 */}
-            {/* <Venus /> */}
-            <GUSD />
-            {/* box3 */}
-            {/* <Voyagar /> */}
-            <GUSD />
-            {/* box4 */}
-            {/* <Waxp /> */}
-            <GUSD />
-            {/* box5 */}
-            {/* <Xsg_token /> */}
-            <GUSD />
-            {/* box6 */}
-            {/* <Gnosis /> */}
-            <GUSD />
-          </div>
+          <Box1 />
+          <Box2 />
+          <Box3 />
+          <Box4 />
+          <Box5 />
+          <Box6 />
+          <Box7 />
+          <Box8 />
+          <Box9 />
+          <Box10 />
+        </div>
       </div>
     </>
   );

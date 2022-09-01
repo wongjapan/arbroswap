@@ -1,22 +1,21 @@
 import React from "react";
 
-export default function Launchpad_pool() {
+export default function Poolswipe_nav_sec() {
   return (
     <>
       <div className="top-nav">
         <ul className="breadcrumb">
-          <li>Locker</li>
+          <li>Locked Assets</li>
           <li>
             {" "}
             <img src="/img/Line 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
-            <a href="#" className="active">
-              Locked assets
+            <a href="#" className="activ">
+              WBNB/SXP
             </a>
           </li>
         </ul>
-        <p>Lock your assets for proof of lock.</p>
       </div>
     </>
   );

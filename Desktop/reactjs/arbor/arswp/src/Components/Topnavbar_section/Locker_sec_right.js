@@ -12,9 +12,7 @@ export default function Topnavicon2() {
         <a href="">
           <img src="assets/images/notification-bing.png" />
         </a>
-        {/* <a href="">
-              <img src="assets/images/setting-2.png" />
-            </a> */}
+        
       </div>
     </>
   );

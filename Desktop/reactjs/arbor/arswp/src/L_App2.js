@@ -7,10 +7,21 @@ import My_Pools from "./Components/My_Pools";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
 import Live_end_upcom from "./Components/Live_end_upcom";
-import Token_liqd from "./Components/Token_liqd";
-import Icon_both from "./Components/Icon_both";
-import GUSD from "./Components/Box_section/GUSD"
-export default function L_App1() {
+import Token_liqd from "./Components/Token_liqd2";
+import Icon_bot from "./Components/Icon_Bot2";
+import GUSD from "./Components/Box_section/GUSD";
+import Box_section from "./Components/Box_section/Box_section";
+import Box_sec_sol from "./Components/Box_section/Box_sec_sol";
+import Box_sec_Rba from "./Components/Box_section/Box_sec_Rba";
+import Box_sec_waxp from "./Components/Box_section/Box_sec_waxp";
+import Box_sec_Husd from "./Components/Box_section/Box_sec_Husd";
+import Box_sec_Vgx from "./Components/Box_section/Box_sec_Vgx";
+import Box_sec_Wbnb from "./Components/Box_section/Box_sec_Wbnb";
+import Box_sec_SLR from "./Components/Box_section/Box_sec_SLR";
+import Box_sec_Cake from "./Components/Box_section/Box_sec_Cake";
+import Box_sec_SXP from "./Components/Box_section/Box_sec_SXP";
+
+export default function L_App2() {
   return (
     <>
       <Aside />
@@ -28,7 +39,7 @@ export default function L_App1() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both /> 
+          <Icon_bot />
           <div className="outer_box_1 fl-left">
             <Token_liqd />
           </div>
@@ -43,24 +54,28 @@ export default function L_App1() {
         </div>
 
         <div className="outer_box">
-            {/* box1 */}
-            <GUSD />
-            {/* box2 */}
-            {/* <Venus /> */}
-            <GUSD />
-            {/* box3 */}
-            {/* <Voyagar /> */}
-            <GUSD />
-            {/* box4 */}
-            {/* <Waxp /> */}
-            <GUSD />
-            {/* box5 */}
-            {/* <Xsg_token /> */}
-            <GUSD />
-            {/* box6 */}
-            {/* <Gnosis /> */}
-            <GUSD />
-          </div>
+          <Box_section />
+
+          <Box_sec_sol />
+
+          <Box_sec_Rba />
+
+          <Box_sec_waxp />
+
+          <Box_sec_Husd />
+
+          <Box_sec_Vgx />
+
+          <Box_sec_Wbnb />
+
+          <Box_sec_SLR />
+
+          <Box_sec_Cake />
+
+          <Box_sec_SXP />
+
+          {/* <Box_section /> */}
+        </div>
       </div>
     </>
   );
