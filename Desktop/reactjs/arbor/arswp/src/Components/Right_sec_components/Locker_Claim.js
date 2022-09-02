@@ -5,7 +5,7 @@ export default function Locker_Claim() {
     <>
       <div className="Locker_admin_contain2 fl-right">
         <div className="contain2_section1 clear">
-          <div className="contain2_section1_sub1 fl-left ">Amount</div>
+          <div className="contain2_section1_sub1 mg-bt-2 fl-left ">Amount</div>
         </div>
         {/* section1 */}
         <div className="contain2_section2 clear">
@@ -14,29 +14,9 @@ export default function Locker_Claim() {
           </div>
           <div className="contain2_section2_sub2 fl-left">14,774,566</div>
         </div>
-        {/* section 2 */}
-        {/* <div className="contain2_section3 clear">
-          <div className="contain2_section3_sub1 pg30 fl-left">
-            Min Allocation
-          </div>
-          <div className="contain2_section3_sub2 pg30 fl-right">100 RBA</div>
-          <div className="clear"></div>
-          <div className="contain2_section3_sub1 pg20 fl-left">
-            Max Allocation
-          </div>
-          <div className="contain2_section3_sub2 pg20 fl-right">10,000 RBA</div>
-          <div className="clear"></div>
-          <div className="contain2_section3_sub1_sm1 pg30 fl-left">
-            120,000 RBA
-          </div>
-          <div className="contain2_section3_sub2_sm2 pg30 fl-right">
-            240,000 RBA
-          </div>
-        </div> */}
-        {/* section 3 */}
 
         <div className="contain2_section4 clear">
-          <div className="app5_contain2_section4_middle_join">
+          <div className="app5_contain2_section4_middle_join mg-5">
             <button>Claim</button>
           </div>
         </div>

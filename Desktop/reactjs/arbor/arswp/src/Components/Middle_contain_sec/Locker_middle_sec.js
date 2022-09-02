@@ -21,6 +21,13 @@ export default function Locker_middle_sec() {
 
         <div className="block_section_4 clear">
           <div className="section_set_1">
+            <div className="Locker_mid_inner_section_4_a">Lock Details</div>
+          </div>
+
+          <div className="clear hr_inner">
+            <hr />
+          </div>
+          <div className="section_set_1">
             <div className="inner_section_4_a fl-left">LP Locked</div>
             <div className="inner_section_4_b fl-right">14,774,566</div>
           </div>
@@ -45,6 +52,7 @@ export default function Locker_middle_sec() {
           <div className="clear hr_inner">
             <hr />
           </div>
+
           <div className="section_set_1">
             <div className="inner_section_4_a fl-left">Unlock Date</div>
             <div className="inner_section_4_b fl-right">
@@ -52,6 +60,13 @@ export default function Locker_middle_sec() {
               9:30 (UTC) <span>2022-09-04</span>
             </div>
           </div>
+          <div className="clear app10_hr_pad">
+            <hr />
+          </div>
+          <div className="section_set_1">
+            <div className="Locker_mid_inner_section_4_a">LP Details</div>
+          </div>
+
           <div className="clear hr_inner">
             <hr />
           </div>
