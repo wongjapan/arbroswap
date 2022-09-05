@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Liveon_end_time() {
   return (
@@ -6,14 +7,14 @@ export default function Liveon_end_time() {
       <div>
         <div className="inner_box1 fl-left">
           {" "}
-          <a href="#">Live</a>{" "}
+          <Link to="/live">Live</Link>{" "}
         </div>
         <div className="inner_box2 fl-left">
           {" "}
-          <a href="#">Ended</a>{" "}
+          <Link to="/ended">Ended</Link>{" "}
         </div>
         <div className="inner_box3 fl-left">
-          <a href="#">Timed</a>{" "}
+          <Link to="/timed">Timed</Link>{" "}
         </div>
       </div>
     </>
