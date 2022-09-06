@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import SignUpInfo from "./SignUpInfo";
-import PersonalInfo from "./PersonalInfo";
-import OtherInfo from "./OtherInfo";
+import SignUpInfo from "./AirdropInfo";
+import PersonalInfo from "./Project_details";
+import OtherInfo from "./Preview";
 
 function Form() {
   const [page, setPage] = useState(0);
@@ -16,7 +16,7 @@ function Form() {
     other: "",
   });
 
-  const FormTitles = ["Sign Up", "Personal Info", "Other"];
+  const FormTitles = ["OtherInfo", "Sign Up", "Personal Info"];
 
   const PageDisplay = () => {
     if (page === 0) {
@@ -30,26 +30,22 @@ function Form() {
 
   return (
     <div className="form">
-      <div className="progressbar">
-        <div
-          style={{ width: page === 0 ? "33.3%" : page == 1 ? "66.6%" : "100%" }}
-        ></div>
-      </div>
       <div className="form-container">
-        <div className="header">
-          <h1>{FormTitles[page]}</h1>
-        </div>
+        <div className="header">{/* <h1>{FormTitles[page]}</h1> */}</div>
         <div className="body">{PageDisplay()}</div>
-        <div className="footer">
+        <div className="footer1">
           <button
+            className="go_next"
             disabled={page == 0}
             onClick={() => {
               setPage((currPage) => currPage - 1);
             }}
           >
-            Prev
+            <img src="/img/Arrow - Right.png" alt="" />
+            Go next
           </button>
           <button
+            className="footer"
             onClick={() => {
               if (page === FormTitles.length - 1) {
                 alert("FORM SUBMITTED");
@@ -59,7 +55,7 @@ function Form() {
               }
             }}
           >
-            {page === FormTitles.length - 1 ? "Submit" : "Next"}
+            {page === FormTitles.length - 1 ? "Create" : "Next"}
           </button>
         </div>
       </div>

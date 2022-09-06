@@ -22,6 +22,7 @@ import Air_app4 from "./Air_app4";
 import Air_app5 from "./Air_app5";
 import Air_app6 from "./Air_app6";
 import Form from "./Form/Form";
+import Air_app7_form from "./Air_app7_form";
 
 function App() {
   return (
@@ -49,8 +50,9 @@ function App() {
         {/* <Air_app3 /> */}
         {/* <Air_app4 /> */}
         {/* <Air_app5 /> */}
-        <Air_app6 />
+        {/* <Air_app6 /> */}
         {/* <Form /> */}
+        <Air_app7_form />
       </div>
     </>
   );
