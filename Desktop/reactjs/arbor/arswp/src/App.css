@@ -1969,10 +1969,13 @@ letter-spacing: 0.02em;
 color: #807373;
 margin-bottom: 3%;
 }
-.Airdropinfo_right_title_block_1 span {
+.Airdropinfo_right_title_block_1 span,.app7_amount span {
   
 color: red;
 
+}
+.Airdropinfo_right_title_block_1 p{
+  margin-bottom: 3%;
 }
 .inputvaluearea_top_rightform_block_1 input{
   padding: 10px;
@@ -2181,7 +2184,181 @@ button:disabled{display:none}
 .sign-up-container input:focus {
   border: 3px solid rgb(98, 0, 255);
 }
+/* ------------------------Air app8------------------------------------ */
+.airapp8_contain3_section_middle_done button{ 
+  padding: 13px 0px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #00783F;
+  border-radius: 6px;
+  border: none;
+  background: #ecf4f1;
+  width: 100%;
+}
+.air_drop_mar_9{
+  margin-bottom: 9%;
+}
+.airdir_hr hr{
+  /* border: 0; */
+  border-top: 1px dashed #eee;
+  /* margin: 0px 21px 14px 21px; */
+}
+.admin_airdrop_part1{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #807373;
+}
+.admin_airdrop_part2{
+  font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #464754;
+}
+.block_section_2.block_middle-2.clear{
+  margin-top: 1%;
+}
 
+.admin_endedbtn_contain3_section_middle_done button{ 
+  padding: 13px 0px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #C89211;
+  border-radius: 6px;
+  border: none;
+  background: #fff7e8;
+  width: 100%;
+}
+/* -----------------------------Air_app10-------------------------------------- */
+.air_app10_mgtp_10{
+  margin-top: 8%;
+}
+.app7_amount.air_app10_mgtp_10 img{
+  padding-right: 9px;
+}
+#birthdaytime{
+  padding: 8px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1.5px solid rgba(166, 159, 159, 0.5);
+    width: 100%;
+    color: #464754;
+    position:relative;
+}
+
+#birthdaytime:before{content:"";
+  position:absolute; 
+  right:9px;
+   top:10px; 
+  width:24px; height:24px;
+  background: url('../public/img/calendar.png');
+}
+input[type="datetime-local"]::-webkit-inner-spin-button,
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    opacity: 0;   
+}
+
+
+
+.container21 {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container21 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 19px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container21:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container21 input:checked ~ .checkmark {
+  background-color: #00783F;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container21 input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container21 .checkmark:after {
+  left: 7px;
+  top: 4px;
+  width: 5px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.app7_amount.air_app10_mgtp_10 label{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 127%;
+  letter-spacing: 0.02em;
+  color: #807373;
+  padding-top: 1px;
+
+}
+.inputvaluearea_top_rightform_block_1{
+  position: relative;
+}
+.inputvaluearea_top_rightform_block_1 img{
+  position: absolute;
+  top: 13px;
+  right: 20px;
+}
 /* ------------------------ */
 
 /* @media only screen and (max-width: 767px) {

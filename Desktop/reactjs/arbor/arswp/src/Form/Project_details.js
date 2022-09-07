@@ -137,6 +137,7 @@ function PersonalInfo({ formData, setFormData }) {
                   })
                 }
               />
+              <img src="/img/Tel_logo.png" alt="" />
             </div>
           </div>
           <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
@@ -160,6 +161,7 @@ function PersonalInfo({ formData, setFormData }) {
                   })
                 }
               />
+              <img src="/img/Twit_logo.png" alt="" />
             </div>
           </div>
           {/* <div className="clear">
