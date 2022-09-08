@@ -27,6 +27,9 @@ import Air_app8 from "./Air_app8";
 import Air_app9 from "./Air_app9";
 import Air_app10 from "./Air_app10";
 import Air_app11 from "./Air_app11";
+import L_app_form from "./L_app_form";
+import L_app_form_token from "./L_app_form_token";
+import L_app6_form_locker_token_page from "./L_app6_form_locker_token_page";
 
 function App() {
   return (
@@ -48,6 +51,9 @@ function App() {
         {/* <L_App3 /> */}
         {/* <L_App4 /> */}
         {/* <L_App5 /> */}
+        {/* <L_app_form /> */}
+        <L_app_form_token />
+        {/* <L_app6_form_locker_token_page /> */}
 
         {/* <Air_app1 /> */}
 
@@ -58,7 +64,7 @@ function App() {
         {/* <Air_app6 /> */}
         {/* <Air_app7_form /> */}
         {/* <Air_app8 /> */}
-        <Air_app9 />
+        {/* <Air_app9 /> */}
         {/* <Air_app10 /> */}
         {/* <Air_app11 /> */}
       </div>

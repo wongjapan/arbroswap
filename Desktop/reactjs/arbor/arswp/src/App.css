@@ -1682,7 +1682,105 @@ letter-spacing: 0.04em;
 color: #807373;
 
 }
+/* ---------------------------L_app_form----------------------------- */
+#birthdaytime_locker{
+  padding: 8px;
+    /* margin-top: 12px; */
+    border-radius: 5px;
+    border: 1.5px solid rgba(166, 159, 159, 0.5);
+    width: 100%;
+    color: #464754;
+    position: relative;
+}
+#birthdaytime_locker:before{content:"";
+  position:absolute; 
+  right:9px;
+   top:10px; 
+  width:24px; height:24px;
+  background: url('../public/img/calendar.png');
+}
+.locker_mt_3{
+  margin-top: 3%;
+}
+.locker_preview_block_section_1_airdrop_form{
+  padding: 0px 40px;
+  float: right;
+  width: 76%;
+  display: block;
+  background: #fff;
+}
 
+.section_locker_token_part_1{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #807373;
+}
+.section_locker_token_part_2{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+letter-spacing: -0.001em;
+
+color: #A69F9F;
+}
+.pd_6_img img{
+  padding-right: 6px;
+}
+/* ----------------------------------------L_app6_form_locker_token_page---------------------------------- */
+.page1_section_form_locker_token{
+  padding: 14px;
+  width: 100%;
+  background: #FAF8F5;
+  border-radius: 6px;
+}
+.page1_section_form_part3.clear{
+  padding-top: 12px;
+}
+.loker_token_per_bg1{
+  padding: 3px 7px;
+  margin-right: 10%;
+  background: rgba(194, 157, 70, 0.16);
+border-radius: 2px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+
+color: #C89211;
+}
+.padtop_padbot{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.loker_token_per_bg2{
+  padding: 3px 7px;
+  background: rgba(0, 120, 63, 0.08);
+border-radius: 2px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+
+color: #00783F;
+}
+
+
+/* ----------------------------------------L_app6_form_locker_token_page---------------------------------- */
 /* ---------------------Air_app2--------------------------------------------- */
 .Airdropven_In_box{
   width: 32%;
@@ -1909,9 +2007,22 @@ border-radius: 6px;
   outline: none;
 }
 
-.page1_section_form_add button{    color: #023c21;
+.page1_section_form_add button{   
+   /* color: #023c21;
   outline: none;
-  border: 0px;}
+  border: 0px; */
+  color: #00783F;
+  outline: none;
+  border: 0px;
+  background: none;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 
 .inputarea_top_rightform_block_1 input{
 
@@ -2359,6 +2470,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   top: 13px;
   right: 20px;
 }
+
 /* ------------------------ */
 
 /* @media only screen and (max-width: 767px) {
