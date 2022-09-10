@@ -2471,7 +2471,144 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
   right: 20px;
 }
 
+
+
+
+
+
+
+
+/* ÷---------------------------App12_form_All sale---------------------------------- */
+
+form.form_are .cur_name{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #A69F9F;
+  float: left;
+  width: 61px;
+  line-height: 19px;
+  margin-top: 2px;
+}
+form.form_are .cur_logo_nm{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #A69F9F;
+  float: left;
+  line-height: 13px;
+}
+.cur_name{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #A69F9F;
+ 
+}
+.cur_logo_nm{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #A69F9F;
+  
+}
+
+
+/* ÷---------------------------App12_form_All sale---------------------------------- */
+.w_42_per{
+  width: 47%;
+}
+.inputarea_top_rightform_block_1 input:focus-visible {
+  border:1.5px solid #000 !important;
+  outline:none;
+}
+
+
+
+
+
+.Airdropinfo_right_title_block_1_note{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+
+
+letter-spacing: 0.02em;
+
+color: #807373;
+
+}
+.choose_curr .label {
+  border: 1.5px solid rgba(166, 159, 159, 0.5);
+    border-radius: 8px;
+    width: 35%;
+    padding: 2px 12px;
+    margin-top: 25px;
+    margin-right: 7%;
+
+}
+.inputvaluearea_top_rightform_block_1 span.sp_val {
+  position: absolute;
+  top: 13px;
+  right: 20px;
+  color: #464754;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+letter-spacing: 0.02em;
+}
+#amt_lis{
+margin-top: 1%;
+}
+form.form_are{
+  width: 75%;
+}
+
+form.form_are img{    
+   margin-right: 9px;
+  float: left;
+}
+
+
+form.form_are .label {
+  border: 1.5px solid rgba(166, 159, 159, 0.5);
+ border-radius: 8px;
+  width: 47%;
+  padding: 10px 13px;
+  margin-top: 25px;
+}
+form.form_are label {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #464754;
+  float: left;
+  display: block;
+  width: 87%;
+}
+form.form_are input {
+  margin-top: 12px;
+}
 /* ------------------------ */
+label.fl-left{
+  margin-right: 5px;
+}
 
 /* @media only screen and (max-width: 767px) {
 .In_box {

@@ -30,6 +30,8 @@ import Air_app11 from "./Air_app11";
 import L_app_form from "./L_app_form";
 import L_app_form_token from "./L_app_form_token";
 import L_app6_form_locker_token_page from "./L_app6_form_locker_token_page";
+import App12_form_Standard_sale from "./App12_form_Standard_sale";
+import App13_form_private_sale from "./App13_form_private_sale";
 
 function App() {
   return (
@@ -46,13 +48,16 @@ function App() {
         {/* <App9 /> */}
         {/* <App10 /> */}
         {/* <App11 /> */}
+        <App12_form_Standard_sale />
+        {/* <App13_form_private_sale /> */}
+
         {/* <L_App1 /> */}
         {/* <L_App2 /> */}
         {/* <L_App3 /> */}
         {/* <L_App4 /> */}
         {/* <L_App5 /> */}
         {/* <L_app_form /> */}
-        <L_app_form_token />
+        {/* <L_app_form_token /> */}
         {/* <L_app6_form_locker_token_page /> */}
 
         {/* <Air_app1 /> */}
