@@ -32,8 +32,26 @@ export default function Presale() {
               <hr />
             </div>
           </div>
+          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
+            <p>
+              Amount to be sold <span>*</span>
+              <span>
+                {" "}
+                <img src="/img/Ques.png" alt="" />{" "}
+              </span>{" "}
+            </p>
 
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left w_42_per">
+            <div class="inputvaluearea_top_rightform_block_1 clear">
+              <input
+                type="text"
+                // placeholder="Describe about your project"
+                value="110,000,000"
+              />
+              {/* <img src="/img/Tel_logo.png" alt="" /> */}
+              <span className="sp_val">SXP</span>
+            </div>
+          </div>
+          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
             <p>
               Soft Cap <span>*</span>
               <span>
@@ -51,75 +69,21 @@ export default function Presale() {
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-right w_42_per">
-            <p>
-              Hard Cap <span>*</span>
-              <span>
-                {" "}
-                <img src="/img/Ques.png" alt="" />{" "}
-              </span>{" "}
-            </p>
 
-            <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="1000"
-              />
-              <img src="/img/RIP.png" alt="" />
-            </div>
-          </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left w_42_per">
-            <p>
-              Min Allocation <span>*</span>
-              <span>
-                {" "}
-                <img src="/img/Ques.png" alt="" />{" "}
-              </span>{" "}
-            </p>
-
-            <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="10"
-              />
-              <img src="/img/RIP.png" alt="" />
-            </div>
-          </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-right w_42_per">
-            <p>
-              Max Allocation <span>*</span>
-              <span>
-                {" "}
-                <img src="/img/Ques.png" alt="" />{" "}
-              </span>{" "}
-            </p>
-
-            <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="100"
-              />
-              <img src="/img/RIP.png" alt="" />
-            </div>
-          </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 ">
-            <div className="fl-left">
-              <p>Enable Whitelisting</p>
+          <div className="block_section_4_form clear">
+            <div className="section_set_1">
+              <div className="Locker_mid_inner_section_4_a">
+                Listing Details
+              </div>
             </div>
 
-            <div className="fl-right">
-              <label class="swih">
-                <input type="checkbox" />
-                <span class="slid round"></span>
-              </label>
+            <div className="clear hr_inner">
+              <hr />
             </div>
           </div>
-          <div class="Airdropinfo_right_title_block_1_note form_mb_2 form_app6 fl-left">
-            Note : When turned on Only Users you submit there address can
-            participate
+
+          <div className="choose_curr">
+            <App_choose_Dex />
           </div>
 
           <div className="block_section_4_form clear">
@@ -171,30 +135,9 @@ export default function Presale() {
               </div>
             </div>
           </div>
-          {/* <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
-            <p>
-              First Release on sale <span>*</span>
-              <span>
-                {" "}
-                <img src="/img/Ques.png" alt="" />{" "}
-              </span>{" "}
-            </p>
-
-            <div class="inputvaluearea_top_rightform_block_1 clear">
-              <input
-                type="text"
-                // placeholder="Describe about your project"
-                value="40"
-              />
-
-              <span className="sp_val">%</span>
-            </div>
-          </div> */}
           <div className="block_section_4_form clear">
             <div className="section_set_1">
-              <div className="Locker_mid_inner_section_4_a">
-                Token Vesting Details
-              </div>
+              <div className="Locker_mid_inner_section_4_a">More Details</div>
             </div>
 
             <div className="clear hr_inner">
@@ -202,28 +145,9 @@ export default function Presale() {
             </div>
           </div>
           <div id="amt_lis">
-            <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
-              <p>
-                First Release on sale <span>*</span>
-                <span>
-                  {" "}
-                  <img src="/img/Ques.png" alt="" />{" "}
-                </span>{" "}
-              </p>
-
-              <div class="inputvaluearea_top_rightform_block_1 clear">
-                <input
-                  type="text"
-                  // placeholder="Describe about your project"
-                  value="40"
-                />
-
-                <span className="sp_val">%</span>
-              </div>
-            </div>
             <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left w_42_per">
               <p>
-                Vesting period each cycle <span>*</span>
+                Unsold tokens aftermath <span>*</span>
                 <span>
                   {" "}
                   <img src="/img/Ques.png" alt="" />{" "}
@@ -234,14 +158,14 @@ export default function Presale() {
                 <input
                   type="text"
                   // placeholder="Describe about your project"
-                  value="20"
+                  value="Burn"
                 />
-                <span className="sp_val">Days</span>
+                <span className="sp_val">%</span>
               </div>
             </div>
             <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-right w_42_per">
               <p>
-                Vesting Release each Cycle <span>*</span>
+                Liquidity Lockup (days) <span>*</span>
                 <span>
                   {" "}
                   <img src="/img/Ques.png" alt="" />{" "}
@@ -252,9 +176,8 @@ export default function Presale() {
                 <input
                   type="text"
                   // placeholder="Describe about your project"
-                  value="30"
+                  value="300"
                 />
-                <span className="sp_val">%</span>
               </div>
             </div>
           </div>

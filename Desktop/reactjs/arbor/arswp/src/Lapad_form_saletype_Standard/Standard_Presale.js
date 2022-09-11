@@ -1,4 +1,6 @@
 import React from "react";
+import App_choose_Dex from "../App_choose_Dex";
+import App_Choose_Cur from "../App_Choose_Cur";
 
 export default function Presale() {
   return (
@@ -16,76 +18,7 @@ export default function Presale() {
           <a href="">Preview</a>
         </div>
         <div className="block_section_1_airdrop_form">
-          <form className="form_are">
-            <p className="Airdropinfo_right_title_block_1">
-              Choose Currency <span>*</span>
-            </p>
-            <div class="label fl-left clear">
-              <input
-                type="radio"
-                className="fl-right"
-                id="Standard"
-                name="Presale"
-                value="Standard"
-              />
-               {" "}
-              <label for="html" className="fl-left">
-                <img src="/img/Binance Coin (BNB)_formla.png" alt="" />
-                <span className="cur_name">BNB</span>
-
-                <span className="cur_logo_nm ">Binance</span>
-              </label>
-              <br />
-            </div>
-            <div class="label fl-right ">
-              <input
-                type="radio"
-                className="fl-right"
-                id="html"
-                name="Presale"
-                value="HTML"
-              />
-               {" "}
-              <label for="html" className="fl-left">
-                <img src="/img/ARB_formla.png" alt="" />
-                <span className="cur_name">Rba</span>
-                <span className="cur_logo_nm ">Roburna</span>
-              </label>
-              <br />
-            </div>
-            <div class="label fl-left">
-              <input
-                type="radio"
-                className="fl-right"
-                id="html"
-                name="HTMl"
-                value="HTML"
-              />
-               {" "}
-              <label for="html" className="fl-left">
-                <img src="/img/GUSD_formla.png" alt="" />
-                <span className="cur_name">GUSD</span>
-                <span className="cur_logo_nm ">Gnosis</span>
-              </label>
-              <br />
-            </div>
-            <div class="label fl-right ">
-              <input
-                type="radio"
-                className="fl-right"
-                id="html"
-                name="Presale"
-                value="HTML"
-              />
-               {" "}
-              <label for="html" className="fl-left">
-                <img src="/img/Tether (USDT)_formla.png" alt="" />
-                <span className="cur_name">USDT</span>
-                <span className="cur_logo_nm ">Tether</span>
-              </label>
-              <br />
-            </div>
-          </form>
+          <App_Choose_Cur />
           <div className="clear"></div>
 
           <div className="block_section_4_form clear">
@@ -190,8 +123,17 @@ export default function Presale() {
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left w_42_per">
-            <p>Enable Whitelisting</p>
+          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 ">
+            <div className="fl-left">
+              <p>Enable Whitelisting</p>
+            </div>
+
+            <div className="fl-right">
+              <label class="swih">
+                <input type="checkbox" />
+                <span class="slid round"></span>
+              </label>
+            </div>
           </div>
           <div class="Airdropinfo_right_title_block_1_note form_mb_2 form_app6 fl-left">
             Note : When turned on Only Users you submit there address can
@@ -223,41 +165,7 @@ export default function Presale() {
             </div>
           </div> */}
           <div className="choose_curr">
-            <form>
-              <p className="Airdropinfo_right_title_block_1">
-                Choose DEX to be listed on <span>*</span>
-              </p>
-              <div class="label fl-left clear">
-                <input
-                  type="radio"
-                  className="fl-right"
-                  id="Standard"
-                  name="Presale"
-                  value="Standard"
-                />
-                 {" "}
-                <label for="html" className="fl-left">
-                  <img src="/img/RIP.png" alt="" />
-                  <span className="cur_name">Arborswap</span>
-                </label>
-                <br />
-              </div>
-              <div class="label fl-left ">
-                <input
-                  type="radio"
-                  className="fl-right"
-                  id="html"
-                  name="Presale"
-                  value="HTML"
-                />
-                 {" "}
-                <label for="html" className="fl-left">
-                  <img src="/img/PancakeSwap (CAKE).png" alt="" />
-                  <span className="cur_name">Pancakeswap</span>
-                </label>
-                <br />
-              </div>
-            </form>
+            <App_choose_Dex />
           </div>
           <div id="amt_lis">
             <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left w_42_per">

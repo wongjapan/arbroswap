@@ -2489,9 +2489,10 @@ form.form_are .cur_name{
   text-transform: uppercase;
   color: #A69F9F;
   float: left;
-  width: 61px;
+  width: 61%;
   line-height: 19px;
   margin-top: 2px;
+  margin-left: 0px;
 }
 form.form_are .cur_logo_nm{
   font-family: 'Gilroy';
@@ -2511,6 +2512,7 @@ form.form_are .cur_logo_nm{
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #A69F9F;
+  margin-left: 6px;
  
 }
 .cur_logo_nm{
@@ -2605,10 +2607,13 @@ form.form_are label {
 form.form_are input {
   margin-top: 12px;
 }
-/* ------------------------ */
-label.fl-left{
-  margin-right: 5px;
+.prodet_mg_tp_3{
+  margin-top: 3%;
 }
+/* ------------------------ */
+/* label.fl-left{
+  margin-right: 5px;
+} */
 
 /* @media only screen and (max-width: 767px) {
 .In_box {

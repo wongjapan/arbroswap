@@ -2,7 +2,6 @@ import React from "react";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
 import Form from "./Lapad_from_salety_Fairlaunch/Form";
-import Airdrop_create from "./Components/Topnavbar_section/Airdrop_create";
 import Launchpad_create_sale from "./Components/Topnavbar_section/Launchpad_create_sale";
 class Home extends React.Component {
   render() {

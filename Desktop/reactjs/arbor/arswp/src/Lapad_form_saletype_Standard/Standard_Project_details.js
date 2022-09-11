@@ -35,7 +35,7 @@ function PersonalInfo({ formData, setFormData }) {
               <div className="img_name_section3 fl-right">Choose Image</div>
             </div>
             {/* content2 */}
-            <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left">
+            <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left prodet_mg_tp_3">
               <p>
                 Description{" "}
                 <span>
