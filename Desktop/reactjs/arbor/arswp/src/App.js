@@ -50,8 +50,8 @@ function App() {
         {/* <App10 /> */}
         {/* <App11 /> */}
         {/* <App12_form_Standard_sale /> */}
-        <App13_form_private_sale />
-        {/* <App14_form_Fairlaunch_sale /> */}
+        {/* <App13_form_private_sale /> */}
+        <App14_form_Fairlaunch_sale />
 
         {/* <L_App1 /> */}
         {/* <L_App2 /> */}
