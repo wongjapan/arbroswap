@@ -1091,9 +1091,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-top: 5%;
   }
-  .app7_contain_bottom_section{
- 
-  }
+  
   
   /* page8 ====---------------- */
   /* .app8_top-right-nav{
@@ -2610,6 +2608,65 @@ form.form_are input {
 .prodet_mg_tp_3{
   margin-top: 3%;
 }
+.contain_section5_timer_day_gusd{
+  float: right;
+  text-align: Center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 55%;
+  letter-spacing: 0.02em;
+  color: #807373;
+  /* margin-right: 4%;
+  margin-left: 4%; */
+}
+.contain_section5_timer_day_gusd span {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  /* line-height: 120%; */
+  letter-spacing: 0.02em;
+  color: #A69F9F;
+  /* margin-top: 0%; */
+  /* padding-top: 15px; */
+  margin-right: 2%;
+}
+.contain_section5_timer_dot_gusd {
+  width: 1%;
+  text-align: center;
+  float: right;
+  line-height: 52%;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+
+
+letter-spacing: 0.02em;
+color: #807373;
+}
+.mg-rt-2_gusd{
+  margin-right: 0%;
+}
+.mg-lt-2_gusd {
+  margin-left: 2%;
+}
+/* .contain_section5_timer_day_gusd {
+
+  float: right;
+  text-align: Center;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 55%;
+  letter-spacing: 0.02em;
+  color: #807373;
+  margin-right: 4%;
+  margin-left: 4%;
+} */
 /* ------------------------ */
 /* label.fl-left{
   margin-right: 5px;

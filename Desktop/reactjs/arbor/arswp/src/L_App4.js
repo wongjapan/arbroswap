@@ -1,5 +1,6 @@
 import React from "react";
-import Locker_coin from "./Components/Topnavbar_section/Locker_coin";
+
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
 import Rightsec_btn_whl_list from "./Components/Right_sec_components/Rightsec_btn_whl_list";
@@ -14,7 +15,7 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Locker_coin />
+          <TopNavAllTwo title="Locked Assets" subtitle="WBNB/SXP" />
 
           <Topnavicon2 />
 

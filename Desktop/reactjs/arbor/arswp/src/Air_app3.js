@@ -9,7 +9,7 @@ import Airdrop_arborswap from "./Components/Box_section/Airdrop_arborswap";
 import Airdrop_arbors_live from "./Components/Box_section/Airdrop_arbors_live";
 import Live_end_timed from "./Components/Live_end_timed";
 import My_Airdrop from "./Components/My_Airdrop";
-import Airdrop_airdrops from "./Components/Topnavbar_section/Airdrop_airdrops";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 
 class Home extends React.Component {
   render() {
@@ -19,7 +19,11 @@ class Home extends React.Component {
         <Aside />
         {/*  */}
         <div className="form-block">
-          <Airdrop_airdrops />
+          <TopNavAllThree
+            title="Airdropper"
+            subtitle="Airdrops"
+            mainpara="Airdrop to multiple users in few clicks."
+          />
 
           <Topnavicon2 />
 

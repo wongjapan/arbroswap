@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Aside() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
   return (
     <>
-      <nav className="slider open">
+      <nav className="slider" style={{ width: isOpen ? "200px" : "50px" }}>
         <header>
           <div className="group_all">
             <div className="image-text">
@@ -11,13 +13,17 @@ export default function Aside() {
                 <img src="assets/images/logo.png" alt="" />
               </span>
 
-              <div className="text header-text">
+              <div
+                className="text header-text"
+                style={{ display: isOpen ? "block" : "none" }}
+              >
                 <img src="assets/images/logo_2.png" className="name" alt="" />
                 {/* --> */}
               </div>
             </div>
           </div>
-          <span className="toggle">
+          <span onClick={toggle}>
+            {/* className="toggle" */}
             <img src="assets/images/arrow-left.png" alt="" srcset="" />
           </span>
         </header>

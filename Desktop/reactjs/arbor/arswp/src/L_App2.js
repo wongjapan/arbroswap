@@ -1,6 +1,6 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Locker_sec_left from "./Components/Topnavbar_section/Locker_sec_left";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Locker_sec_right from "./Components/Topnavbar_section/Locker_sec_right";
 import Slider from "./Components/Slider";
 import My_Pools from "./Components/My_Pools";
@@ -9,7 +9,7 @@ import Search_sec from "./Components/Search_sec";
 import Live_end_upcom from "./Components/Live_end_upcom";
 import Token_liqd from "./Components/Token_liqd2";
 import Icon_bot from "./Components/Icon_Bot2";
-import GUSD from "./Components/Box_section/GUSD";
+import GUSD from "./Components/Box_section/LockerLockedAssets";
 import Box_section from "./Components/Box_section/Box_section";
 import Box_sec_sol from "./Components/Box_section/Box_sec_sol";
 import Box_sec_Rba from "./Components/Box_section/Box_sec_Rba";
@@ -27,8 +27,11 @@ export default function L_App2() {
       <Aside />
 
       <div className="form-block">
-        <Locker_sec_left />
-
+        <TopNavAllThree
+          title="Locker"
+          subtitle="Locked assets"
+          mainpara="Lock your assets for proof of lock."
+        />
         <Locker_sec_right />
         <div className="clear"></div>
         {/* content1 slider */}

@@ -8,8 +8,9 @@ import Admin_airdrop from "./Components/Right_sec_components/Admin_airdrop";
 import Admin_airdrop_ended from "./Components/Right_sec_components/Admin_airdrop_ended";
 import Airdrop_airdrops from "./Components/Topnavbar_section/Airdrop_airdrops";
 import Air_arbor from "./Components/Topnavbar_section/Air_arbor";
-import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
+import Poolswipe_nav_sec from "./Components/Topnavbar_section/TopNavAllTwo";
 import Topnavicon_admin_mode from "./Components/Topnavbar_section/Topnavicon_admin_mode";
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 
 class Home extends React.Component {
   render() {
@@ -22,7 +23,7 @@ class Home extends React.Component {
         <div className="form-block">
           {/* <Poolswipe_nav_sec /> */}
 
-          <Air_arbor />
+          <TopNavAllTwo title="Airdrops" subtitle="Arborswap" />
 
           <Topnavicon_admin_mode />
 

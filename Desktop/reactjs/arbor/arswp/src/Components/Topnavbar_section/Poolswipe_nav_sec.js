@@ -1,18 +1,18 @@
 import React from "react";
 
-export default function Poolswipe_nav_sec() {
+export default function Poolswipe_nav_sec(props) {
   return (
     <>
       <div className="top-nav">
         <ul className="breadcrumb">
-          <li>Pools</li>
+          <li>{props.title}</li>
           <li>
             {" "}
             <img src="/img/Line 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
             <a href="#" className="activ">
-              Swipe coin
+              {props.subtitle}
             </a>
           </li>
         </ul>

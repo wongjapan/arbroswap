@@ -1,8 +1,8 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
-import More_det_claims_off from "./Components/Right_sec_components/More_det_claims_off";
-import Rightsec_btn_ended from "./Components/Right_sec_components/Rightsec_btn_ended";
+
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
+import Rightsec_btn_on from "./Components/Right_sec_components/Rightsec_btn_on";
 import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
@@ -14,8 +14,8 @@ class Home extends React.Component {
         {/* content1 */}
 
         {/*  */}
-        <div className="form-block">
-          <Poolswipe_nav_sec />
+        <div className="form-block sec_2_header">
+          <TopNavAllTwo title="Pools" subtitle="Swipe Coin" />
 
           <Topnavicon2 />
 
@@ -24,15 +24,10 @@ class Home extends React.Component {
           <Swipe_coin_secbig />
 
           {/* content2 */}
-
-          <div className="contain-right fl-right">
-            <Rightsec_btn_ended />
-            <div className="clear"></div>
-
-            {/* content3 */}
-            <More_det_claims_off />
-          </div>
+          <Rightsec_btn_on />
         </div>
+
+        <div className="clear"></div>
       </div>
     );
   }

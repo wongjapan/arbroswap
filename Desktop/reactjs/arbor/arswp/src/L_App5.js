@@ -1,7 +1,6 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Launchpad_create_sale from "./Components/Topnavbar_section/Launchpad_create_sale";
-import Locker_token from "./Components/Topnavbar_section/Locker_token";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
 class Home extends React.Component {
@@ -13,7 +12,11 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Locker_token />
+          <TopNavAllThree
+            title="Locker"
+            subtitle="Token Locker"
+            mainpara="Lock your assets for proof of lock."
+          />
 
           <Topnavicon2 />
 

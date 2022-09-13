@@ -2,7 +2,7 @@ import React from "react";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
 import Form from "./Lapad_from_salety_Fairlaunch/Form";
-import Launchpad_create_sale from "./Components/Topnavbar_section/Launchpad_create_sale";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 class Home extends React.Component {
   render() {
     return (
@@ -12,7 +12,11 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Launchpad_create_sale />
+          <TopNavAllThree
+            title="Launchpad"
+            subtitle="Create sale"
+            mainpara="Launch your project with Arborswap."
+          />
 
           <Topnavicon2 />
 

@@ -9,7 +9,7 @@ import Search_sec from "./Components/Search_sec";
 import Live_end_upcom from "./Components/Live_end_upcom";
 import Token_liqd from "./Components/Token_liqd2";
 import Icon_bot from "./Components/Icon_Bot2";
-import GUSD from "./Components/Box_section/GUSD";
+import GUSD from "./Components/Box_section/LockerLockedAssets";
 import Box1 from "./Components/Box_section/Box1";
 import Box2 from "./Components/Box_section/Box2";
 import Box3 from "./Components/Box_section/Box3";
@@ -20,6 +20,7 @@ import Box7 from "./Components/Box_section/Box7";
 import Box8 from "./Components/Box_section/Box8";
 import Box9 from "./Components/Box_section/Box9";
 import Box10 from "./Components/Box_section/Box10";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 
 export default function L_App4() {
   return (
@@ -27,7 +28,11 @@ export default function L_App4() {
       <Aside />
 
       <div className="form-block">
-        <Locker_sec_left />
+        <TopNavAllThree
+          title="Locker"
+          subtitle="Locked assets"
+          mainpara="Lock your assets for proof of lock."
+        />
 
         <Locker_sec_right />
         <div className="clear"></div>

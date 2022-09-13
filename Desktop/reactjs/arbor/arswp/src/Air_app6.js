@@ -5,6 +5,7 @@ import Air_arbor from "./Components/Topnavbar_section/Air_arbor";
 import Airdrop_arbor2 from "./Components/Middle_contain_sec/Airdrop_arbor2";
 import Airdrops_arbor_right_notime from "./Components/Right_sec_components/Airdrops_arbor_right_notime";
 import Airdrops_arbor_right_whilt from "./Components/Right_sec_components/Airdrops_arbor_right_whilt";
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 class Home extends React.Component {
   render() {
     return (
@@ -14,7 +15,7 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Air_arbor />
+          <TopNavAllTwo title="Airdrops" subtitle="Arborswap" />
 
           <Topnavicon2 />
 

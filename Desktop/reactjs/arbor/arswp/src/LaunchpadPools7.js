@@ -1,6 +1,6 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Launchpad_create_sale from "./Components/Topnavbar_section/Launchpad_create_sale";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
 class Home extends React.Component {
@@ -12,7 +12,11 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Launchpad_create_sale />
+          <TopNavAllThree
+            title="Launchpad"
+            subtitle="Create sale"
+            mainpara="Launch your project with Arborswap."
+          />
 
           <Topnavicon2 />
 

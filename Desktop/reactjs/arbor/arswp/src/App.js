@@ -1,15 +1,15 @@
 import "./App.css";
-import App1 from "./App1";
-import App2 from "./App2";
-import App3 from "./App3";
-import App4 from "./App4";
-import App5 from "./App5";
-import App6 from "./App6";
-import App7 from "./App7";
-import App8 from "./App8";
-import App9 from "./App9";
-import App10 from "./App10";
-import App11 from "./App11";
+import LaunchpadPools1 from "./LaunchpadPools1";
+import LaunchpadPools3 from "./LaunchpadPools3";
+import LaunchpadPools4 from "./LaunchpadPools4";
+import LaunchpadPools5 from "./LaunchpadPools5";
+import LaunchpadPools6 from "./LaunchpadPools6";
+import LaunchpadPools7 from "./LaunchpadPools7";
+import LaunchpadPools8 from "./LaunchpadPools8";
+import LaunchpadPools9 from "./LaunchpadPools9";
+import LaunchpadPools10 from "./LaunchpadPools10";
+import LaunchpadPools11 from "./LaunchpadPools11";
+import LaunchpadPools12 from "./LaunchpadPools12";
 import L_App1 from "./L_App1";
 import L_App2 from "./L_App2";
 import L_App3 from "./L_App3";
@@ -38,22 +38,22 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <App1 /> */}
-        {/* <App2 /> */}
-        {/* <App3 /> */}
-        {/* <App4 /> */}
-        {/* <App5 /> */}
-        {/* <App6 /> */}
-        {/* <App7 /> */}
-        {/* <App8 /> */}
-        {/* <App9 /> */}
-        {/* <App10 /> */}
-        {/* <App11 /> */}
+        {/* <LaunchpadPools1 /> */}
+        {/* <LaunchpadPools3 /> */}
+        {/* <LaunchpadPools4 /> */}
+        {/* <LaunchpadPools5 /> */}
+        {/* <LaunchpadPools6 /> */}
+        {/* <LaunchpadPools7 /> */}
+        {/* <LaunchpadPools8 /> */}
+        {/* <LaunchpadPools9 /> */}
+        {/* <LaunchpadPools10 /> */}
+        {/* <LaunchpadPools11 /> */}
+        {/* <LaunchpadPools12 /> */}
         {/* <App12_form_Standard_sale /> */}
         {/* <App13_form_private_sale /> */}
-        <App14_form_Fairlaunch_sale />
+        {/* <App14_form_Fairlaunch_sale /> */}
 
-        {/* <L_App1 /> */}
+        <L_App1 />
         {/* <L_App2 /> */}
         {/* <L_App3 /> */}
         {/* <L_App4 /> */}

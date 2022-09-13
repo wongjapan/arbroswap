@@ -1,14 +1,9 @@
 import React from "react";
-import Locker_coin from "./Components/Topnavbar_section/Locker_coin";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
-import Airdrop_arbor from "./Components/Middle_contain_sec/Airdrop_arbor";
-import Airdrops_arbor_right_sec from "./Components/Right_sec_components/Airdrops_arbor_right_sec";
-import Air_arbor from "./Components/Topnavbar_section/Air_arbor";
+
 import Form from "./Locker_Lp_locker/Form";
-import Airdrop_create from "./Components/Topnavbar_section/Airdrop_create";
-import Project_details from "./Form/Project_details";
-import Locker_Lp_locker_green from "./Components/Topnavbar_section/Locker_Lp_locker_green";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 class Home extends React.Component {
   render() {
     return (
@@ -18,7 +13,11 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Locker_Lp_locker_green />
+          <TopNavAllThree
+            title="Locker"
+            subtitle="LP Locker"
+            mainpara="Lock your assets for proof of lock."
+          />
 
           <Topnavicon2 />
 

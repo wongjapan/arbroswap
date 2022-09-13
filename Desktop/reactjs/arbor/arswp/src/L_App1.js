@@ -1,22 +1,25 @@
 import React from "react";
 import Aside from "./Components/Aside";
-import Locker_sec_left from "./Components/Topnavbar_section/Locker_sec_left";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Locker_sec_right from "./Components/Topnavbar_section/Locker_sec_right";
 import Slider from "./Components/Slider";
 import My_Pools from "./Components/My_Pools";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
-import Live_end_upcom from "./Components/Live_end_upcom";
 import Token_liqd from "./Components/Token_liqd";
 import Icon_both from "./Components/Icon_both";
-import GUSD from "./Components/Box_section/GUSD"
+import GUSD from "./Components/Box_section/LockerLockedAssets";
 export default function L_App1() {
   return (
     <>
       <Aside />
 
       <div className="form-block">
-        <Locker_sec_left />
+        <TopNavAllThree
+          title="Locker"
+          subtitle="Locked assets"
+          mainpara="Lock your assets for proof of lock."
+        />
 
         <Locker_sec_right />
         <div className="clear"></div>
@@ -28,7 +31,7 @@ export default function L_App1() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both /> 
+          <Icon_both />
           <div className="outer_box_1 fl-left">
             <Token_liqd />
           </div>
@@ -43,24 +46,62 @@ export default function L_App1() {
         </div>
 
         <div className="outer_box">
-            {/* box1 */}
-            <GUSD />
-            {/* box2 */}
-            {/* <Venus /> */}
-            <GUSD />
-            {/* box3 */}
-            {/* <Voyagar /> */}
-            <GUSD />
-            {/* box4 */}
-            {/* <Waxp /> */}
-            <GUSD />
-            {/* box5 */}
-            {/* <Xsg_token /> */}
-            <GUSD />
-            {/* box6 */}
-            {/* <Gnosis /> */}
-            <GUSD />
-          </div>
+          {/* box1 */}
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+          {/* box2 */}
+
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+          {/* box3 */}
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+          {/* box4 */}
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+          {/* box5 */}
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+          {/* box6 */}
+          <GUSD
+            logoimg="/img/GUSD.png"
+            coinname="GUSD"
+            subtitle="Gnosis-USD"
+            amount="1,000,454"
+            amoutdollar="474,080,454"
+            unlockdate="2022-09-08"
+          />
+        </div>
       </div>
     </>
   );

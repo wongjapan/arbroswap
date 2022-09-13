@@ -1,22 +1,22 @@
 import React from "react";
 
-export default function Launchpad_pool() {
+export default function Launchpad_pool(props) {
   return (
     <>
       <div className="top-nav">
         <ul className="breadcrumb">
-          <li>Launchpad</li>
+          <li>{props.title}</li>
           <li>
             {" "}
             <img src="/img/Line 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
             <a href="#" className="active">
-              Pools
+              {props.subtitle}
             </a>
           </li>
         </ul>
-        <p>Discover upcoming or live sales.</p>
+        <p>{props.mainpara}</p>
       </div>
     </>
   );

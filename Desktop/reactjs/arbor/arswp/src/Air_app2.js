@@ -9,13 +9,8 @@ import Airdrop_arborswap from "./Components/Box_section/Airdrop_arborswap";
 import Airdrop_arbors_live from "./Components/Box_section/Airdrop_arbors_live";
 import Live_end_timed from "./Components/Live_end_timed";
 import My_Airdrop from "./Components/My_Airdrop";
-import Airdrop_airdrops from "./Components/Topnavbar_section/Airdrop_airdrops";
-import Airdrop_venus_b from "./Components/Box_section/Airdrop_venus_b";
-import Airdrop_arbor_b from "./Components/Box_section/Airdrop_arbor_b";
-import Airdrop_venus_c from "./Components/Box_section/Airdrop_venus_c";
-import Airdrop_arbor_c from "./Components/Box_section/Airdrop_arbor_c";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Live_endon_time from "./Components/Live_endon_time";
-
 import Airdrop_arbor_b_blur from "./Components/Box_section/Airdrop_arbor_b_blur";
 import Airdrop_venus_c_blur from "./Components/Box_section/Airdrop_venus_c_blur";
 import Airdrop_venus_b_blurr from "./Components/Box_section/Airdrop_venus_b_blurr";
@@ -29,7 +24,11 @@ class Home extends React.Component {
         <Aside />
         {/*  */}
         <div className="form-block">
-          <Airdrop_airdrops />
+          <TopNavAllThree
+            title="Airdropper"
+            subtitle="Airdrops"
+            mainpara="Airdrop to multiple users in few clicks."
+          />
 
           <Topnavicon2 />
 

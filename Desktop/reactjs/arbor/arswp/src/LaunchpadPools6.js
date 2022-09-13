@@ -1,5 +1,5 @@
 import React from "react";
-import Poolswipe_nav_sec from "./Components/Topnavbar_section/Poolswipe_nav_sec";
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
 import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
@@ -14,7 +14,7 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Poolswipe_nav_sec />
+          <TopNavAllTwo title="Pools" subtitle="Swipe Coin" />
 
           <Topnavicon2 />
 

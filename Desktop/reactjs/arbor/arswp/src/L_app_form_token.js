@@ -2,7 +2,7 @@ import React from "react";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
 import Form from "./Locker_Token_Locker.js/Form";
-import Locker_lp_token_green from "./Components/Topnavbar_section/Locker_lp_token_green";
+import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 class Home extends React.Component {
   render() {
     return (
@@ -12,7 +12,11 @@ class Home extends React.Component {
 
         {/*  */}
         <div className="form-block">
-          <Locker_lp_token_green />
+          <TopNavAllThree
+            title="Locker"
+            subtitle="LP Locker"
+            mainpara="Lock your assets for proof of lock."
+          />
 
           <Topnavicon2 />
 

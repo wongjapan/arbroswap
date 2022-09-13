@@ -1,22 +1,22 @@
 import React from "react";
 
-export default function Launchpad_create_sale() {
+export default function Launchpad_create_sale(props) {
   return (
     <>
       <div className="top-nav">
         <ul className="breadcrumb">
-          <li>Launchpad</li>
+          <li>{props.title}</li>
           <li>
             {" "}
             <img src="/img/Line 2.png" alt="" srcset="" />{" "}
           </li>
           <li>
             <a href="#" className="active">
-              Create sale
+              {props.subtitle}
             </a>
           </li>
         </ul>
-        <p>Launch your project with Arborswap.</p>
+        <p>{props.mainpara}</p>
       </div>
     </>
   );
