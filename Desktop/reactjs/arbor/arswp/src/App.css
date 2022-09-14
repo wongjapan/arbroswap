@@ -2651,7 +2651,31 @@ color: #807373;
   margin-right: 0%;
 }
 .mg-lt-2_gusd {
-  margin-left: 2%;
+  margin-left: 4%;
+}
+.L_App1_img_top_right_title_liq {
+
+  float: left;
+  margin-top: 1%;
+  margin-left: 10%;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 184%;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #464754;
+}
+.L_App1_view_left_liq {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 163%; */
+  letter-spacing: 0.02em;
+  color: #00783F;
+  margin-top: 6px;
 }
 /* .contain_section5_timer_day_gusd {
 

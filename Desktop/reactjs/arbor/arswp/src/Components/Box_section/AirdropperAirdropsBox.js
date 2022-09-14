@@ -1,21 +1,22 @@
 import React from "react";
 
-export default function Airdrop_arbors_live() {
+export default function AirdropperAirdropsBox(props) {
+  let per = props.percent;
   return (
     <>
-      <div className="In_box">
+      <div className="Airdropven_In_box ">
         <div class="box_1 clear">
           <div class="img_top_right fl-left">
-            <img src="/img/AirdropRIP.png" alt="" />
+            <img src={props.coinimg} alt="" />
           </div>
 
           <div class="img_top_right_title fl-right">
-            <p>Arborswap</p>
+            <p>{props.cointitle}</p>
 
             <div class="img_top_right_button airdrop_mg_4  clear">
               <div class="img_bottom_right_title top_back">
-                <span>DEFI</span>
-                <span>DEX</span>
+                <span>{props.subtitle1}</span>
+                <span>{props.subtitle2}</span>
               </div>
             </div>
           </div>
@@ -26,16 +27,20 @@ export default function Airdrop_arbors_live() {
           <div className="middle-title-left fl-left">Amount</div>
           <div className="middle-title-right fl-right">
             {" "}
-            <img src="/img/RIP (1).png" alt="" className="rip" /> 240,000
+            <img src={props.coinsublogo} alt="" className="rip" /> {props.amout}
           </div>
         </div>
         <div className="box3 clear">
           <div className="middle-title-left_ti fl-left">Remaining</div>
-          <div className="middle-title-right_ti fl-right">60,000 VNS</div>
+          <div className="middle-title-right_ti fl-right">
+            {props.remaining}
+          </div>
         </div>
         <div className="box3 clear">
           <div class="w3-light-grey">
-            <div class="w3-container w3-green w3-center">25%</div>
+            <div class="w3-container w3-green w3-center" style={{ width: per }}>
+              {props.percent}
+            </div>
           </div>
           <br />
         </div>
@@ -46,14 +51,10 @@ export default function Airdrop_arbors_live() {
         </div>
         <div className="box5 clear">
           <div className="middle-title-left_bi fl-left">
-            <span>6,000</span>
+            <span>{props.selectaddr}</span>
           </div>
-          <div className="middle-title-right_bi fl-right">4,500</div>
-        </div>
-        <div className="Airdrop_box6_col_3 clear">
-          <div className="bottom-title-left_bi fl-left">Live in</div>
-          <div className="Air_arbor_live_bottom-title-right_bi fl-right">
-            04h : 47Min : 19s
+          <div className="middle-title-right_bi fl-right">
+            {props.participant}
           </div>
         </div>
       </div>

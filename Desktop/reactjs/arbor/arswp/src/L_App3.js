@@ -10,7 +10,7 @@ import Live_end_upcom from "./Components/Live_end_upcom";
 import Token_liqd from "./Components/Token_liqd2";
 import Icon_bot from "./Components/Icon_Bot2";
 import GUSD from "./Components/Box_section/LockerLockedAssets";
-import Box1 from "./Components/Box_section/Box1";
+import LocLocAsstLiqBox from "./Components/Box_section/LocLocAsstLiqBox2";
 import Box2 from "./Components/Box_section/Box2";
 import Box3 from "./Components/Box_section/Box3";
 import Box4 from "./Components/Box_section/Box4";
@@ -59,16 +59,75 @@ export default function L_App4() {
         </div>
 
         <div className="outer_box">
-          <Box1 />
-          <Box2 />
-          <Box3 />
-          <Box4 />
-          <Box5 />
-          <Box6 />
-          <Box7 />
-          <Box8 />
-          <Box9 />
-          <Box10 />
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1.png"
+            coinname="GUSD/RBA"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (2).png"
+            coinname="WBNB/SLR"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (1).png"
+            coinname="USDT/RBA"
+            amount="7,144,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (3).png"
+            coinname="GUSD/SXP"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (4).png"
+            coinname="SXP/ARB"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (5).png"
+            coinname="USDT/DODO"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (6).png"
+            coinname="XSG/SLR"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (7).png"
+            coinname="WBNB/WAXP"
+            amount="99,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (8).png"
+            coinname="GUSD/ARB"
+            amount="1,000,454"
+            date="2022-09-08"
+          />
+
+          <LocLocAsstLiqBox
+            coinimg="/img/Component 1 (9).png"
+            coinname="WBNB/VGX"
+            amount="10,454"
+            date="2022-09-08"
+          />
         </div>
       </div>
     </>

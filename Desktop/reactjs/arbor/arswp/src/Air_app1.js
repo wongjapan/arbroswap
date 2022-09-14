@@ -5,10 +5,8 @@ import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
 import My_Airdrop from "./Components/My_Airdrop";
-import Airdrop_venus_b from "./Components/Box_section/Airdrop_venus_b";
-import Airdrop_arbor_b from "./Components/Box_section/Airdrop_arbor_b";
-import Airdrop_venus_c from "./Components/Box_section/Airdrop_venus_c";
-import Airdrop_arbor_c from "./Components/Box_section/Airdrop_arbor_c";
+import AirdropperAirdropsBox from "./Components/Box_section/AirdropperAirdropsBox";
+
 import Liveon_end_time from "./Components/Liveon_end_time";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 
@@ -50,16 +48,79 @@ class Home extends React.Component {
           </div>
 
           <div className="outer_box">
-            <Airdrop_venus_b />
+            <AirdropperAirdropsBox
+              coinimg="/img/RIP_logo(6).png"
+              cointitle="Venus"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="240,000"
+              coinsublogo="/img/RIP (1).png"
+              remaining="60,000 VNS"
+              percent="25%"
+              selectaddr="6,000"
+              participant="4,500"
+            />
 
-            <Airdrop_arbor_b />
-
-            <Airdrop_venus_c />
-            <Airdrop_venus_b />
-
-            <Airdrop_arbor_c />
-
-            <Airdrop_venus_b />
+            <AirdropperAirdropsBox
+              coinimg="/img/AirdropRIP.png"
+              cointitle="Arborswap"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="240,000"
+              coinsublogo="/img/RIP.png"
+              remaining="60,000 VNS"
+              percent="25%"
+              selectaddr="6,000"
+              participant="4,500"
+            />
+            <AirdropperAirdropsBox
+              coinimg="/img/RIP_logo(6).png"
+              cointitle="Venus"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="240,000"
+              coinsublogo="/img/RIP (1).png"
+              remaining="60,000 VNS"
+              percent="100%"
+              selectaddr="6,000"
+              participant="0"
+            />
+            <AirdropperAirdropsBox
+              coinimg="/img/RIP_logo(6).png"
+              cointitle="Venus"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="240,000"
+              coinsublogo="/img/RIP (1).png"
+              remaining="60,000 VNS"
+              percent="25%"
+              selectaddr="6,000"
+              participant="4,500"
+            />
+            <AirdropperAirdropsBox
+              coinimg="/img/AirdropRIP.png"
+              cointitle="Arborswap"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="21,000"
+              coinsublogo="/img/RIP.png"
+              remaining="60,000 VNS"
+              percent="100%"
+              selectaddr="6,000"
+              participant="0"
+            />
+            <AirdropperAirdropsBox
+              coinimg="/img/RIP_logo(6).png"
+              cointitle="Venus"
+              subtitle1="DEFI"
+              subtitle2="DEX"
+              amout="240,000"
+              coinsublogo="/img/RIP (1).png"
+              remaining="60,000 VNS"
+              percent="25%"
+              selectaddr="6,000"
+              participant="4,500"
+            />
           </div>
         </div>
       </div>
