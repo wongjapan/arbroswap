@@ -1,34 +1,33 @@
 import React from "react";
 
-export default function Swipe_coin_edit_on() {
+export default function MiddleSectionRedThreelogo(props) {
   return (
     <>
       <div className="contain fl-left">
         <div className="block_section_1">
           <div className="contain_block_1 fl-left">
             <div className="img_top_right_block_1 fl-left">
-              <img src="/img/RIP_logo (1).png" alt="" />
+              <img src={props.coinlogo} alt="" />
             </div>
             <div class="img_top_right_title_block_1 fl-right">
-              <p>Swipe Coin</p>
+              <p>{props.coinname}</p>
 
               <span class="inner_img_top_right_button_block_1 fl-right">
-                Private
+                {props.private}
               </span>
 
               <div class="img_top_right_button_block_1 clear">
                 <div class="img_bottom_right_title_block_1 top_back">
-                  <span>Payment</span>
-                  <span>Web3</span>
+                  <span>{props.subtitle1}</span>
+                  <span>{props.subtitle2}</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="contain_block_1 block-right fl-right">
-            <div className="app9_edit">
-              <img src="/img/edit-2.png" alt="" srcset="" />
-              Edit
-            </div>
+            <img src={props.rightlogo1} alt="" srcset="" />
+            <img src={props.rightlogo2} alt="" srcset="" />
+            <img src={props.rightlogo3} alt="" srcset="" />
           </div>
         </div>
         <div className="block_section_2 block_middle-2 clear">

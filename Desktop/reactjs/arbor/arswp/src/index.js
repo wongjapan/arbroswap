@@ -4,9 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Live from "./Air_app1";
-import Ended from "./Air_app2";
-import Timed from "./Air_app3";
+import Live from "./AirdropperAirdrop1";
+import Ended from "./AirdropperAirdrop2";
+import Timed from "./AirdropperAirdrop3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

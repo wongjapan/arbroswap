@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function L_app6_form_locker_token_page() {
+export default function LPTokenLockerCommonForm() {
   return (
     <>
       <div className="container_app7">

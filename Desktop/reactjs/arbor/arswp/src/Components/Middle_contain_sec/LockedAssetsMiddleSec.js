@@ -1,21 +1,22 @@
 import React from "react";
 
-export default function Locker_middle_sec() {
+export default function LockedAssetsMiddleSec(props) {
   return (
     <>
       <div className="contain fl-left">
         <div className="block_section_1">
           <div className="contain_block_1 fl-left">
             <div className="img_top_right_block_1 fl-left">
-              <img src="/img/middle.png" alt="" />
+              <img src={props.coinlogo} alt="" />
             </div>
             <div class="L_app4_right_title_block_1 fl-left">
-              <p>WBNB/SXP</p>
-              WBNB / Swipe
+              <p>{props.coinname}</p>
+
+              {props.subtitle1}
             </div>
           </div>
           <div className="contain_block_1 block-right fl-right">
-            <img src="/img/Tel.png" alt="" srcset="" />
+            <img src={props.rightlogo3} alt="" srcset="" />
           </div>
         </div>
 

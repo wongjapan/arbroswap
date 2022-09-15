@@ -3,7 +3,7 @@ import Aside from "./Components/Aside";
 import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 import More_det_claims from "./Components/Right_sec_components/More_det_claims";
 import Rightsec_btn_off from "./Components/Right_sec_components/Rightsec_btn_off";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
+import MiddleSectionRedThreelogo from "./Components/Middle_contain_sec/MiddleSectionRedThreelogo";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
 class Home extends React.Component {
@@ -21,7 +21,15 @@ class Home extends React.Component {
 
           <div className="clear mar-22"></div>
           {/* content1  */}
-          <Swipe_coin_secbig />
+          <MiddleSectionRedThreelogo
+            coinlogo="/img/RIP_logo (1).png"
+            coinname="Swipe Coin"
+            subtitle1="Payment"
+            subtitle2="Web3"
+            rightlogo1="/img/Vector (6).png"
+            rightlogo2="/img/dribbble.png"
+            rightlogo3="/img/Tel.png"
+          />
 
           {/* content2 */}
           <div className="contain-right fl-right">

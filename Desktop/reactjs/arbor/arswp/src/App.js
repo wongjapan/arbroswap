@@ -10,26 +10,26 @@ import LaunchpadPools9 from "./LaunchpadPools9";
 import LaunchpadPools10 from "./LaunchpadPools10";
 import LaunchpadPools11 from "./LaunchpadPools11";
 import LaunchpadPools12 from "./LaunchpadPools12";
-import L_App1 from "./L_App1";
-import L_App2 from "./L_App2";
-import L_App3 from "./L_App3";
-import L_App4 from "./L_App4";
-import L_App5 from "./L_App5";
-import Air_app3 from "./Air_app3";
-import Air_app2 from "./Air_app2";
-import Air_app1 from "./Air_app1";
-import Air_app4 from "./Air_app4";
-import Air_app5 from "./Air_app5";
-import Air_app6 from "./Air_app6";
+import LockerLockerAsset1 from "./LockerLockerAsset1";
+import LockerLockerAsset2 from "./LockerLockerAsset2";
+import LockerLockerAsset3 from "./LockerLockerAsset3";
+import LockerLockerAsset4 from "./LockerLockerAsset4";
+import LockerLockerAsset5 from "./LockerLockerAsset5";
+import AirdropperAirdrop3 from "./AirdropperAirdrop3";
+import AirdropperAirdrop2 from "./AirdropperAirdrop2";
+import AirdropperAirdrop1 from "./AirdropperAirdrop1";
+import AirdropperAirdrop4 from "./AirdropperAirdrop4";
+import AirdropperAirdrop5 from "./AirdropperAirdrop5";
+import AirdropperAirdrop6 from "./AirdropperAirdrop6";
 import Form from "./Form/Form";
-import Air_app7_form from "./Air_app7_form";
-import Air_app8 from "./Air_app8";
-import Air_app9 from "./Air_app9";
-import Air_app10 from "./Air_app10";
-import Air_app11 from "./Air_app11";
-import L_app_form from "./L_app_form";
-import L_app_form_token from "./L_app_form_token";
-import L_app6_form_locker_token_page from "./L_app6_form_locker_token_page";
+import AirdropperAirdropForm7 from "./AirdropperAirdropForm7";
+import AirdropperAirdrop8 from "./AirdropperAirdrop8";
+import AirdropperAirdrop9 from "./AirdropperAirdrop9";
+import AirdropperAirdrop10 from "./AirdropperAirdrop10";
+import AirdropperAirdrop11 from "./AirdropperAirdrop11";
+import LockerLPLocker from "./LockerLPLocker";
+import LockerLPToken from "./LockerLPToken";
+import LPTokenLockerCommonForm from "./LPTokenLockerCommonForm";
 import App12_form_Standard_sale from "./App12_form_Standard_sale";
 import App13_form_private_sale from "./App13_form_private_sale";
 import App14_form_Fairlaunch_sale from "./App14_form_Fairlaunch";
@@ -56,27 +56,27 @@ function App() {
 
         {/* <LocLocAsstLiq /> */}
 
-        {/* <L_App1 /> */}
-        {/* <L_App2 /> */}
-        {/* <L_App3 /> */}
-        {/* <L_App4 /> */}
-        {/* <L_App5 /> */}
-        {/* <L_app_form /> */}
-        {/* <L_app_form_token /> */}
-        {/* <L_app6_form_locker_token_page /> */}
+        {/* <LockerLockerAsset1 /> */}
+        {/* <LockerLockerAsset2 /> */}
+        {/* <LockerLockerAsset3 /> */}
+        {/* <LockerLockerAsset4 /> */}
+        {/* <LockerLockerAsset5 /> */}
+        {/* <LockerLPLocker /> */}
+        {/* <LockerLPToken /> */}
+        {/* <LPTokenLockerCommonForm /> */}
 
-        <Air_app1 />
+        <AirdropperAirdrop1 />
 
-        {/* <Air_app2 /> */}
-        {/* <Air_app3 /> */}
-        {/* <Air_app4 /> */}
-        {/* <Air_app5 /> */}
-        {/* <Air_app6 /> */}
-        {/* <Air_app7_form /> */}
-        {/* <Air_app8 /> */}
-        {/* <Air_app9 /> */}
-        {/* <Air_app10 /> */}
-        {/* <Air_app11 /> */}
+        {/* <AirdropperAirdrop2 /> */}
+        {/* <AirdropperAirdrop3 /> */}
+        {/* <AirdropperAirdrop4 /> */}
+        {/* <AirdropperAirdrop5 /> */}
+        {/* <AirdropperAirdrop6 /> */}
+        {/* <AirdropperAirdropForm7 /> */}
+        {/* <AirdropperAirdrop8 /> */}
+        {/* <AirdropperAirdrop9 /> */}
+        {/* <AirdropperAirdrop10 /> */}
+        <AirdropperAirdrop11 />
       </div>
     </>
   );

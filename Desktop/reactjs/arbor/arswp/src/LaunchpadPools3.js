@@ -3,8 +3,9 @@ import Aside from "./Components/Aside";
 
 import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 import Rightsec_btn_on from "./Components/Right_sec_components/Rightsec_btn_on";
-import Swipe_coin_secbig from "./Components/Middle_contain_sec/Swipe_coin_secbig";
+import Swipe_coin_secbig from "./Components/Middle_contain_sec/MiddleSectionRedThreelogo";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
+import MiddleSectionRedThreelogo from "./Components/Middle_contain_sec/MiddleSectionRedThreelogo";
 
 class Home extends React.Component {
   render() {
@@ -21,7 +22,16 @@ class Home extends React.Component {
 
           <div className="clear mar-22"></div>
           {/* content1  */}
-          <Swipe_coin_secbig />
+          <MiddleSectionRedThreelogo
+            coinlogo="/img/RIP_logo (1).png"
+            coinname="Swipe Coin"
+            private="Private"
+            subtitle1="Payment"
+            subtitle2="Web3"
+            rightlogo1="/img/Vector (6).png"
+            rightlogo2="/img/dribbble.png"
+            rightlogo3="/img/Tel.png"
+          />
 
           {/* content2 */}
           <Rightsec_btn_on />
