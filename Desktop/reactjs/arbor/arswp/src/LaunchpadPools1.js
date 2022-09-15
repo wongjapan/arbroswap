@@ -8,6 +8,7 @@ import My_Pools from "./Components/My_Pools";
 import Search_sec from "./Components/Search_sec";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   render() {
@@ -49,60 +50,68 @@ class Home extends React.Component {
 
           <div className="outer_box">
             {/* box1 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (1).png"
-              coinname="Swipe Coin"
-              subtitle1="Payment"
-              subtitle2="Web3"
-              percent="25"
-              capimg="/img/RIP.png"
-              capamt="240,000"
-              midtitle1="120,000 RBA"
-              midtitle2="240,000 RBA"
-              nodays="140 Days"
-            />
+            <Link to="/pools/launchpoolbox">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (1).png"
+                coinname="Swipe Coin"
+                subtitle1="Payment"
+                subtitle2="Web3"
+                percent="25"
+                capimg="/img/RIP.png"
+                capamt="240,000"
+                midtitle1="120,000 RBA"
+                midtitle2="240,000 RBA"
+                nodays="140 Days"
+              />
+            </Link>
 
             {/* box2 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo(6).png"
-              coinname="Venus"
-              subtitle1="DEFI"
-              subtitle2="DEX"
-              percent="80"
-              capimg="/img/RIP (1).png"
-              capamt="14,000"
-              midtitle1="10,000 BNB"
-              midtitle2="14,000 BNB"
-              nodays="110 Days"
-            />
+            <Link to="/pools/launchpoolbox2">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo(6).png"
+                coinname="Venus"
+                subtitle1="DEFI"
+                subtitle2="DEX"
+                percent="80"
+                capimg="/img/RIP (1).png"
+                capamt="14,000"
+                midtitle1="10,000 BNB"
+                midtitle2="14,000 BNB"
+                nodays="110 Days"
+              />
+            </Link>
 
             {/* box3 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (2).png"
-              coinname="Voyager Tokent"
-              subtitle1="Payment"
-              subtitle2="Web3"
-              percent="10"
-              capimg="/img/RIP (2).png"
-              capamt="72,000"
-              midtitle1="7,200 ETH"
-              midtitle2="72,000 ETH"
-              nodays="110 Days"
-            />
+            <Link to="/pools/launchpoolbox3">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (2).png"
+                coinname="Voyager Tokent"
+                subtitle1="Payment"
+                subtitle2="Web3"
+                percent="10"
+                capimg="/img/RIP (2).png"
+                capamt="72,000"
+                midtitle1="7,200 ETH"
+                midtitle2="72,000 ETH"
+                nodays="110 Days"
+              />
+            </Link>
 
             {/* box4 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (3).png"
-              coinname="Waxp"
-              subtitle1="NFT"
-              subtitle2="Blockchain"
-              percent="25"
-              capimg="/img/RIP (1).png"
-              capamt="7,400"
-              midtitle1="3,700 BNB"
-              midtitle2="7,400 BNB"
-              nodays="110 Days"
-            />
+            <Link to="/pools/launchpoolbox4">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (3).png"
+                coinname="Waxp"
+                subtitle1="NFT"
+                subtitle2="Blockchain"
+                percent="25"
+                capimg="/img/RIP (1).png"
+                capamt="7,400"
+                midtitle1="3,700 BNB"
+                midtitle2="7,400 BNB"
+                nodays="110 Days"
+              />
+            </Link>
 
             {/* box5 */}
             <LaunchpadPoolsBox

@@ -2677,6 +2677,31 @@ color: #807373;
   color: #00783F;
   margin-top: 6px;
 }
+.nav-link i{
+margin-left: 10%;
+}
+.nav-link .toggle_btn_aside{
+cursor: pointer;
+transition: transform .3s;
+}
+
+.sidebar-item.open .nav-link .toggle_btn_aside{
+  transform: rotate(180deg);
+
+}
+
+.sidebar_contain_aside{
+  padding-top: 0.25rem;
+  height: 0;
+  overflow: hidden;
+}
+.menu{
+  transition: .3s;
+}
+.sidebar-item.open .sidebar_contain_aside{
+  height: auto;
+}
+
 /* .contain_section5_timer_day_gusd {
 
   float: right;

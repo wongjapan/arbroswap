@@ -35,10 +35,16 @@ import App13_form_private_sale from "./App13_form_private_sale";
 import App14_form_Fairlaunch_sale from "./App14_form_Fairlaunch";
 import LocLocAsstLiq from "./LocLocAsstLiq";
 
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 function App() {
   return (
     <>
       <div className="App">
+        <Routes>
+          <Route path="/" element={<LaunchpadPools1 />} />
+        </Routes>
+
         {/* <LaunchpadPools1 /> */}
         {/* <LaunchpadPools3 /> */}
         {/* <LaunchpadPools4 /> */}
@@ -65,7 +71,7 @@ function App() {
         {/* <LockerLPToken /> */}
         {/* <LPTokenLockerCommonForm /> */}
 
-        <AirdropperAirdrop1 />
+        {/* <AirdropperAirdrop1 /> */}
 
         {/* <AirdropperAirdrop2 /> */}
         {/* <AirdropperAirdrop3 /> */}

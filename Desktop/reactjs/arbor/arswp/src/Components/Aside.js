@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Aside() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
+  const [open, setOpen] = useState(false);
+  // let user = [(newlink = "/launchpad")];
   return (
     <>
       <nav className="slider" style={{ width: isOpen ? "200px" : "50px" }}>
@@ -29,52 +32,78 @@ export default function Aside() {
         </header>
 
         <div className="menu-bar">
-          <div className="menu">
-            <ul className="menu-links">
-              <li className="nav-link">
-                <a href="#">
-                  {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                  {/* <!-- <i className='bx bxs-grid-alt bx-rotate-180 icon' style='color:#a69f9f' ></i> --> */}
-                  <img src="images/element-3.png" className="icon" alt="" />
-                  <span className="text nav-test">Dashboard</span>
-                </a>
-              </li>
-              <li className="nav-link">
-                <a href="#">
-                  {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                  <img src="images/trade.png" className="icon" alt="" />
+          <div className={open ? "sidebar-item open" : "sidebar-item"}>
+            <div className="menu">
+              <ul className="menu-links">
+                <li className="nav-link">
+                  <a href="#">
+                    {/* <!-- <i className='bx bx-home icon' ></i> --> */}
+                    {/* <!-- <i className='bx bxs-grid-alt bx-rotate-180 icon' style='color:#a69f9f' ></i> --> */}
+                    <img src="images/element-3.png" className="icon" alt="" />
+                    <span className="text nav-test">Dashboard</span>
+                  </a>
+                </li>
+                <li className="nav-link">
+                  <a href="#">
+                    {/* <!-- <i className='bx bx-home icon' ></i> --> */}
+                    <img src="images/trade.png" className="icon" alt="" />
 
-                  <span className="text nav-test">Launchpad</span>
-                </a>
-              </li>
-              <li className="nav-link">
-                <a href="#">
-                  <img
-                    src="images/Group 427319472.png"
-                    className="icon"
-                    alt=""
-                  />
+                    <span className="text nav-test">Launchpad </span>
+                    <i
+                      class="bi bi-chevron-down toggle_btn_aside"
+                      onClick={() => setOpen(!open)}
+                    ></i>
+                  </a>
+                </li>
+                <div class="sidebar_contain_aside">
+                  {/* <div class="open-menu open1"> */}
 
-                  <span className="text nav-test">Locker</span>
-                </a>
-              </li>
-              <li className="nav-link">
-                <a href="#">
-                  {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                  <img src="images/lock.png" className="icon" alt="" />
+                  <Link to="/pools">Pools</Link>
+                  {/* <a href="">Swap</a>
+                  <a href="">Liquitity</a>
+                  <a href="">Limit Order</a> */}
+                </div>
+                <li className="nav-link">
+                  <a href="#">
+                    <img
+                      src="images/Group 427319472.png"
+                      className="icon"
+                      alt=""
+                    />
 
-                  <span className="text nav-test">Airdropper</span>
-                </a>
-              </li>
-              <li className="nav-link">
-                <a href="#">
-                  {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                  <img src="images/menu.png" className="icon" alt="" />
+                    <span className="text nav-test">Locker</span>
+                    <i
+                      class="bi bi-chevron-down toggle_btn_aside"
+                      onClick={() => setOpen(!open)}
+                    ></i>
+                  </a>
+                </li>
+                <li className="nav-link">
+                  <a href="#">
+                    {/* <!-- <i className='bx bx-home icon' ></i> --> */}
+                    <img src="images/lock.png" className="icon" alt="" />
 
-                  <span className="text nav-test">More Products</span>
-                </a>
-              </li>
-            </ul>
+                    <span className="text nav-test">Airdropper</span>
+                    <i
+                      class="bi bi-chevron-down toggle_btn_aside"
+                      onClick={() => setOpen(!open)}
+                    ></i>
+                  </a>
+                </li>
+                <li className="nav-link">
+                  <a href="#">
+                    {/* <!-- <i className='bx bx-home icon' ></i> --> */}
+                    <img src="images/menu.png" className="icon" alt="" />
+
+                    <span className="text nav-test">More Products</span>
+                    <i
+                      class="bi bi-chevron-down toggle_btn_aside"
+                      onClick={() => setOpen(!open)}
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="bottom-content">
             <li className=""></li>

@@ -7,12 +7,23 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Live from "./AirdropperAirdrop1";
 import Ended from "./AirdropperAirdrop2";
 import Timed from "./AirdropperAirdrop3";
+import LaunchpadPool from "./LaunchpadPools1";
+import LaunchpadPoolsBox from "./LaunchpadPools3";
+import Launchpadpool2 from "./LaunchpadPools4";
+import Launchpadpool3 from "./LaunchpadPools5";
+import Launchpadpool4 from "./LaunchpadPools6";
+// import Launchpadpoolbox from "./Components/Box_section/LaunchpadPoolsBox";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
+      <Route path="/pools" element={<LaunchpadPool />} />
+      <Route path="/pools/launchpoolbox" element={<LaunchpadPoolsBox />} />
+      <Route path="/pools/launchpoolbox2" element={<Launchpadpool2 />} />
+      <Route path="/pools/launchpoolbox3" element={<Launchpadpool3 />} />
+      <Route path="/pools/launchpoolbox4" element={<Launchpadpool4 />} />
       <Route path="live" element={<Live />} />
       <Route path="ended" element={<Ended />} />
       <Route path="timed" element={<Timed />} />
