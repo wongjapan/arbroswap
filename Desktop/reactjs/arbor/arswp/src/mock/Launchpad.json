@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "tokenDetails": {
+      "name": "Swipe Coin",
+      "symbol": "SWP",
+      "decimal": 18,
+      "totalSupply": 1000000000,
+      "image": "./images/swipe-coin.png"
+    },
+    "socialDetails": {
+      "website": "https://swipe.org",
+      "twitter": "@swipeToken"
+    },
+    "tags": ["Payments", "Web3"],
+    "presaleDetails": {
+      "rate": 200,
+      "softCap": 200,
+      "hardCap": 1000,
+      "minimumAlloc": 10,
+      "maximumAlloc": 100,
+      "ammountToBeSold": 100000000,
+      "type": ["whitelist"]
+    },
+    "listingDetails": {
+      "listedOn": "Arborswap",
+      "liquidity": 70,
+      "startOn": "09:30 2022-09-04",
+      "endOn": "10:30 2022-09-05"
+    },
+    "moreDetails": {
+      "unsold": "burn",
+      "liquidityLookup": 300
+    },
+    "vestingDetails": {
+      "firstRelease": "40 %",
+      "periodCycle": "20 days",
+      "releaseEachCycle": "30 %"
+    }
+  }
+]
