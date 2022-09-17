@@ -12,7 +12,10 @@ import LaunchpadPoolsBox from "./LaunchpadPools3";
 import Launchpadpool2 from "./LaunchpadPools4";
 import Launchpadpool3 from "./LaunchpadPools5";
 import Launchpadpool4 from "./LaunchpadPools6";
-// import Launchpadpoolbox from "./Components/Box_section/LaunchpadPoolsBox";
+import AirdropTypeTimed from "./AirdropperAirdrop4";
+import AirdropTypeLive from "./AirdropperAirdrop5";
+import AirdropTypeEnd from "./AirdropperAirdrop6";
+import Createpageform from "./AirdropperAirdropForm7";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +30,10 @@ root.render(
       <Route path="live" element={<Live />} />
       <Route path="ended" element={<Ended />} />
       <Route path="timed" element={<Timed />} />
+      <Route path="/timed/boxlive" element={<AirdropTypeTimed />} />
+      <Route path="/live/boxpage1" element={<AirdropTypeLive />} />
+      <Route path="/ended/boxpage2" element={<AirdropTypeEnd />} />
+      <Route path="/airdropform1" element={<Createpageform />} />
     </Routes>
   </BrowserRouter>
 );
