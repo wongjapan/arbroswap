@@ -2691,15 +2691,37 @@ transition: transform .3s;
 }
 
 .sidebar_contain_aside{
-  padding-top: 0.25rem;
+  /* padding-top: 0.25rem; */
   height: 0;
+  
   overflow: hidden;
+
+    /* padding: 15px 0 10px 0; */
+    /* display: none; */
+    /* background: #faf8f5; */
+
 }
 .menu{
   transition: .3s;
 }
 .sidebar-item.open .sidebar_contain_aside{
   height: auto;
+  padding: 15px 0 10px 0;
+    background: #faf8f5;
+}
+.sidebar_contain_aside a{
+  text-decoration: none;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+
+letter-spacing: 0.02em;
+color: #A69F9F;
+margin-left: 25%;
+}
+.sidebar_contain_aside br{
+  margin-bottom: 1%;
 }
 
 /* .contain_section5_timer_day_gusd {
