@@ -75,7 +75,7 @@ body.dark{
     align-items: center;
 }
 .slider .menu-bar .menu{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .slider li{
     /* position: absolute; */
@@ -189,7 +189,7 @@ header .image-text .header-text{
 }
 
 .nav-link span{margin-left:10px;}
-.slider li a {padding-left: 30px;}
+.slider li a {padding-left: 15px;}
 
 
 
@@ -378,7 +378,7 @@ padding-left:0px;}
     float: right;
 }
 
-.bottom-content{padding:0px 16px 22px 16px;}
+.bottom-content{padding:0px 16px 0px 16px;}
 
 
 

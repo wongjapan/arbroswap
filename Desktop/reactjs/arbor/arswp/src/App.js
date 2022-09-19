@@ -1,5 +1,5 @@
 import "./App.css";
-import LaunchpadPools1 from "./LaunchpadPools1";
+import LaunchpadPools1 from "./LaunchpadPools8";
 import LaunchpadPools3 from "./LaunchpadPools3";
 import LaunchpadPools4 from "./LaunchpadPools4";
 import LaunchpadPools5 from "./LaunchpadPools5";
@@ -42,7 +42,7 @@ function App() {
     <>
       <div className="App">
         <Routes>
-          <Route path="/" element={<LaunchpadPools1 />} />
+          {/* <Route path="/" element={<LaunchpadPools1 />} /> */}
         </Routes>
 
         {/* <LaunchpadPools1 /> */}
@@ -66,7 +66,7 @@ function App() {
         {/* <LockerLockerAsset2 /> */}
         {/* <LockerLockerAsset3 /> */}
         {/* <LockerLockerAsset4 /> */}
-        {/* <LockerLockerAsset5 /> */}
+        <LockerLockerAsset5 />
         {/* <LockerLPLocker /> */}
         {/* <LockerLPToken /> */}
         {/* <LPTokenLockerCommonForm /> */}
@@ -82,7 +82,7 @@ function App() {
         {/* <AirdropperAirdrop8 /> */}
         {/* <AirdropperAirdrop9 /> */}
         {/* <AirdropperAirdrop10 /> */}
-        <AirdropperAirdrop11 />
+        {/* <AirdropperAirdrop11 /> */}
       </div>
     </>
   );

@@ -50,7 +50,7 @@ class Home extends React.Component {
 
           <div className="outer_box">
             {/* box1 */}
-            <Link to="/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (1).png"
                 coinname="Swipe Coin"
@@ -66,7 +66,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box2 */}
-            <Link to="/pools/launchpoolbox2">
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo(6).png"
                 coinname="Venus"
@@ -82,7 +82,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box3 */}
-            <Link to="/pools/launchpoolbox3">
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (2).png"
                 coinname="Voyager Tokent"
@@ -98,7 +98,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box4 */}
-            <Link to="/pools/launchpoolbox4">
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (3).png"
                 coinname="Waxp"
@@ -114,32 +114,36 @@ class Home extends React.Component {
             </Link>
 
             {/* box5 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (4).png"
-              coinname="XSG Token"
-              subtitle1="Blockchain"
-              subtitle2="Meta"
-              percent="80"
-              capimg="/img/RIP.png"
-              capamt="240,000"
-              midtitle1="200,000 RBA"
-              midtitle2="240,000 RBA"
-              nodays="110 Days"
-            />
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (4).png"
+                coinname="XSG Token"
+                subtitle1="Blockchain"
+                subtitle2="Meta"
+                percent="80"
+                capimg="/img/RIP.png"
+                capamt="240,000"
+                midtitle1="200,000 RBA"
+                midtitle2="240,000 RBA"
+                nodays="110 Days"
+              />
+            </Link>
 
             {/* box6 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (3).png"
-              coinname="Gnosis"
-              subtitle1="Payment"
-              subtitle2="Web3"
-              percent="15"
-              capimg="/img/RIP (3).png"
-              capamt="1,200,000"
-              midtitle1="120,000 USDT"
-              midtitle2="1,200,000 USDT"
-              nodays="110 Days"
-            />
+            <Link to="/LaunchpadPool/pools/launchpoolbox">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (3).png"
+                coinname="Gnosis"
+                subtitle1="Payment"
+                subtitle2="Web3"
+                percent="15"
+                capimg="/img/RIP (3).png"
+                capamt="1,200,000"
+                midtitle1="120,000 USDT"
+                midtitle2="1,200,000 USDT"
+                nodays="110 Days"
+              />
+            </Link>
           </div>
         </div>
       </div>

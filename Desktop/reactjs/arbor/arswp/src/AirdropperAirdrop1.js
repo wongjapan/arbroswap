@@ -27,7 +27,7 @@ class Home extends React.Component {
           <div className="clear"></div>
           {/* content1 slider */}
 
-          <Slider  />
+          <Slider />
 
           {/* content1 slider */}
           <div className="clear"></div>

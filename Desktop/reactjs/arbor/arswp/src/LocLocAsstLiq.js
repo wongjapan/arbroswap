@@ -24,7 +24,7 @@ export default function LocLocAsstLiq() {
         />
 
         <Locker_sec_right />
-        <div className="clear"></div>
+        <div className="clear"> </div>
         {/* content1 slider */}
         <Slider />
 

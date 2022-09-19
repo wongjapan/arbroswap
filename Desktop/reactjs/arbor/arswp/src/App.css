@@ -2691,38 +2691,107 @@ transition: transform .3s;
 }
 
 .sidebar_contain_aside{
-  /* padding-top: 0.25rem; */
+
   height: 0;
   
   overflow: hidden;
-
-    /* padding: 15px 0 10px 0; */
-    /* display: none; */
-    /* background: #faf8f5; */
 
 }
 .menu{
   transition: .3s;
 }
-.sidebar-item.open .sidebar_contain_aside{
+.sidebar-item.open1 .sidebar_contain_aside{
+  height: auto;
+  padding: 15px 0 10px 0;
+    background: #faf8f5;
+}
+.sidebar-item.open2 .sidebar_contain_aside{
+  height: auto;
+  padding: 15px 0 10px 0;
+    background: #faf8f5;
+}
+.sidebar-item.open3 .sidebar_contain_aside{
+  height: auto;
+  padding: 15px 0 10px 0;
+    background: #faf8f5;
+}
+.sidebar-item.open4 .sidebar_contain_aside{
   height: auto;
   padding: 15px 0 10px 0;
     background: #faf8f5;
 }
 .sidebar_contain_aside a{
   text-decoration: none;
-  font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-
-letter-spacing: 0.02em;
-color: #A69F9F;
-margin-left: 25%;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #A69F9F;
+    font-weight: normal;
+    display: block;
+    margin: 3px 0 15px 41px;
 }
 .sidebar_contain_aside br{
   margin-bottom: 1%;
 }
+.arrow_close{
+  position: absolute;
+    right: -34px;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 100px;
+    padding: 7px 0 0 9px;
+    top: 39px;
+}
+a:focus{
+  color: #00783F;
+}
+
+/* 
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+} */
 
 /* .contain_section5_timer_day_gusd {
 

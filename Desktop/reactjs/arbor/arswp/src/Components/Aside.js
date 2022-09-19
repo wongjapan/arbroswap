@@ -2,9 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Aside() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
   const toggle = () => setIsOpen(!isOpen);
-  const [open, setOpen] = useState(false);
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [open3, setOpen3] = useState(false);
+  const [open4, setOpen4] = useState(false);
+
   // let user = [(newlink = "/launchpad")];
   return (
     <>
@@ -30,7 +34,7 @@ export default function Aside() {
               </div>
             </div>
           </div>
-          <span onClick={toggle}>
+          <span onClick={toggle} className="arrow_close">
             {/* className="toggle" */}
             <img src="assets/images/arrow-left.png" alt="" srcset="" />
           </span>
@@ -57,21 +61,26 @@ export default function Aside() {
                     </a>
                   </li>
                 </div>
-                <div className={open ? "sidebar-item open" : "sidebar-item"}>
+                <div
+                  className={open1 ? "sidebar-item open1" : "sidebar-item"}
+                  id="tag1"
+                >
                   <li className="nav-link">
                     <a href="#">
                       {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                      <img src="/img/trade.png" className="icon" alt="" />
+                      <img src="/img/Icon.png" className="icon" alt="" />
 
                       <span
                         className="text nav-test"
                         style={{ display: isOpen ? "block" : "none" }}
                       >
-                        Launchpad{" "}
+                        <Link to="LaunchpadPool" className="">
+                          Launchpad
+                        </Link>
                       </span>
                       <i
                         class="bi bi-chevron-down toggle_btn_aside"
-                        onClick={() => setOpen(!open)}
+                        onClick={() => setOpen1(!open1)}
                         style={{ display: isOpen ? "block" : "none" }}
                       ></i>
                     </a>
@@ -80,14 +89,19 @@ export default function Aside() {
                     class="sidebar_contain_aside"
                     style={{ display: isOpen ? "block" : "none" }}
                   >
-                    <Link to="/pools">Pools</Link>
+                    <Link to="/LaunchpadPool/pools">Pools</Link>
+
+                    <Link to="/Createsale">Create Sale </Link>
                   </div>
                 </div>
-                <div className={open ? "sidebar-item open" : "sidebar-item"}>
+                <div
+                  className={open2 ? "sidebar-item open2" : "sidebar-item"}
+                  id="tag2"
+                >
                   <li className="nav-link">
                     <a href="#">
                       <img
-                        src="/img/Group 427319472.png"
+                        src="/img/shield-security.png"
                         className="icon"
                         alt=""
                       />
@@ -100,24 +114,27 @@ export default function Aside() {
                       </span>
                       <i
                         class="bi bi-chevron-down toggle_btn_aside"
-                        onClick={() => setOpen(!open)}
+                        onClick={() => setOpen2(!open2)}
                         style={{ display: isOpen ? "block" : "none" }}
                       ></i>
                     </a>
                   </li>
                   <div class="sidebar_contain_aside">
-                    <Link to="">Locked Assets</Link>
-                    <br />
-                    <Link to="">Token Locker</Link>
-                    <br />
-                    <Link to="">LP Locker</Link>
+                    <Link to="/Locker">Locked Assets</Link>
+
+                    <Link to="/Createsalelocker">Token Locker</Link>
+
+                    <Link to="/Createsalelocker/LPLocker">LP Locker</Link>
                   </div>
                 </div>
-                <div className={open ? "sidebar-item open" : "sidebar-item"}>
+                <div
+                  className={open3 ? "sidebar-item open3" : "sidebar-item"}
+                  id="tag3"
+                >
                   <li className="nav-link">
                     <a href="#">
                       {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                      <img src="/img/lock.png" className="icon" alt="" />
+                      <img src="/img/airplane.png" className="icon" alt="" />
 
                       <span
                         className="text nav-test"
@@ -127,22 +144,25 @@ export default function Aside() {
                       </span>
                       <i
                         class="bi bi-chevron-down toggle_btn_aside"
-                        onClick={() => setOpen(!open)}
+                        onClick={() => setOpen3(!open3)}
                         style={{ display: isOpen ? "block" : "none" }}
                       ></i>
                     </a>
                   </li>
                   <div class="sidebar_contain_aside">
                     <Link to="/live">Airdrops</Link>
-                    <br />
-                    <Link to="/airdropform1">Create Airdrop</Link>
+
+                    <Link to="/Createsale">Create Airdrop</Link>
                   </div>
                 </div>
-                <div>
+                <div
+                  className={open4 ? "sidebar-item open4" : "sidebar-item"}
+                  id="tag4"
+                >
                   <li className="nav-link">
                     <a href="#">
                       {/* <!-- <i className='bx bx-home icon' ></i> --> */}
-                      <img src="/img/menu.png" className="icon" alt="" />
+                      <img src="/img/menu1.png" className="icon" alt="" />
 
                       <span
                         className="text nav-test"
@@ -152,7 +172,7 @@ export default function Aside() {
                       </span>
                       <i
                         class="bi bi-chevron-down toggle_btn_aside"
-                        onClick={() => setOpen(!open)}
+                        onClick={() => setOpen4(!open4)}
                         style={{ display: isOpen ? "block" : "none" }}
                       ></i>
                     </a>

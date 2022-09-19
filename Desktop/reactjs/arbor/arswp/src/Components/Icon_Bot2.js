@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function live_end_upcom() {
   return (
@@ -6,17 +7,14 @@ export default function live_end_upcom() {
       <div className="outer_box_1 margin-right15 fl-left">
         <div className="inner_box1 fl-left">
           {" "}
-          <a href="#">
-            {" "}
+          <Link to="/">
             <img src="/img/Filter.png" alt="" />{" "}
-          </a>{" "}
+          </Link>
         </div>
         <div className="inner_box2 fl-left">
-          {" "}
-          <a href="#">
-            {" "}
+          <Link to="/">
             <img src="/img/menu.png" alt="" />{" "}
-          </a>{" "}
+          </Link>
         </div>
       </div>
     </>
