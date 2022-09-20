@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SignUpInfo from "./Locker_Lp_locker";
+import Locker_Lp_locker from "./Locker_Lp_locker";
 import OtherInfo from "./Preview";
 
 function Form() {
@@ -19,7 +19,7 @@ function Form() {
 
   const PageDisplay = () => {
     if (page === 0) {
-      return <SignUpInfo formData={formData} setFormData={setFormData} />;
+      return <Locker_Lp_locker formData={formData} setFormData={setFormData} />;
       // } else if (page === 1) {
       //   return <PersonalInfo formData={formData} setFormData={setFormData} />;
     } else {

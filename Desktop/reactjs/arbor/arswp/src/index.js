@@ -22,7 +22,7 @@ import Fairlaunch from "./App14_form_Fairlaunch";
 import Standard from "./App12_form_Standard_sale";
 import Private from "./App13_form_private_sale";
 import AirdropperFormPage from "./AirdropperAirdropForm7";
-import LockerHome from "./LockerLockerAsset2";
+import LockerHome from "./LockerLockerAsset1";
 import LockerHome1 from "./LocLocAsstLiq";
 import Createsalelocker from "./LockerLockerAsset5";
 import LPToken from "./LockerLPToken";
@@ -39,18 +39,7 @@ root.render(
         path="/LaunchpadPool/pools/launchpoolbox"
         element={<LaunchpadPoolsBox />}
       />
-      {/* <Route
-        path="/LaunchpadPool/pools/launchpoolbox2"
-        element={<Launchpadpool2 />}
-      />
-      <Route
-        path="/LaunchpadPool/pools/launchpoolbox3"
-        element={<Launchpadpool3 />}
-      />
-      <Route
-        path="/LaunchpadPool/pools/launchpoolbox4"
-        element={<Launchpadpool4 />}
-      /> */}
+
       <Route path="live" element={<Live />} />
       <Route path="ended" element={<Ended />} />
       <Route path="timed" element={<Timed />} />

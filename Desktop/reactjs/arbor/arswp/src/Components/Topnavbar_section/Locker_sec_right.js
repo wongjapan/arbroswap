@@ -5,14 +5,12 @@ export default function Topnavicon2() {
     <>
       <div className="top-right-nav">
         <button className="button_name">
-          <img className="icon-001" src="assets/images/mask group.png" />{" "}
-          0xdd....ahs4
-          <img className="icon-002" src="assets/images/bullet.jpeg" />{" "}
+          <img className="icon-001" src="/images/mask group.png" /> 0xdd....ahs4
+          <img className="icon-002" src="/images/bullet.jpeg" />{" "}
         </button>
         <a href="">
-          <img src="assets/images/notification-bing.png" />
+          <img src="/images/notification-bing.png" />
         </a>
-        
       </div>
     </>
   );

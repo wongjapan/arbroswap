@@ -1,6 +1,6 @@
 import React from "react";
 
-function SignUpInfo({ formData, setFormData }) {
+export default function Locker_Lp_locker({ formData, setFormData }) {
   return (
     <>
       <div className="contain_form">
@@ -129,5 +129,3 @@ function SignUpInfo({ formData, setFormData }) {
     </>
   );
 }
-
-export default SignUpInfo;

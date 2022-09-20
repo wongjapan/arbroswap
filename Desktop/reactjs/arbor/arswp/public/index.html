@@ -86,5 +86,24 @@
         });
       });
     </script>
+
+    <script>
+      jQuery(document).ready(function () {
+        jQuery(".arrow_close").click(function () {
+          jQuery("body").addClass("mainly");
+          jQuery(".arrow_close").hide();
+          jQuery(".arrow_close1").show();
+        });
+      });
+    </script>
+    <script>
+      jQuery(document).ready(function () {
+        jQuery(".arrow_close1").click(function () {
+          jQuery("body").removeClass("mainly");
+          jQuery(".arrow_close1").hide();
+          jQuery(".arrow_close").show();
+        });
+      });
+    </script>
   </body>
 </html>
