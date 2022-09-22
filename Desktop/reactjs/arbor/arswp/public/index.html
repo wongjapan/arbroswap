@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>React App</title>
 
@@ -49,7 +51,7 @@
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
     <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
   </head>
-  <body>
+  <body class="mainly">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
@@ -78,32 +80,13 @@
         });
       });
     </script>
-
+    <!-- 
     <script>
       $(document).ready(function () {
         $(".btn2, .btn1").on("click", function () {
           $(this).toggleClass("active");
         });
       });
-    </script>
-
-    <script>
-      jQuery(document).ready(function () {
-        jQuery(".arrow_close").click(function () {
-          jQuery("body").addClass("mainly");
-          jQuery(".arrow_close").hide();
-          jQuery(".arrow_close1").show();
-        });
-      });
-    </script>
-    <script>
-      jQuery(document).ready(function () {
-        jQuery(".arrow_close1").click(function () {
-          jQuery("body").removeClass("mainly");
-          jQuery(".arrow_close1").hide();
-          jQuery(".arrow_close").show();
-        });
-      });
-    </script>
+    </script> -->
   </body>
 </html>

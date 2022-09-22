@@ -7,7 +7,7 @@ import Airdrops_arbor_right_notime from "./Components/Right_sec_components/Airdr
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         <Aside />
         {/* content1 */}
 

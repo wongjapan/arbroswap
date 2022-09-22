@@ -19,7 +19,7 @@ import Airdrop_arbor_new_blur from "./Components/Box_section/Airdrop_arbor_new_b
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         {/* content1 */}
         <Aside />
         {/*  */}

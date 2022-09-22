@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Rightsec_btn_whl_list() {
+export default function Rightsec_btn_whl_list(props) {
   return (
     <>
-      <div className="contain2 fl-right">
+      <div className="contain2 rightsec_contain2_w fl-right">
         <div className="contain2_section1 clear">
           <div className="contain2_section1_sub1 fl-left ">Soft/Hard Cap</div>
           <div className="contain2_section1_sub2 fl-right">Live</div>
@@ -36,16 +36,14 @@ export default function Rightsec_btn_whl_list() {
           <div className="contain2_section3_bar fl-left">
             <div className="box3 clear">
               <div class="w3-light-grey">
-                <div class="w3-container w3-green w3-center">25%</div>
+                <div class="w3-container w3-green w3-center">{props.per}</div>
               </div>
               <br />
             </div>
           </div>
         </div>
         {/* section 3 */}
-        <div className="contain2_section_red_whil">
-          Your Wallet is not Whitelisted
-        </div>
+        <div className="contain2_section_red_whil">{props.whi}</div>
         <div className="contain2_section4 clear">
           <div className="app5_contain2_section4_middle_join">
             <button>Join Sale</button>

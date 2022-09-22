@@ -1,9 +1,10 @@
 import React from "react";
-import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
-import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import Aside from "./Components/Aside";
+import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
+import More_det_claims from "./Components/Right_sec_components/More_det_claims";
+import Rightsec_btn_off from "./Components/Right_sec_components/Rightsec_btn_off";
 import MiddleSectionRedThreelogo from "./Components/Middle_contain_sec/MiddleSectionRedThreelogo";
-import Rightsec_btn_whl_list from "./Components/Right_sec_components/Rightsec_btn_whl_list";
+import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 
 class Home extends React.Component {
   render() {
@@ -23,7 +24,6 @@ class Home extends React.Component {
           <MiddleSectionRedThreelogo
             coinlogo="/img/RIP_logo (1).png"
             coinname="Swipe Coin"
-            private="Private"
             subtitle1="Payment"
             subtitle2="Web3"
             rightlogo1="/img/Vector (6).png"
@@ -32,13 +32,14 @@ class Home extends React.Component {
           />
 
           {/* content2 */}
-          <Rightsec_btn_whl_list
-            whi=" Your Wallet is not Whitelisted"
-            per="25%"
-          />
-        </div>
+          <div className="contain-right fl-right">
+            <Rightsec_btn_off />
+            <div className="clear"></div>
 
-        <div className="clear"></div>
+            {/* content3 */}
+            {/* <More_det_claims /> */}
+          </div>
+        </div>
       </div>
     );
   }

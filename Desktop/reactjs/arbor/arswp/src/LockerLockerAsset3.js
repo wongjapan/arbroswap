@@ -6,7 +6,7 @@ import Slider from "./Components/Slider";
 import My_Pools from "./Components/My_Pools";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
-import Live_end_upcom from "./Components/Live_end_upcom";
+
 import Token_liqd from "./Components/Token_liqd2";
 import Icon_bot from "./Components/Icon_Bot2";
 import GUSD from "./Components/Box_section/LockerLockedAssets";

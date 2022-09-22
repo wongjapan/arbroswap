@@ -92,9 +92,10 @@ export default function Aside() {
                           className="text nav-test"
                           style={{ display: isOpen ? "block" : "none" }}
                         >
-                          <Link to="LaunchpadPool" className="">
+                          {/* <Link to="LaunchpadPool" className="">
                             Launchpad
-                          </Link>
+                          </Link> */}
+                          Launchpad
                         </span>
                         <i
                           class="bi bi-chevron-down toggle_btn_aside"
@@ -107,7 +108,7 @@ export default function Aside() {
                       class="sidebar_contain_aside"
                       style={{ display: isOpen ? "block" : "none" }}
                     >
-                      <Link to="/LaunchpadPool/pools">Pools</Link>
+                      <Link to="/LaunchpadPool/pools/Live">Pools</Link>
 
                       <Link to="/Createsale">Create Sale </Link>
                     </div>

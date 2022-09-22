@@ -16,7 +16,7 @@ import AirdropperAirdropsBoxEnded from "./Components/Box_section/AirdropperAirdr
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         {/* content1 */}
         <Aside />
         {/*  */}

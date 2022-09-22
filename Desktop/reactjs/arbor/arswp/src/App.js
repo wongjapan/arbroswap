@@ -1,5 +1,5 @@
 import "./App.css";
-import LaunchpadPools1 from "./LaunchpadPools1";
+import LaunchpadPools1 from "./LaunchpadPools1ALive";
 import LaunchpadPools3 from "./LaunchpadPools3";
 import LaunchpadPools4 from "./LaunchpadPools4";
 import LaunchpadPools5 from "./LaunchpadPools5";
@@ -34,6 +34,7 @@ import App12_form_Standard_sale from "./App12_form_Standard_sale";
 import App13_form_private_sale from "./App13_form_private_sale";
 import App14_form_Fairlaunch_sale from "./App14_form_Fairlaunch";
 import LocLocAsstLiq from "./LocLocAsstLiq";
+import ModelPOPUP from "./ModalPOPUP";
 
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -61,6 +62,7 @@ function App() {
         {/* <App14_form_Fairlaunch_sale /> */}
 
         {/* <LocLocAsstLiq /> */}
+        {/* <ModelPOPUP /> */}
 
         {/* <LockerLockerAsset1 /> */}
         {/* <LockerLockerAsset2 /> */}

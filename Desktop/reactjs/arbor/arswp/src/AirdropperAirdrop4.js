@@ -7,7 +7,7 @@ import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         <Aside />
         {/* content1 */}
 

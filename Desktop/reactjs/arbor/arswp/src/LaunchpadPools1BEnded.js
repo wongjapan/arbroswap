@@ -2,12 +2,13 @@ import React from "react";
 import Aside from "./Components/Aside";
 import Slider from "./Components/Slider";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
-import Live_end_upcom from "./Components/Live_end_upcom";
+import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
 import My_Pools from "./Components/My_Pools";
 import Search_sec from "./Components/Search_sec";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
+import LiveEndONUpcom from "./Components/LiveEndONUpcom";
 import { Link } from "react-router-dom";
 
 class Home extends React.Component {
@@ -37,7 +38,7 @@ class Home extends React.Component {
           {/* content */}
           <div className="fl-container">
             <div className="outer_box_1 fl-left">
-              <Live_end_upcom />
+              <LiveEndONUpcom />
             </div>
             <div className="outer_box_2 fl-left ">
               <My_Pools />
@@ -50,7 +51,7 @@ class Home extends React.Component {
 
           <div className="outer_box">
             {/* box1 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (1).png"
                 coinname="Swipe Coin"
@@ -66,7 +67,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box2 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo(6).png"
                 coinname="Venus"
@@ -82,7 +83,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box3 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (2).png"
                 coinname="Voyager Tokent"
@@ -98,7 +99,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box4 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (3).png"
                 coinname="Waxp"
@@ -114,7 +115,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box5 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (4).png"
                 coinname="XSG Token"
@@ -130,7 +131,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box6 */}
-            <Link to="/LaunchpadPool/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Ended/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (3).png"
                 coinname="Gnosis"
