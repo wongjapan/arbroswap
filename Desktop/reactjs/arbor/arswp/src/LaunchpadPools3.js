@@ -7,6 +7,8 @@ import Swipe_coin_secbig from "./Components/Middle_contain_sec/MiddleSectionRedT
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import MiddleSectionRedThreelogo from "./Components/Middle_contain_sec/MiddleSectionRedThreelogo";
 
+import ModalPOPUP from "./ModalPOPUP";
+
 class Home extends React.Component {
   render() {
     return (
@@ -34,7 +36,9 @@ class Home extends React.Component {
           />
 
           {/* content2 */}
-          <Rightsec_btn_on />
+
+          {/* <Rightsec_btn_on /> */}
+          <ModalPOPUP />
         </div>
 
         <div className="clear"></div>

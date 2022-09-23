@@ -11,6 +11,7 @@ import Air_arbor from "./Components/Topnavbar_section/Air_arbor";
 import Poolswipe_nav_sec from "./Components/Topnavbar_section/TopNavAllTwo";
 import Topnavicon_admin_mode from "./Components/Topnavbar_section/Topnavicon_admin_mode";
 import TopNavAllTwo from "./Components/Topnavbar_section/TopNavAllTwo";
+import ModalPOPUPAirdropper2 from "./ModalPOPUPAirdropper2";
 
 class Home extends React.Component {
   render() {
@@ -32,7 +33,7 @@ class Home extends React.Component {
           <Airdrop_Arbor4_edit_off />
 
           {/* content2 */}
-          <Admin_airdrop_ended />
+          <ModalPOPUPAirdropper2 />
           <div className="clear"></div>
 
           {/* content3 */}

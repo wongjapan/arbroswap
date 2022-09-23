@@ -1270,6 +1270,7 @@ border-radius: 6px;
 border: none;
 background: #cbcbce;
 width: 100%;
+cursor: pointer;
 }
 .app9_edit{
   padding: 10px 20px;
@@ -2364,6 +2365,7 @@ button:disabled{display:none}
   border: none;
   background: #ecf4f1;
   width: 100%;
+  cursor: pointer;
 }
 .air_drop_mar_9{
   margin-bottom: 9%;
@@ -2409,6 +2411,7 @@ button:disabled{display:none}
   border: none;
   background: #fff7e8;
   width: 100%;
+  cursor: pointer;
 }
 /* -----------------------------Air_app10-------------------------------------- */
 .air_app10_mgtp_10{
@@ -2818,7 +2821,9 @@ transition: transform .3s;
   transition: .5s;
 }
 
-
+.contain_modalpopup_w_31{
+  width: 31%;
+}
 
 
 

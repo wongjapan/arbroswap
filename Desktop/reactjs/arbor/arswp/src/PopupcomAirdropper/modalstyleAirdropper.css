@@ -11,7 +11,7 @@
   }
    
 
-  .modal .container_app7 {
+  .modal .container_app7{
     height: auto;
     width: 320px;
     margin-left: 0;
@@ -35,7 +35,7 @@
   }
   .btn-close {
     position: absolute;
-    top: 62px;
+    top: 154px;
     right: 44px;
     border: 0px;
     background: #fff;
