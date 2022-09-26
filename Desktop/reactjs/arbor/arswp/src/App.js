@@ -1,9 +1,13 @@
 import "./App.css";
-import LaunchpadPools1 from "./LaunchpadPools1ALive";
+// import LaunchpadPools1 from "./LaunchpadPools1ALive";
 // import LaunchpadPools1 from "./AirdropperAirdrop8";
 // import LaunchpadPools1 from "./AirdropperAirdrop9";
 // import LaunchpadPools1 from "./ModalPOPUP";
-// import LaunchpadPools1 from "./LaunchpadPools8";
+// import LaunchpadPools1 from "./LaunchpadPools4";
+// import LaunchpadPools1 from "./LaunchpadPools5";
+// import LaunchpadPools1 from "./AdminMode/StandardP2";
+// import LaunchpadPools1 from "./AdminMode/FairlaunchP1";
+import LaunchpadPools1 from "./AdminMode/PrivateP2";
 import LaunchpadPools3 from "./LaunchpadPools3";
 import LaunchpadPools4 from "./LaunchpadPools4";
 import LaunchpadPools5 from "./LaunchpadPools5";

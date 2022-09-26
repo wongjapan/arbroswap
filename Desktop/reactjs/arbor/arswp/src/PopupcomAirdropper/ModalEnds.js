@@ -18,7 +18,7 @@ const Modal = ({ show, onClose }) => {
           <div className="container_app7">
             <div className="app7_contain_section">
               {/* section1 */}
-              <div className="app7_contain_section_block_1 clear">
+              <div className="app7_contain_section_block_1 clear    ">
                 <div className="app7_join_pool fl-left ">Set Time</div>
                 {/* <div className="app7_close fl-right ">
               <a href="#">
