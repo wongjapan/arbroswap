@@ -3,12 +3,11 @@ import Aside from "../Components/Aside";
 import TopNavAllTwo from "../Components/Topnavbar_section/TopNavAllTwo";
 
 import Topnavicon_admin_mode from "../Components/Topnavbar_section/Topnavicon_admin_mode";
-import AdminModeRightP1 from "../Components/Right_sec_components/StandardAdminModeRightP1";
-import AdminModeP1 from "../Components/Middle_contain_sec/StandardAdminModeMiddleP1";
-import StandardAdminPanelP2 from "../Components/Right_sec_components/StandardAdminPanelP2";
-import EditStandardAdminModeMiddleP2 from "../Components/Middle_contain_sec/EditStandardAdminModeMiddleP2";
 
-export default function StandardP2() {
+import LiveAdminMode from "../Components/Right_sec_components/LiveAdminMode";
+import LiveEditOffStandardAdminModeMiddleP3 from "../Components/Middle_contain_sec/LiveEditOffStandardAdminModeMiddleP3";
+
+export default function StandardP3() {
   return (
     <div>
       <Aside />
@@ -23,7 +22,7 @@ export default function StandardP2() {
         <div className="clear mar-22"></div>
         {/* content1  */}
 
-        <EditStandardAdminModeMiddleP2
+        <LiveEditOffStandardAdminModeMiddleP3
           coinlogo="/img/RIP_logo (1).png"
           coinname="Swipe Coin"
           subtitle1="Payment"
@@ -64,7 +63,15 @@ export default function StandardP2() {
 
         {/* content2 */}
         <div className="contain-right fl-right">
-          <StandardAdminPanelP2 amt="2,000 - 10,000" addr="1,874" />
+          <LiveAdminMode
+            cap="Soft/Hard Cap"
+            amt="2,000 - 10,000"
+            barlow="2,500 RBA"
+            barhigh="10,000 RBA"
+            contri="Contributors"
+            addr="1,041"
+            per="25%"
+          />
           <div className="clear"></div>
         </div>
       </div>

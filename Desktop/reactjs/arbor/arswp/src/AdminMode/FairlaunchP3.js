@@ -3,12 +3,11 @@ import Aside from "../Components/Aside";
 import TopNavAllTwo from "../Components/Topnavbar_section/TopNavAllTwo";
 
 import Topnavicon_admin_mode from "../Components/Topnavbar_section/Topnavicon_admin_mode";
-import AdminModeRightP1 from "../Components/Right_sec_components/StandardAdminModeRightP1";
-import AdminModeP1 from "../Components/Middle_contain_sec/StandardAdminModeMiddleP1";
-import StandardAdminPanelP2 from "../Components/Right_sec_components/StandardAdminPanelP2";
-import EditStandardAdminModeMiddleP2 from "../Components/Middle_contain_sec/EditStandardAdminModeMiddleP2";
+import EditFairlaunchAdminModeMiddleP2 from "../Components/Middle_contain_sec/EditFairlaunchAdminModeMiddleP2";
+import LiveEditOffFairlaunchAdminModeMiddleP3 from "../Components/Middle_contain_sec/LiveEditOffFairlaunchAdminModeMiddleP3";
+import LiveAdminMode from "../Components/Right_sec_components/LiveAdminMode";
 
-export default function StandardP2() {
+export default function FairlaunchP3() {
   return (
     <div>
       <Aside />
@@ -22,8 +21,7 @@ export default function StandardP2() {
 
         <div className="clear mar-22"></div>
         {/* content1  */}
-
-        <EditStandardAdminModeMiddleP2
+        <LiveEditOffFairlaunchAdminModeMiddleP3
           coinlogo="/img/RIP_logo (1).png"
           coinname="Swipe Coin"
           subtitle1="Payment"
@@ -32,30 +30,24 @@ export default function StandardP2() {
           addr="Presale Address"
           addrcont="0xc197......42bbde"
           addrimg="/img/copy.png"
-          pri="Presale Price"
-          priimg="/img/RIP_admin.png"
-          pricont="2"
           saleon="Presale Starts on"
           saleontime="9:30 (UTC) "
           saleondate="2022-09-04"
           saleend="Presale Ends on"
           saleendtime="10:30 (UTC) "
           saleenddate="2022-09-05"
-          cap1="Soft Cap"
-          cap1img="/img/RIP_admin.png"
-          cap1amt="2,000"
-          cap2="Hard Cap"
+          cap2="Soft  Cap"
           cap2img="/img/RIP_admin.png"
           cap2amt="10,000"
           token="Tokens For Presale"
-          tokenamt="5,000 SXP"
+          tokenamt="110,000,000 Sxp"
           unsold="Unsold Token"
           unsoldcont="Burn"
           listed="To be Listed on"
           listedimg="/img/RIP_admin.png"
           listencont="Arborswap"
           liq="Tokens For Liquidity"
-          liqamt="3,000 SXP"
+          liqamt="75,000,000 Sxp"
           liqper="Tokens For Liquidity (%)"
           liqperct="70%"
           lockup="Liquidity Lockup Time (Days)"
@@ -63,9 +55,17 @@ export default function StandardP2() {
         />
 
         {/* content2 */}
+
         <div className="contain-right fl-right">
-          <StandardAdminPanelP2 amt="2,000 - 10,000" addr="1,874" />
-          <div className="clear"></div>
+          <LiveAdminMode
+            cap="Soft Cap"
+            amt="10,000"
+            barlow="2,500 RBA"
+            barhigh="10,000 RBA"
+            contri="Contributors"
+            addr="1,041"
+            per="25%"
+          />
         </div>
       </div>
     </div>
