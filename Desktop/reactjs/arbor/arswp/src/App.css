@@ -384,6 +384,11 @@ margin: 0;
   overflow: hidden;
   margin-right: 1.5%;}
 
+
+.mgtp_md_16{
+  margin-top: 16%;
+}
+
 /* .outer_box_1{
   width: 30%;
   overflow: hidden;
@@ -841,6 +846,19 @@ background: #00783F;
 border-radius: 6px;
 border: none;
 width: 100%;
+cursor: pointer;
+}
+.mgtp4_fair{
+  margin-top: 4%;
+}
+.btn-close1{
+  position: absolute;
+    top: 132px;
+    right: 44px;
+    border: 0px;
+    background: #fff;
+    font-size: 13px;
+    z-index: 999;
 }
 
 /* pages 4-------------------- */
@@ -2910,6 +2928,34 @@ color: #464754;
 
 .fundmartpbt {
   margin: 4% 0%;
+}
+.contain3_section_middle_fund_popup button {
+  padding: 13px 0px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #00783F;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  background: #cbe5d9;
+}
+.contain3_section_middle_fund_claim_popup button {
+  padding: 13px 0px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(93.1deg, #00783F -14.09%, #C89211 123.87%);
 }
 @media  only screen and (max-width: 767px) {
 

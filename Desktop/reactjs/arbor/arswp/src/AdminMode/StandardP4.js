@@ -8,6 +8,8 @@ import EndAdminMode from "../Components/Right_sec_components/EndAdminMode";
 import LiveEditOffStandardAdminModeMiddleP3 from "../Components/Middle_contain_sec/LiveEditOffStandardAdminModeMiddleP3";
 import FundraisedClaim from "../Components/Right_sec_components/FundraisedClaim";
 
+import ModalPOPUPLanpad from "../ModalPOPUPLanpad";
+
 export default function StandardP3() {
   return (
     <div>
@@ -63,8 +65,9 @@ export default function StandardP3() {
         />
 
         {/* content2 */}
+
         <div className="contain-right fl-right">
-          <EndAdminMode
+          <ModalPOPUPLanpad
             cap="Soft/Hard Cap"
             amt="2,000 - 10,000"
             barlow="2,500 RBA"

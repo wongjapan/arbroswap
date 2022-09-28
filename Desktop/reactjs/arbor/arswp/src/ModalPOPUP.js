@@ -1,7 +1,4 @@
 import React from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "./styles.css";
-
 import Modal from "./Popupcom/Modal";
 
 export default function App({ onClose }) {

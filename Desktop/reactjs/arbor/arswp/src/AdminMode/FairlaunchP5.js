@@ -5,9 +5,14 @@ import TopNavAllTwo from "../Components/Topnavbar_section/TopNavAllTwo";
 import Topnavicon_admin_mode from "../Components/Topnavbar_section/Topnavicon_admin_mode";
 import LiveEditOffFairlaunchAdminModeMiddleP3 from "../Components/Middle_contain_sec/LiveEditOffFairlaunchAdminModeMiddleP3";
 
+import EndAdminMode from "../Components/Right_sec_components/EndAdminMode";
+
 import FundraisedClaim from "../Components/Right_sec_components/FundraisedClaim";
+import POPUPFundraisedClaim from "../Components/Right_sec_components/POPUPFundraisedClaim";
 
 import ModalPOPUPLanpad from "../ModalPOPUPLanpad2";
+import BlurEndAdminMode from "../Components/Right_sec_components/BlurEndAdminMode";
+import BlurFundraisedClaim from "../Components/Right_sec_components/BlurFundraisedClaim";
 export default function FairlaunchP4() {
   return (
     <div>
@@ -58,7 +63,7 @@ export default function FairlaunchP4() {
         {/* content2 */}
 
         <div className="contain-right fl-right">
-          <ModalPOPUPLanpad
+          <BlurEndAdminMode
             cap="Soft Cap"
             amt="10,000"
             barlow="10,000 RBA"
@@ -69,7 +74,18 @@ export default function FairlaunchP4() {
           />
 
           <div className="clear"></div>
-          <FundraisedClaim cap="Fundraised" amt="10,000" subamt=" ($28,582)" />
+          <BlurFundraisedClaim
+            cap="Fundraised"
+            amt="5,000"
+            subamt="($14,582)"
+          />
+
+          <div className="clear"></div>
+          <POPUPFundraisedClaim
+            cap="Locked Liquidity"
+            amt="1,862,214"
+            subamt=" ($28,582)"
+          />
         </div>
       </div>
     </div>

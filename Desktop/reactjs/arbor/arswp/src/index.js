@@ -95,6 +95,7 @@ root.render(
         <Route path="/Createsalelocker" element={<Createsalelocker />} />
         <Route path="/Createsalelocker/LPToken" element={<LPToken />} />
         <Route path="/Createsalelocker/LPLocker" element={<LPLocker />} />
+        {/* <Routh path='/popupstandard' element={< />} */}
         {/* <Route path='/Createsalelocker/ ' element={< />}/> */}
       </Routes>
     </BrowserRouter>

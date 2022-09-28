@@ -36,8 +36,6 @@ class Home extends React.Component {
           />
 
           {/* content2 */}
-
-          {/* <Rightsec_btn_on /> */}
           <ModalPOPUP />
         </div>
 
