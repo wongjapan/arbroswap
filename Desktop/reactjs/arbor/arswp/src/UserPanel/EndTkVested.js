@@ -1,36 +1,40 @@
 import React from "react";
 import Aside from "../Components/Aside";
+
 import TopNavAllTwo from "../Components/Topnavbar_section/TopNavAllTwo";
 
-import Topnavicon_admin_mode from "../Components/Topnavbar_section/Topnavicon_admin_mode";
-import AdminModeRightP1 from "../Components/Right_sec_components/StandardAdminModeRightP1";
-import AdminModeP1 from "../Components/Middle_contain_sec/StandardAdminModeMiddleP1";
-import StandardAdminPanelP2 from "../Components/Right_sec_components/UserPanel1";
+import Topnavicon2 from "../Components/Topnavbar_section/Topnavicon2";
 import PrivateAdminModeMiddleP1 from "../Components/Middle_contain_sec/PrivateAdminModeMiddleP1";
-import EditPrivateAdminModeMiddleP2 from "../Components/Middle_contain_sec/EditPrivateAdminModeMiddleP2";
-import ModalPOPUPLanpad from "../ModalPOPUPLanpad";
+import ModalPOPUP from "../ModalPOPUP";
 
-export default function Private2() {
+import UserPanel2 from "../Components/Right_sec_components/UserPanel2";
+import UserPanel3 from "../Components/Right_sec_components/UserPanel3";
+
+import Rightsec_btn_ended from "../Components/Right_sec_components/Rightsec_btn_ended";
+import UserPanel4 from "../Components/Right_sec_components/UserPanel4";
+
+export default function EndTkVested() {
   return (
     <div>
       <Aside />
       {/* content1 */}
 
       {/*  */}
-      <div className="form-block">
+      <div className="form-block sec_2_header">
         <TopNavAllTwo title="Pools" subtitle="Swipe Coin" />
 
-        <Topnavicon_admin_mode />
+        <Topnavicon2 />
 
         <div className="clear mar-22"></div>
         {/* content1  */}
-        <EditPrivateAdminModeMiddleP2
+        <PrivateAdminModeMiddleP1
           coinlogo="/img/RIP_logo (1).png"
           coinname="Swipe Coin"
-          private="Private"
           subtitle1="Payment"
           subtitle2="Web3"
-          editon="/img/edit-2.png"
+          rightlogo1="/img/Vector (6).png"
+          rightlogo2="/img/dribbble.png"
+          rightlogo3="/img/Tel.png"
           addr="Presale Address"
           addrcont="0xc197......42bbde"
           addrimg="/img/copy.png"
@@ -54,11 +58,20 @@ export default function Private2() {
 
         {/* content2 */}
         <div className="contain-right fl-right">
-          {/* <StandardAdminPanelP2 amt="20,000 - 60,000" addr="5,874" /> */}
-          <ModalPOPUPLanpad amt="20,000 - 60,000" addr="5,874" />
+          <Rightsec_btn_ended />
           <div className="clear"></div>
+
+          {/* <UserPanel3  addr="5,000 RBA" brgt="411,285 SXP" logoamt="164,514" /> */}
+          <UserPanel4
+            addr="5,000 RBA"
+            brgt="411,285 SXP"
+            logoamt="164,514"
+            vested="411,285 SXP"
+          />
         </div>
       </div>
+
+      <div className="clear"></div>
     </div>
   );
 }

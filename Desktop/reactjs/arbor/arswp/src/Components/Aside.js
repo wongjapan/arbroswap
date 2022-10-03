@@ -13,6 +13,13 @@ export default function Aside() {
   const [open3, setOpen3] = useState(false);
   const [open4, setOpen4] = useState(false);
   const [flag, setFlag] = useState(false);
+  const active2 = {
+    color: "red !important",
+  };
+  const tagg1 = {
+    display: "block",
+    height: "auto",
+  };
 
   // let user = [(newlink = "/launchpad")];
   return (
@@ -25,21 +32,24 @@ export default function Aside() {
           }}
         >
           <header>
-            <div className="group_all">
-              <div className="image-text">
-                <span className="image">
-                  <img src="/images/logo.png" alt="" />
-                </span>
+            <Link to="/LaunchpadPool/pools/Live">
+              <div className="group_all">
+                <div className="image-text">
+                  <span className="image">
+                    <img src="/images/logo.png" alt="" />
+                  </span>
 
-                <div
-                  className="text header-text"
-                  style={{ display: isOpen ? "block" : "none" }}
-                >
-                  <img src="/images/logo_2.png" className="name" alt="" />
-                  {/* --> */}
+                  <div
+                    className="text header-text"
+                    style={{ display: isOpen ? "block" : "none" }}
+                  >
+                    <img src="/images/logo_2.png" className="name" alt="" />
+                    {/* --> */}
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
+
             <span
               onClick={toggle}
               className="arrow_close"
@@ -82,6 +92,7 @@ export default function Aside() {
                   <div
                     className={open1 ? "sidebar-item open1" : "sidebar-item"}
                     id="tag1"
+                    style={tagg1}
                   >
                     <li className="nav-link">
                       <a href="#">
@@ -90,6 +101,7 @@ export default function Aside() {
 
                         <span
                           className="text nav-test"
+                          onClick={() => setOpen1(!open1)}
                           style={{ display: isOpen ? "block" : "none" }}
                         >
                           {/* <Link to="LaunchpadPool" className="">
@@ -98,7 +110,7 @@ export default function Aside() {
                           Launchpad
                         </span>
                         <i
-                          class="bi bi-chevron-down toggle_btn_aside"
+                          class="bi bi-chevron-down"
                           onClick={() => setOpen1(!open1)}
                           style={{ display: isOpen ? "block" : "none" }}
                         ></i>
@@ -108,9 +120,13 @@ export default function Aside() {
                       class="sidebar_contain_aside"
                       style={{ display: isOpen ? "block" : "none" }}
                     >
-                      <Link to="/LaunchpadPool/pools/Live">Pools</Link>
+                      <Link to="/LaunchpadPool/pools/Live" className="active1">
+                        Pools
+                      </Link>
 
-                      <Link to="/Createsale">Create Sale </Link>
+                      <Link to="/Createsale" style={active2}>
+                        Create Sale{" "}
+                      </Link>
                     </div>
                   </div>
                   <div
@@ -127,6 +143,7 @@ export default function Aside() {
 
                         <span
                           className="text nav-test"
+                          onClick={() => setOpen2(!open2)}
                           style={{ display: isOpen ? "block" : "none" }}
                         >
                           Locker
@@ -157,6 +174,7 @@ export default function Aside() {
 
                         <span
                           className="text nav-test"
+                          onClick={() => setOpen3(!open3)}
                           style={{ display: isOpen ? "block" : "none" }}
                         >
                           Airdropper

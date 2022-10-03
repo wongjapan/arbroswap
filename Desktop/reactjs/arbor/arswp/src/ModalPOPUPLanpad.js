@@ -1,5 +1,6 @@
 import React from "react";
-import Modal from "./PopupcomLanPad/Modal";
+// import Modal from "./PopupcomLanPad/Modal";
+import Modal from "./PopupLanPadAdmin/Model2ConfGrey";
 
 export default function App(props) {
   const [show, setShow] = React.useState(false);
@@ -15,8 +16,10 @@ export default function App(props) {
             <hr />
           </div>
           <div className="contain2_section1 clear">
-            <div className="contain2_section1_sub1 fl-left ">{props.cap}</div>
-            <div className="contain2_section1_sub2_end fl-right">Ended</div>
+            <div className="contain2_section1_sub1 fl-left ">Soft/Hard Cap</div>
+            <div className="contain2_section1_sub2_adminmode fl-right">
+              Upcoming
+            </div>
           </div>
           {/* section 2 */}
 
@@ -27,27 +30,10 @@ export default function App(props) {
             {props.amt}
           </div>
           <div className="clear"></div>
-
-          <div className="contain2_section3_bar fl-left">
-            <div className="contain2_section3_sub1_sm1 pg30 fl-left">
-              {props.barlow}
-            </div>
-            <div className="contain2_section3_sub2_sm2 pg30 fl-right">
-              {props.barhigh}
-            </div>
-            <div className="box3 clear">
-              <div class="w3-light-grey">
-                <div class="w3-container w3-hei w3-green w3-center_right">
-                  {props.per}
-                </div>
-              </div>
-              <br />
-            </div>
-          </div>
-
+          <br />
           <div className="app10_contain2_section1 clear">
             <div className="app10_contain2_section1_inner_a fl-left">
-              {props.contri}
+              Address Whitelisted
             </div>
             <div className="app10_contain2_section1_inner_b fl-right">
               {props.addr}
@@ -58,8 +44,8 @@ export default function App(props) {
           </div>
           <div className="clear"></div>
           <div className="contain3_section clear">
-            <div className="contain3_section_middle">
-              <button onClick={() => setShow(true)}>Finalize Sale</button>
+            <div className="app9_contain3_section_middle_done">
+              <button onClick={() => setShow(true)}>Manage Address</button>
             </div>
           </div>
         </div>

@@ -1,26 +1,26 @@
 .modalWrapper {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255,255,255,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
   }
    
 
-  .modal .container_app7{
+  .modal .container_app7 {
     height: auto;
-    width: 320px;
+    width: 100%;
     margin-left: 0;
     position:relative;
     left:0px;
 }
 
   .modal {
-    width: 370px;
+    width: 570px;
     height: 510px;
     background: none;
     border-radius: 5px;
@@ -35,7 +35,7 @@
   }
   .btn-close {
     position: absolute;
-    top: 154px;
+    top: 130px;
     right: 44px;
     border: 0px;
     background: #fff;

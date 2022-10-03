@@ -45,7 +45,7 @@ function Form() {
             }}
           >
             <img src="/img/Arrow - Right.png" alt="" />
-            Go next
+            Go back
           </button>
           <button
             className="footer"

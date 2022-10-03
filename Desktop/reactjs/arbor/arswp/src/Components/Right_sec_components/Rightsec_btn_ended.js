@@ -57,18 +57,18 @@ export default function Rightsec_btn_ended() {
           </div>
           <div className="contain_section5_timer_dot">:</div>
           <div className="contain_section5_timer_day fl-right">
-            04
+            00
             <br /> <span>Hours</span>
           </div>
           <div className="contain_section5_timer_dot">:</div>
           <div className="contain_section5_timer_day fl-left">
-            21
+            00
             <br /> <span>Mins</span>
             <br /> <span></span>
           </div>
           <div className="contain_section5_timer_dot">:</div>
           <div className="contain_section5_timer_day fl-left">
-            38
+            00
             <br /> <span>Secs</span>
           </div>
         </div>

@@ -93,6 +93,7 @@ import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+// import "./asidebar.css";
 
 export default function LaunchpadPools7() {
   const navigate = useNavigate();
@@ -134,7 +135,7 @@ export default function LaunchpadPools7() {
                     }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Standard" className="fl-left">
                     Standard
                   </label>
                   <br />
@@ -151,7 +152,7 @@ export default function LaunchpadPools7() {
                     }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Fairlaunch" className="fl-left">
                     Fairlaunch
                   </label>
                   <br />
@@ -168,7 +169,7 @@ export default function LaunchpadPools7() {
                     }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Private" className="fl-left">
                     Private
                   </label>
                   <br />

@@ -41,13 +41,10 @@ export default function AdminModeP1(props) {
         </div>
         <div className="block_section_3_bg clear">
           <div className="fl-left tet_dec contain1_block_section_3">
-            <a href="#">Sale details</a>
+            <a href="#">Presale</a>
           </div>
           <div className="fl-left tet_dec contain2_block_section_3">
-            <a href="#">Tokenomics</a>
-          </div>
-          <div className="fl-left  tet_dec contain3_block_section_3">
-            <a href="#">Team</a>
+            <a href="#">Token</a>
           </div>
         </div>
 
