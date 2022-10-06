@@ -179,9 +179,7 @@ header .image-text .header-text{
     border-radius: 6px;
     transition: var(--tran-04);
 }
-.slider li a:hover{
-    background: #FAF8F5;
-}
+
 
 .slider li a:hover .icon, .slider li a:hover .text {
     color: #000;
@@ -370,9 +368,6 @@ padding-left:0px;}
 #social-icons li{
  float:right;width: 42px;}
  
-#social-icons li a:hover {
-    background: #f5f1eb;
-}
 
 .bottom-content .menu-links {
     float: right;

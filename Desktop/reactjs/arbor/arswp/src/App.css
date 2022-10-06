@@ -353,7 +353,10 @@ color: #A69F9F;
 .outer_box_4{
   margin: 0;
   /* width: 38%; */
+
 }
+
+
 .outer_box_4 form input {
   margin-left: 15px;
   padding: 8px 196px 8px 20px;
@@ -370,6 +373,7 @@ letter-spacing: 0.02em;
 color: #A69F9F;
 width: 96%;
 margin: 0;
+outline: none !important;
 }
 
 .outer_box_4 button{
