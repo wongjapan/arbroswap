@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: Gilroy;
+  src: url('./fonts/Gilroy-Medium.woff2');
+}
 body:before {
   background: url('../public/img/tree-logo.png') no-repeat;
   background-position: 280px 111px;
@@ -309,6 +312,7 @@ color: #A69F9F;
   width: 14%;
     margin-left: 0.8%;
 } */
+button{ cursor: pointer;}
 .outer_box_3 .inner_option{
   width: 120px;
   margin-left: 15px;
@@ -328,6 +332,7 @@ color: #A69F9F;
     text-overflow: '';
     background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAADoSURBVHgB7ZG/DsFQFIfPuZUIk4QHEBIhDBKDxGbQTcLQhEfoaPFSJAyWpmm8gklMrcFgkdhEpD1OWdBLWvP9htv03HO/3/0DoFAoUFbUdaNFhJVIMwYFADJ5VSYqwqVlzSef9RTIcxuIlJZsZ8RDTbaCAAf8iQQIWbPv31Ysur7Lqc9jB+T2MwUwlE1psqLn7S7FYuUghFaGxykpz7s34ZucsGvbs03sgNcQRGyjgCmXsknlIQJ+4DiLE9+NwyLtH3kIQgx6PaPJj77m7lwSeYgGMXDd7bFUqlscUOXfPRCO48gVCsWTO5GiUTQZ3FNcAAAAAElFTkSuQmCC) no-repeat !important;
     background-position: 89px 10px !important;
+    outline: none;
 }
 .inner_radio_text{
   padding: 8px 19px 8px 20px;
@@ -1215,6 +1220,7 @@ color: #FFFFFF;
   .slid {
     position: absolute;
     cursor: pointer;
+    width: 44px;
     top: 0;
     left: 0;
     right: 0;
@@ -1364,7 +1370,7 @@ color: #807373;
 text-align: center;
 }
 .app10_contain2{
-width: 100%;
+width: 32%;
 background: #fff;
 border-radius: 10px;
 margin-right: 1.3%;
@@ -3178,6 +3184,17 @@ color: #807373;
   position: relative;
   z-index: 9;
 }
+.owl-theme .owl-dots .owl-dot{
+  display: none !important; 
+}
+
+.lappadpoolactive{
+  /* background-color:green !important; */
+  border: 1.5px solid #C89211 !important;
+}
+.label input[type="radio"]{
+  display: none;
+ }
 @media  only screen and (max-width: 767px) {
 
   .slider{display:none}

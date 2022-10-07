@@ -57,6 +57,14 @@
 
     <script>
       $(document).ready(function () {
+        $(".inner_form_seting .label").on("click", function () {
+          $(".inner_form_seting .label").removeClass("lappadpoolactive");
+          $(this).addClass("lappadpoolactive");
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           loop: true,
           margin: 5,
@@ -80,6 +88,7 @@
         });
       });
     </script>
+
     <!-- 
     <script>
       $(document).ready(function () {
