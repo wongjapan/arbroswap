@@ -23,7 +23,7 @@ function SignUpInfo({ formData, setFormData }) {
                 <div class="inputarea_top_rightform_block_1 clear">
                   <input
                     type="text"
-                    placeholder="0xc197033c129839ED4740c29919Bd88fD42bbde"
+                    placeholder="Address"
                     value={formData.password}
                     onChange={(event) =>
                       setFormData({ ...formData, password: event.target.value })

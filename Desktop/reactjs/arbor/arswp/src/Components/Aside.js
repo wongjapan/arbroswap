@@ -189,7 +189,7 @@ export default function Aside() {
                     <div class="sidebar_contain_aside">
                       <Link to="/live">Airdrops</Link>
 
-                      <Link to="/Createsale">Create Airdrop</Link>
+                      <Link to="/airdropform1">Create Airdrop</Link>
                     </div>
                   </div>
                   <div
