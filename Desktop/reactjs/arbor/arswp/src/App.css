@@ -2149,6 +2149,18 @@ background: rgba(0, 120, 63, 0.08);
 border-radius: 6px;
 padding: 10px 20px;
 }
+.img_name_section3_newupdate{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #807373;
+background: #F5F6F7;
+border-radius: 6px;
+padding: 10px 20px;
+
+}
 .img_name_section2{
   font-family: 'Gilroy';
 font-style: normal;
@@ -2159,6 +2171,20 @@ color: #464754;
 line-height: 55px;
 margin-left: 2%;
 
+}
+.img_name_section2_newupdate{
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+
+
+text-align: center;
+letter-spacing: 0.02em;
+
+/* Light/Text/Semi */
+
+color: #807373;
 }
 
 .Airdropinfo_right_title_block_1  {
@@ -3199,6 +3225,45 @@ color: #807373;
 
   .slider{display:none}
 .form-block{width:100%; margin:0 auto}
+.outer_box_1 .inner_box1 {padding: 8px 15px;}
+.inner_box1, .inner_box2, .inner_box3 {font-size: 12px; width: 50%;}
+.outer_box_3.fl-left{     width: 35%;float: left;margin-top: 15px;}
+.outer_box_4{ margin-top: 15px;}
+.outer_box_4 form input {
+font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
+.fl-container { clear: both; margin: 0;overflow: hidden;padding: 0 15px 15px 15px;}
+.outer_box_3 .inner_option{  font-size: 12px;  background-position: 95% 10px!important;}
+.outer_box_2{width: 48%;float: right;}
+.outer_box_3{width: 48%; float: left;}
+.outer_box_3 .inner_option{width: 100%;margin: 0;}
+.inner_box1, .inner_box2, .inner_box3 {font-family: Gilroy;font-size: 14px;font-style: normal;font-weight: 600;letter-spacing: .02em; width: 50%;}
+.outer_box {clear: both; overflow: hidden; width: 100%;padding: 0 15px;}
+ .L_app1_In_box {  background: #fff;  border-radius: 2rem;  float: left; height: auto; margin-bottom: 3%; margin-right: 1.3%; width: 100%;}
+.outer_box_4 {margin-top: 15px; float: right; width: 61%;}
+.top-right-nav .button_name{display: none;}
+.top-right-nav a{display:none}
+.top-right-nav{display:none}
+.top-nav { padding: 20px 20px 0 25px;  float: left;   width: 100%;}
+#demos {margin:0px !important; padding: 30px 15px;}
+.outer_box_1.margin-right15.fl-left{
+  display: none;
+}
+.outer_box_1.fl-left{
+  width:50%; margin-bottom:0px;
+}
+.owl-nav{display: none;}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block !important;
+  margin: 12px 5px 0 0 !important;
+  width: 8px !important;
+}
+.form-block {padding: 0 15px;}
+.form_section_radio {padding: 20px;width: 100%;}
+.L_app5_section_points ul {margin-left: 20px;}
+.L_app5_section_points {margin: 5% 0;padding: 20px 0px;}
+.inner_form_seting .label {padding: 10px 15px;width: 100%;}
+
+
 
 }
 
