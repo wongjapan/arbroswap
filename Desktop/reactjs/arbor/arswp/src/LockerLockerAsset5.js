@@ -8,7 +8,7 @@ import React from "react";
 
 export default function LockerLockerAsset5() {
   const navigate = useNavigate();
-  const [data, setData] = useState("Standard");
+  const [data, setData] = useState("LPToken");
   const handleChange = (value) => {
     setData(value);
   };

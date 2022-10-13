@@ -6,8 +6,8 @@ import Slider from "./Components/Slider";
 import My_Pools from "./Components/My_Pools";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
-import Token_liqd from "./Components/Token_liqd";
-import Icon_both from "./Components/Icon_both";
+import Token_liqd from "./Components/Token_liqd2";
+import IconBoth1 from "./Components/IconBoth2";
 import GUSD from "./Components/Box_section/LockerLockedAssets";
 export default function L_App1() {
   return (
@@ -31,7 +31,8 @@ export default function L_App1() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both />
+          {/* <Icon_both /> */}
+          <IconBoth1 />
           <div className="outer_box_1 fl-left">
             <Token_liqd />
           </div>

@@ -2056,7 +2056,7 @@ color: #00783F;
   color: #464754;
 }
 .page1_section_form_no_amt{
-  padding: 14px;
+  padding: 0px;
   width: 67%;
   background: #FAF8F5;
 border-radius: 6px;
@@ -2070,8 +2070,19 @@ border-radius: 6px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   
-  
+
   color: #464754;
+}
+.page1_section_form_part1.fl-left input{
+  padding: 14px;
+  background: none;
+  border: 0px;
+  width: 100%;
+  outline: none  !important;
+
+}
+.page1_section_form_part2.fl-right {
+  padding: 14px;
 }
 .page1_section_form_part2{
   font-family: 'Gilroy';
@@ -3184,12 +3195,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 17px;
 margin-left: 1%;
-
-
 letter-spacing: 0.02em;
-
-/* Light/Text/Normal */
-
 color: #464754;
 }
 .app10_contain2_section1_inner_a_userpanel{
@@ -3197,12 +3203,7 @@ color: #464754;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-
-
 letter-spacing: 0.02em;
-
-/* Light/Text/Semi */
-
 color: #807373;
   background: #fff;
   text-align: center;
@@ -3215,7 +3216,6 @@ color: #807373;
 }
 
 .lappadpoolactive{
-  /* background-color:green !important; */
   border: 1.5px solid #C89211 !important;
 }
 .label input[type="radio"]{
@@ -3263,7 +3263,65 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
 .L_app5_section_points {margin: 5% 0;padding: 20px 0px;}
 .inner_form_seting .label {padding: 10px 15px;width: 100%;}
 
+.form-container {width:100%;background: white;}
+.menu-left_all a {
+  padding-right: 20px;height:auto;
+  width: auto !important;
+  display: inline-block;
+}
 
+.inner_section_4_b {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  
+}
+.dot_green {
+  margin-right: 4px;
+}
+.locker_preview_block_section_1_airdrop_form {
+
+  width: 100%;
+
+  
+}
+.block_section_1_airdrop_form {
+  padding: 30px 20px;
+  float: none;
+  width: 100%;
+
+}
+.menu-left_all {
+  width: 100%;
+  float: none;
+  padding: 20px 20px;
+}
+.page1_section_form_no_amt {
+
+  width: 60%;
+  
+}
+.page1_section_form_part2.fl-right{
+  display: none;
+}
+.Locker_admin_contain2 {
+  width: 100%;
+
+  margin-top: 40px;
+}
+.contain {
+  width: 100%;
+ 
+}
+
+element.style {
+}
+
+.footer1 {
+    width: 100%;
+  
+}
 
 }
 

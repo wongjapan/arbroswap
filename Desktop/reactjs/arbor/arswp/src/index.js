@@ -26,7 +26,11 @@ import Standard from "./App12_form_Standard_sale";
 import Private from "./App13_form_private_sale";
 import AirdropperFormPage from "./AirdropperAirdropForm7";
 import LockerHome from "./LockerLockerAsset1";
+import LockerHome3 from "./LockerLockerAsset2";
+import LockerHome2 from "./LockerLockerAsset3";
 import LockerHome1 from "./LocLocAsstLiq";
+import LockerHome3pages from "./LockerLockerAsset4";
+
 import Createsalelocker from "./LockerLockerAsset5";
 import LPToken from "./LockerLPToken";
 import LPLocker from "./LockerLPLocker";
@@ -91,7 +95,13 @@ root.render(
         <Route path="/Createsale/Private" element={<Private />} />
         <Route path="/live/Airdropperform" element={<AirdropperFormPage />} />
         <Route path="/Locker" element={<LockerHome />} />
+        <Route path="/Locker2" element={<LockerHome2 />} />
         <Route path="/Lockertab" element={<LockerHome1 />} />
+        <Route path="/Locker3" element={<LockerHome3 />} />
+        <Route
+          path="/Locker3/LockerHome3pages"
+          element={<LockerHome3pages />}
+        />
         <Route path="/Createsalelocker" element={<Createsalelocker />} />
         <Route path="/Createsalelocker/LPToken" element={<LPToken />} />
         <Route path="/Createsalelocker/LPLocker" element={<LPLocker />} />

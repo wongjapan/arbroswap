@@ -85,12 +85,14 @@ function SignUpInfo({ formData, setFormData }) {
           <div className="block_section_ clear">
             <div className="Airdropinfo_right_title_block_1 fl-left">
               <p>
-                Amount to be airdropped <span>*</span>{" "}
+                Amount to be locked <span>*</span>{" "}
                 <img src="/img/Ques.png" alt="" />{" "}
               </p>
             </div>
             <div className="page1_section_form_no_amt fl-left ">
-              <div className="page1_section_form_part1 fl-left">14,774,566</div>
+              <div className="page1_section_form_part1 fl-left">
+                <input type="text" placeholder="14,774,566" />
+              </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
 

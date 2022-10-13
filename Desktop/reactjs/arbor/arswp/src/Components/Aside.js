@@ -156,7 +156,7 @@ export default function Aside() {
                       </a>
                     </li>
                     <div class="sidebar_contain_aside">
-                      <Link to="/Locker">Locked Assets</Link>
+                      <Link to="/Lockertab">Locked Assets</Link>
 
                       <Link to="/Createsalelocker">Token Locker</Link>
 

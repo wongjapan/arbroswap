@@ -14,7 +14,7 @@ class Home extends React.Component {
         <div className="form-block">
           <TopNavAllThree
             title="Locker"
-            subtitle="LP Locker"
+            subtitle="Token Locker"
             mainpara="Lock your assets for proof of lock."
           />
 
