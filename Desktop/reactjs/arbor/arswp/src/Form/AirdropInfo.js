@@ -109,7 +109,9 @@ function SignUpInfo({ formData, setFormData }) {
               </p>
             </div>
             <div className="page1_section_form_no_amt fl-left ">
-              <div className="page1_section_form_part1 fl-left">14,774,566</div>
+              <div className="page1_section_form_part1 fl-left">
+                <input type="text" placeholder="14,774,566" />
+              </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
             <div className="page1_section_form_add fl-right ">

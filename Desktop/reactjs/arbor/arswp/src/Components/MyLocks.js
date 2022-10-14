@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function My_Airdrop() {
+export default function MyLocks() {
   return (
     <>
       <div>
-        <div className="inner_radio_text moble_ver_air">
-          My Airdrops
+        <div className="inner_radio_text">
+          My Locks
           <label class="swih">
             <input type="checkbox" />
             <span class="slid round"></span>

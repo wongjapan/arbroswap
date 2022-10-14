@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../ModalLocker";
 
 export default function Locker_Lp_locker({ formData, setFormData }) {
   return (
@@ -110,9 +111,11 @@ export default function Locker_Lp_locker({ formData, setFormData }) {
               <div className="page1_section_form_part2 fl-right">WBNB/SXP</div>
             </div>
 
-            <div className="page1_section_form_add fl-right ">
+            {/* <div className="page1_section_form_add fl-right ">
               <button>Add</button>
-            </div>
+              <ModalPOPUPLOCKER />
+            </div> */}
+            <Modal />
           </div>
 
           <div className="Airdropinfo_right_title_block_1 locker_mt_3 fl-left">

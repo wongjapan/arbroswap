@@ -3315,13 +3315,42 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
  
 }
 
-element.style {
-}
+
 
 .footer1 {
     width: 100%;
   
 }
+/* ------------------------Airdroppper------------------------------- */
+.Airdropven_In_box {
+  width: 100%;
+  margin-bottom: 25px;
+
+}
+.In_box{
+  width: 100%;
+}
+.Locker_admin_contain2_air_app4.fl-right{
+
+  width: 100%;
+  margin-top: 40px;
+}
+.mob_res_active{
+  padding: 4px 10px;
+  width: 33%;
+}
+.mob_res_off{
+  padding: 6px 10px;
+  width: 33%;
+}
+.moble_ver_air{
+  font-size: 12px;
+    width: 92%;
+    padding: 10px 10px 10px 13px;
+}
+
+
+
 
 }
 

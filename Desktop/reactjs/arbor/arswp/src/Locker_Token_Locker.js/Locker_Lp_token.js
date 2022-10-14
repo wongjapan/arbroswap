@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../ModalLocker";
 
 function SignUpInfo({ formData, setFormData }) {
   return (
@@ -96,9 +97,10 @@ function SignUpInfo({ formData, setFormData }) {
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
 
-            <div className="page1_section_form_add fl-right ">
+            {/* <div className="page1_section_form_add fl-right ">
               <button>Add</button>
-            </div>
+            </div> */}
+            <Modal />
           </div>
 
           <div className="Airdropinfo_right_title_block_1 locker_mt_3 fl-left">

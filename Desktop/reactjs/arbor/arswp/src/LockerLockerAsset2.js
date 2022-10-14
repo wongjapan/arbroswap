@@ -3,7 +3,7 @@ import Aside from "./Components/Aside";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Locker_sec_right from "./Components/Topnavbar_section/Locker_sec_right";
 import Slider from "./Components/Slider";
-import My_Pools from "./Components/My_Pools";
+import MyLocks from "./Components/MyLocks";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
 
@@ -40,7 +40,7 @@ export default function L_App2() {
             <Token_liqd />
           </div>
           <div className="outer_box_2 fl-left ">
-            <My_Pools />
+            <MyLocks />
           </div>
 
           <Sort_by />
