@@ -37,10 +37,10 @@ class Home extends React.Component {
 
           {/* content */}
           <div className="fl-container">
-            <div className="outer_box_1 fl-left">
+            <div className="outer_box_1 fl-left" id="outer_box_1_moble">
               <LiveEndUpcomON />
             </div>
-            <div className="outer_box_2 fl-left ">
+            <div className="outer_box_2 fl-left " id="outer_box_2_moble">
               <My_Pools />
             </div>
             <Sort_by />

@@ -7,7 +7,7 @@ function PersonalInfo({ formData, setFormData }) {
         <div className="menu-left_all">
           <a href="">
             {" "}
-            <span class="dot_grey"></span> Airdrop Info
+            <span class="dot_grey"></span> Token Info
           </a>
           <a href="">
             {" "}

@@ -16,6 +16,7 @@ export default function L_App1() {
 
       <div className="form-block">
         <TopNavAllThree
+          breadimg="/img/shi_sty.png"
           title="Locker"
           subtitle="Locked assets"
           mainpara="Lock your assets for proof of lock."
