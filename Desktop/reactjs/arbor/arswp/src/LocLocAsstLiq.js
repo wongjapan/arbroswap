@@ -18,6 +18,7 @@ export default function LocLocAsstLiq() {
 
       <div className="form-block">
         <TopNavAllThree
+          breadimg="/img/lockerlogotop.png"
           title="Locker"
           subtitle="Locked assets"
           mainpara="Lock your assets for proof of lock."

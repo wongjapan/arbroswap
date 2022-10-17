@@ -36,7 +36,9 @@ class Home extends React.Component {
           />
 
           {/* content2 */}
-          <ModalPOPUP />
+          <div className="fl-right laun_w_32">
+            <ModalPOPUP />
+          </div>
         </div>
 
         <div className="clear"></div>

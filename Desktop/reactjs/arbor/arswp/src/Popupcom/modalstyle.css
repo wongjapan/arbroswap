@@ -35,7 +35,7 @@
   }
   .btn-close {
     position: absolute;
-    top: 62px;
+    top: 62px !important;
     right: 44px;
     border: 0px;
     background: #fff;

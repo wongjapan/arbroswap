@@ -2353,7 +2353,9 @@ button:disabled{display:none}
   justify-content: center;
   align-items: center;
 } */
-
+.image-text{
+  margin-top: 4%;
+}
 .sign-up-container input {
   margin: 5px;
   width: 200px;
@@ -3094,6 +3096,9 @@ letter-spacing: 0.02em;
 
 color: #807373;
 }
+.laun_w_32{
+  width: 32%;
+}
 .app7_join_pool_new{
   font-family: 'Gilroy';
 font-style: normal;
@@ -3242,7 +3247,8 @@ color: #807373;
 
   .slider{display:none}
 .form-block{width:100%; margin:0 auto}
-.outer_box_1 .inner_box1 {padding: 8px 15px;}
+.outer_box_1 .inner_box1 {padding: 8px 15px ;}
+
 .inner_box1, .inner_box2, .inner_box3 {font-size: 12px; width: 50%;}
 .outer_box_3.fl-left{     width: 35%;float: left;margin-top: 15px;}
 .outer_box_4{ margin-top: 15px;}
@@ -3275,7 +3281,7 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
   display: none;
 }
 .outer_box_1.fl-left{
-  width:50%; margin-bottom:0px;
+  width: 50%; margin-bottom:0px;
 }
 .owl-nav{display: none;}
 .owl-theme .owl-dots .owl-dot {
@@ -3398,7 +3404,7 @@ font-size: 12px; padding: 8px 15px 8px 20px;width:100%;}
 #outer_box_2_moble{width: 39%;}
 
 #outer_box_1_moble.fl-left{
-  margin-bottom: 0;width: 59%;
+  margin-bottom: 0;width: auto;
 }
 #inn_box1, #inn_box2, #inn_box3 {
   font-family: Gilroy;
@@ -3485,7 +3491,12 @@ form.form_are {
 .img_name_section3_newupdate.fl-right{    margin-right: 3%;
     font-size: 12px;
 }
-
+ul.breadcrumb li {
+  font-size: 17px;
+}
+.fl-right.laun_w_32{
+  width: 100%;
+}
 
 }
 

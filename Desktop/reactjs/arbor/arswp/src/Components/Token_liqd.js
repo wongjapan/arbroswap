@@ -7,9 +7,9 @@ export default function Token_liqd() {
       <div>
         <div className="inner_box2 fl-left">
           {" "}
-          <Link to="/locker3">Token</Link>
+          <Link to="/locker">Token</Link>
         </div>
-        <div className="inner_box1 fl-left">
+        <div className="inner_box1 liq_respon_ver fl-left">
           <Link to="/Lockertab">Liquidity</Link>
         </div>
       </div>
