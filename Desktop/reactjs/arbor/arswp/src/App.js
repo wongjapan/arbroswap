@@ -1,5 +1,5 @@
 import "./App.css";
-// import LaunchpadPools1 fromxs "./LaunchpadPools1ALive";
+import LaunchpadPools1 from "./LaunchpadPools1ALive";
 // import LaunchpadPools1 from "./ModalPOPUP";
 // import LaunchpadPools1 from "./AirdropperAirdrop8";
 // import LaunchpadPools1 from "./AirdropperAirdrop9";
@@ -46,7 +46,7 @@ import AirdropperAirdrop10 from "./AirdropperAirdrop10";
 import AirdropperAirdrop11 from "./AirdropperAirdrop11";
 // import LaunchpadPools1 from "./LockerLPLocker";
 // import LaunchpadPools1 from "./LockerLPToken";
-import LaunchpadPools1 from "./LPTokenLockerCommonForm";
+// import LaunchpadPools1 from "./LPTokenLockerCommonForm";
 import App12_form_Standard_sale from "./App12_form_Standard_sale";
 // import LaunchpadPools from "./App12_form_Standard_sale";
 import App13_form_private_sale from "./App13_form_private_sale";
