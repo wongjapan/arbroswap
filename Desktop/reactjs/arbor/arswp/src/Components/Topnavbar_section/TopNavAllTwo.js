@@ -3,6 +3,9 @@ import React from "react";
 export default function Poolswipe_nav_sec(props) {
   return (
     <>
+      <div className="setting_icon_mob_2 fl-left">
+        <img src="/img/Settings.png" alt="" />
+      </div>
       <div className="top-nav">
         <ul className="breadcrumb">
           <li>{props.title}</li>
@@ -16,6 +19,9 @@ export default function Poolswipe_nav_sec(props) {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="setting_icon_mob_2 fl-right">
+        <img src="/img/newwallet.png" alt="" />
       </div>
     </>
   );

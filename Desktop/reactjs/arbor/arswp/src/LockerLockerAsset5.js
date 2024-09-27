@@ -1,11 +1,19 @@
-import React from "react";
 import Aside from "./Components/Aside";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-class Home extends React.Component {
-  render() {
-    return (
+import React from "react";
+
+export default function LockerLockerAsset5() {
+  const navigate = useNavigate();
+  const [data, setData] = useState("LPToken");
+  const handleChange = (value) => {
+    setData(value);
+  };
+  return (
+    <>
       <div>
         <Aside />
         {/* content1 */}
@@ -13,6 +21,7 @@ class Home extends React.Component {
         {/*  */}
         <div className="form-block">
           <TopNavAllThree
+            breadimg="/img/lockerlogotop.png"
             title="Locker"
             subtitle="Token Locker"
             mainpara="Lock your assets for proof of lock."
@@ -27,13 +36,16 @@ class Home extends React.Component {
             <div className="inner_form_seting">
               <form>
                 <p>Choose Presale Type</p>
-                <div class="label fl-left clear">
+                <div class="label fl-left clear lappadpoolactive">
                   <input
                     type="radio"
                     className="fl-right"
                     id="Standard"
                     name="Presale"
-                    value="Standard"
+                    value="LPToken"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
                   <label for="html" className="fl-left">
@@ -41,17 +53,20 @@ class Home extends React.Component {
                   </label>
                   <br />
                 </div>
-                <div class="label fl-right ">
+                <div class="label fl-right">
                   <input
                     type="radio"
                     className="fl-right"
-                    id="html"
+                    id="Fairlaunch"
                     name="Presale"
-                    value="HTML"
+                    value="LPToken"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
                   <label for="html" className="fl-left">
-                    Fairlaunch
+                    Reward
                   </label>
                   <br />
                 </div>
@@ -59,9 +74,12 @@ class Home extends React.Component {
                   <input
                     type="radio"
                     className="fl-right"
-                    id="html"
-                    name="HTMl"
-                    value="HTML"
+                    id="Private"
+                    name="Presale"
+                    value="Private"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
                   <label for="html" className="fl-left">
@@ -79,7 +97,9 @@ class Home extends React.Component {
               </div>
               <div className="clear"></div>
               <div className="app6_form_section_button fl-right">
-                <button>Next</button>
+                <button onClick={() => navigate(`/Createsalelocker/${data}`)}>
+                  Next
+                </button>
               </div>
             </div>
           </div>
@@ -87,8 +107,6 @@ class Home extends React.Component {
 
         <div className="clear"></div>
       </div>
-    );
-  }
+    </>
+  );
 }
-
-export default Home;

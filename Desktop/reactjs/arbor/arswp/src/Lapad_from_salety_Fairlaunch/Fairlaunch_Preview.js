@@ -6,7 +6,7 @@ function OtherInfo({ formData, setFormData }) {
       <div className="contain_form">
         <div className="menu-left_all">
           <a href="">
-            <span class="dot_grey"></span> Airdrop Info
+            <span class="dot_grey"></span> Token Info
           </a>
           <a href="">
             {" "}

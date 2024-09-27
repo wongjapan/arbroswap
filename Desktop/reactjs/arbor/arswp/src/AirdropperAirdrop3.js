@@ -16,12 +16,13 @@ import AirdropperAirdropsBoxEnded from "./Components/Box_section/AirdropperAirdr
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         {/* content1 */}
         <Aside />
         {/*  */}
         <div className="form-block">
           <TopNavAllThree
+            breadimg="/img/airdropperlogomob.png"
             title="Airdropper"
             subtitle="Airdrops"
             mainpara="Airdrop to multiple users in few clicks."
@@ -39,7 +40,7 @@ class Home extends React.Component {
 
           {/* content */}
           <div className="fl-container">
-            <div className="outer_box_1 fl-left">
+            <div className="outer_box_1 fl-left" id="outer_box_1_moble">
               <Live_end_timed />
             </div>
             <div className="outer_box_2 fl-left ">

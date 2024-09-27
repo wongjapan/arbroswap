@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Token_liqd() {
   return (
@@ -6,11 +7,10 @@ export default function Token_liqd() {
       <div>
         <div className="inner_box2 fl-left">
           {" "}
-          <a href="#">Token</a>{" "}
+          <Link to="/locker">Token</Link>
         </div>
-        <div className="inner_box1 fl-left">
-          {" "}
-          <a href="#">Liquidity</a>{" "}
+        <div className="inner_box1 liq_respon_ver fl-left">
+          <Link to="/Lockertab">Liquidity</Link>
         </div>
       </div>
     </>

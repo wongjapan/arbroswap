@@ -123,7 +123,7 @@ export default function Presale() {
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 ">
+          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 enable_whi ">
             <div className="fl-left">
               <p>Enable Whitelisting</p>
             </div>
@@ -299,6 +299,10 @@ export default function Presale() {
                 />
               </div>
             </div>
+          </div>
+          <div class="Airdropinfo_right_title_block_1_note_red form_mb_2 form_app6 fl-left">
+            <img src="/img/information.png" alt="" />
+            To Create this Sale 300,000,485 SXP is required.
           </div>
         </div>
       </div>

@@ -105,7 +105,7 @@ export default function Presale() {
               <img src="/img/RIP.png" alt="" />
             </div>
           </div>
-          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 ">
+          <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 enable_whi ">
             <div className="fl-left">
               <p>Enable Whitelisting</p>
             </div>

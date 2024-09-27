@@ -32,7 +32,10 @@ class Home extends React.Component {
           />
 
           {/* content2 */}
-          <Rightsec_btn_whl_list />
+          <Rightsec_btn_whl_list
+            whi=" Your Wallet is not Whitelisted"
+            per="25%"
+          />
         </div>
 
         <div className="clear"></div>

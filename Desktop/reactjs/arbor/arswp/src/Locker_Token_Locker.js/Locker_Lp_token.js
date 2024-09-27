@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../ModalLocker";
 
 function SignUpInfo({ formData, setFormData }) {
   return (
@@ -23,7 +24,7 @@ function SignUpInfo({ formData, setFormData }) {
                 <div class="inputarea_top_rightform_block_1 clear">
                   <input
                     type="text"
-                    placeholder="0xc197033c129839ED4740c29919Bd88fD42bbde"
+                    placeholder="Address"
                     value={formData.password}
                     onChange={(event) =>
                       setFormData({ ...formData, password: event.target.value })
@@ -85,18 +86,21 @@ function SignUpInfo({ formData, setFormData }) {
           <div className="block_section_ clear">
             <div className="Airdropinfo_right_title_block_1 fl-left">
               <p>
-                Amount to be airdropped <span>*</span>{" "}
+                Amount to be locked <span>*</span>{" "}
                 <img src="/img/Ques.png" alt="" />{" "}
               </p>
             </div>
             <div className="page1_section_form_no_amt fl-left ">
-              <div className="page1_section_form_part1 fl-left">14,774,566</div>
+              <div className="page1_section_form_part1 fl-left">
+                <input type="text" placeholder="14,774,566" />
+              </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
 
-            <div className="page1_section_form_add fl-right ">
+            {/* <div className="page1_section_form_add fl-right ">
               <button>Add</button>
-            </div>
+            </div> */}
+            <Modal />
           </div>
 
           <div className="Airdropinfo_right_title_block_1 locker_mt_3 fl-left">

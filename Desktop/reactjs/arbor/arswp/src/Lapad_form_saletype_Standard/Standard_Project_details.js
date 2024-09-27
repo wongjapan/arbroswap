@@ -7,7 +7,7 @@ function PersonalInfo({ formData, setFormData }) {
         <div className="menu-left_all">
           <a href="">
             {" "}
-            <span class="dot_grey"></span> Airdrop Info
+            <span class="dot_grey"></span> Token Info
           </a>
           <a href="">
             {" "}
@@ -23,16 +23,21 @@ function PersonalInfo({ formData, setFormData }) {
             <div className="contain_block_1_form fl-left">
               <div class="Airdropinfo_right_title_block_1 form_app6 fl-left">
                 <p>
-                  Upload Logo <span>*</span>{" "}
+                  Project Logo <span>*</span>{" "}
                 </p>
               </div>
             </div>
             <div class="imgarea_top_rightform_block_1 clear">
               <div className="img_name_section1 fl-left">
-                <img src="/img/Logo box.png" alt="" />
+                <img src="/img/EMpty Image Box (1).png" alt="" />
               </div>
-              <div className="img_name_section2 fl-left">Swipe Token</div>
-              <div className="img_name_section3 fl-right">Choose Image</div>
+              <div className="img_name_section2_newupdate fl-right">
+                JPG,PNG or GIF 300 x 300 Size Recommended MAX 10MB
+              </div>
+              <div className="img_name_section3_newupdate fl-right">
+                {" "}
+                <img src="/img/export.png" alt="" /> Upload File
+              </div>
             </div>
             {/* content2 */}
             <div class="Airdropinfo_right_title_block_1 form_mb_2 form_app6 fl-left prodet_mg_tp_3">

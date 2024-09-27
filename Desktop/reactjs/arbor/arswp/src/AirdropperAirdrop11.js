@@ -15,13 +15,7 @@ export default function Air_app10() {
             </div>
           </div>
           {/* section2 */}
-          {/* <div className="app7_contain_section_block_2 clear">
-            <div className="app7_from fl-left ">From</div>
-            <div className="app7_RBA fl-right ">
-              <img src="/img/RIP.png" alt="" /> RBA
-            </div>
-          </div> */}
-          {/* section3 */}
+
           <div className="app7_contain_section_block_3 clear">
             <div className="app7_amount air_app10_mgtp_10 fl-left ">
               Ends On (UTC) <span>*</span> <img src="/img/Ques.png" alt="" />

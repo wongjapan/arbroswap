@@ -2,15 +2,22 @@ import React from "react";
 import Aside from "./Components/Aside";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+// import "./asidebar.css";
 
-class Home extends React.Component {
-  render() {
-    return (
+export default function LaunchpadPools7() {
+  const navigate = useNavigate();
+  const [data, setData] = useState("Standard");
+  const handleChange = (value) => {
+    setData(value);
+  };
+
+  return (
+    <>
       <div>
         <Aside />
-        {/* content1 */}
 
-        {/*  */}
         <div className="form-block">
           <TopNavAllThree
             title="Launchpad"
@@ -27,16 +34,19 @@ class Home extends React.Component {
             <div className="inner_form_seting">
               <form>
                 <p>Choose Presale Type</p>
-                <div class="label fl-left clear">
+                <div class="label fl-left clear lappadpoolactive">
                   <input
                     type="radio"
                     className="fl-right"
                     id="Standard"
                     name="Presale"
                     value="Standard"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Standard" className="fl-left">
                     Standard
                   </label>
                   <br />
@@ -45,12 +55,15 @@ class Home extends React.Component {
                   <input
                     type="radio"
                     className="fl-right"
-                    id="html"
+                    id="Fairlaunch"
                     name="Presale"
-                    value="HTML"
+                    value="Fairlaunch"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Fairlaunch" className="fl-left">
                     Fairlaunch
                   </label>
                   <br />
@@ -59,12 +72,15 @@ class Home extends React.Component {
                   <input
                     type="radio"
                     className="fl-right"
-                    id="html"
-                    name="HTMl"
-                    value="HTML"
+                    id="Private"
+                    name="Presale"
+                    value="Private"
+                    onChange={(e) => {
+                      handleChange(e.target.value);
+                    }}
                   />
                    {" "}
-                  <label for="html" className="fl-left">
+                  <label for="Private" className="fl-left">
                     Private
                   </label>
                   <br />
@@ -72,16 +88,31 @@ class Home extends React.Component {
               </form>
               <div className="clear"></div>
               <div className="app6_form_section_button fl-right">
-                <button>Next</button>
+                <button onClick={() => navigate(`/Createsale/${data}`)}>
+                  Next
+                </button>
               </div>
             </div>
+            {/* <div class="main-class text-center">
+              <a
+                class="btn btn-default lappadpoolactive"
+                href="#step1"
+                data-toggle="tab"
+              >
+                Step 1
+              </a>
+              <a class="btn btn-default" href="#step2" data-toggle="tab">
+                Step 2
+              </a>
+              <a class="btn btn-default" href="#step3" data-toggle="tab">
+                Step 3
+              </a>
+            </div> */}
           </div>
         </div>
 
         <div className="clear"></div>
       </div>
-    );
-  }
+    </>
+  );
 }
-
-export default Home;

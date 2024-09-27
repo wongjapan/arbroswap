@@ -3,11 +3,11 @@ import Aside from "./Components/Aside";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import Locker_sec_right from "./Components/Topnavbar_section/Locker_sec_right";
 import Slider from "./Components/Slider";
-import My_Pools from "./Components/My_Pools";
+import MyLocks from "./Components/MyLocks";
 import Sort_by from "./Components/Sort_by";
 import Search_sec from "./Components/Search_sec";
-import Token_liqd from "./Components/Token_liqd";
-import Icon_both from "./Components/Icon_both";
+import Token_liqd from "./Components/Token_liqd2";
+import IconBoth1 from "./Components/IconBoth2";
 import GUSD from "./Components/Box_section/LockerLockedAssets";
 export default function L_App1() {
   return (
@@ -16,6 +16,7 @@ export default function L_App1() {
 
       <div className="form-block">
         <TopNavAllThree
+          breadimg="/img/LaunchedIcon.png"
           title="Locker"
           subtitle="Locked assets"
           mainpara="Lock your assets for proof of lock."
@@ -31,12 +32,13 @@ export default function L_App1() {
 
         {/* content */}
         <div className="fl-container">
-          <Icon_both />
+          {/* <Icon_both /> */}
+          <IconBoth1 />
           <div className="outer_box_1 fl-left">
             <Token_liqd />
           </div>
           <div className="outer_box_2 fl-left ">
-            <My_Pools />
+            <MyLocks />
           </div>
 
           <Sort_by />

@@ -50,7 +50,7 @@ function SignUpInfo({ formData, setFormData }) {
                 <div class="inputarea_top_rightform_block_1 clear">
                   <input
                     type="text"
-                    placeholder="0xc197033c129839ED4740c29919Bd88fD42bbde"
+                    placeholder="Address"
                     value={formData.password}
                     onChange={(event) =>
                       setFormData({ ...formData, password: event.target.value })
@@ -109,7 +109,9 @@ function SignUpInfo({ formData, setFormData }) {
               </p>
             </div>
             <div className="page1_section_form_no_amt fl-left ">
-              <div className="page1_section_form_part1 fl-left">14,774,566</div>
+              <div className="page1_section_form_part1 fl-left">
+                <input type="text" placeholder="14,774,566" />
+              </div>
               <div className="page1_section_form_part2 fl-right">SXP</div>
             </div>
             <div className="page1_section_form_add fl-right ">

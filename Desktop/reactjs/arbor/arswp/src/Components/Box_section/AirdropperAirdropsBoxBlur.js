@@ -1,9 +1,10 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Per_blur25 from "../Per_blur25";
 
 export default function AirdropperAirdropsBoxBlur(props) {
   return (
+    <Link to="/ended/boxpage2">
     <>
       <div className="Airdropven_In_box">
         <div class="box_1 clear">
@@ -28,7 +29,8 @@ export default function AirdropperAirdropsBoxBlur(props) {
           <div className="middle-title-left fl-left">Amount</div>
           <div className="middle-title-right fl-right">
             {" "}
-            <img src={props.coinsublogo} alt="" className="rip" /> {props.amout}
+            <img src={props.coinsublogo} alt="" className="rip" />{" "}
+            {props.amout}
           </div>
         </div>
         <div className="box3 clear">
@@ -54,5 +56,6 @@ export default function AirdropperAirdropsBoxBlur(props) {
         </div>
       </div>
     </>
+  </Link>
   );
 }

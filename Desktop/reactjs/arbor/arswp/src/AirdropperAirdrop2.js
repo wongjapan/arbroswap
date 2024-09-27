@@ -19,12 +19,13 @@ import Airdrop_arbor_new_blur from "./Components/Box_section/Airdrop_arbor_new_b
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         {/* content1 */}
         <Aside />
         {/*  */}
         <div className="form-block">
           <TopNavAllThree
+            breadimg="/img/airdropperlogomob.png"
             title="Airdropper"
             subtitle="Airdrops"
             mainpara="Airdrop to multiple users in few clicks."
@@ -42,7 +43,7 @@ class Home extends React.Component {
 
           {/* content */}
           <div className="fl-container">
-            <div className="outer_box_1 fl-left">
+            <div className="outer_box_1 fl-left" id="outer_box_1_moble">
               <Live_endon_time />
             </div>
             <div className="outer_box_2 fl-left ">

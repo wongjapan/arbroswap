@@ -2,13 +2,14 @@ import React from "react";
 import Aside from "./Components/Aside";
 import Slider from "./Components/Slider";
 import Topnavicon2 from "./Components/Topnavbar_section/Topnavicon2";
-import Live_end_upcom from "./Components/Live_end_upcom";
+import Live_end_upcom from "./Components/LiveONEndUpcom";
 import Sort_by from "./Components/Sort_by";
 import My_Pools from "./Components/My_Pools";
 import Search_sec from "./Components/Search_sec";
 import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 import LaunchpadPoolsBox from "./Components/Box_section/LaunchpadPoolsBox";
 import { Link } from "react-router-dom";
+import LiveEndUpcomON from "./Components/LiveEndUpcomON";
 
 class Home extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class Home extends React.Component {
         {/*  */}
         <div className="form-block">
           <TopNavAllThree
+            breadimg="/img/LaunchedIcon.png"
             title="Launchpad"
             subtitle="Pools"
             mainpara="Discover upcoming or live sales."
@@ -36,10 +38,10 @@ class Home extends React.Component {
 
           {/* content */}
           <div className="fl-container">
-            <div className="outer_box_1 fl-left">
-              <Live_end_upcom />
+            <div className="outer_box_1 fl-left" id="outer_box_1_moble">
+              <LiveEndUpcomON />
             </div>
-            <div className="outer_box_2 fl-left ">
+            <div className="outer_box_2 fl-left " id="outer_box_2_moble">
               <My_Pools />
             </div>
             <Sort_by />
@@ -50,7 +52,7 @@ class Home extends React.Component {
 
           <div className="outer_box">
             {/* box1 */}
-            <Link to="/pools/launchpoolbox">
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (1).png"
                 coinname="Swipe Coin"
@@ -66,7 +68,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box2 */}
-            <Link to="/pools/launchpoolbox2">
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo(6).png"
                 coinname="Venus"
@@ -82,7 +84,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box3 */}
-            <Link to="/pools/launchpoolbox3">
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (2).png"
                 coinname="Voyager Tokent"
@@ -98,7 +100,7 @@ class Home extends React.Component {
             </Link>
 
             {/* box4 */}
-            <Link to="/pools/launchpoolbox4">
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
               <LaunchpadPoolsBox
                 coinlogo="/img/RIP_logo (3).png"
                 coinname="Waxp"
@@ -114,32 +116,36 @@ class Home extends React.Component {
             </Link>
 
             {/* box5 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (4).png"
-              coinname="XSG Token"
-              subtitle1="Blockchain"
-              subtitle2="Meta"
-              percent="80"
-              capimg="/img/RIP.png"
-              capamt="240,000"
-              midtitle1="200,000 RBA"
-              midtitle2="240,000 RBA"
-              nodays="110 Days"
-            />
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (4).png"
+                coinname="XSG Token"
+                subtitle1="Blockchain"
+                subtitle2="Meta"
+                percent="80"
+                capimg="/img/RIP.png"
+                capamt="240,000"
+                midtitle1="200,000 RBA"
+                midtitle2="240,000 RBA"
+                nodays="110 Days"
+              />
+            </Link>
 
             {/* box6 */}
-            <LaunchpadPoolsBox
-              coinlogo="/img/RIP_logo (3).png"
-              coinname="Gnosis"
-              subtitle1="Payment"
-              subtitle2="Web3"
-              percent="15"
-              capimg="/img/RIP (3).png"
-              capamt="1,200,000"
-              midtitle1="120,000 USDT"
-              midtitle2="1,200,000 USDT"
-              nodays="110 Days"
-            />
+            <Link to="/LaunchpadPool/pools/Upcoming/Launchpadpool2">
+              <LaunchpadPoolsBox
+                coinlogo="/img/RIP_logo (3).png"
+                coinname="Gnosis"
+                subtitle1="Payment"
+                subtitle2="Web3"
+                percent="15"
+                capimg="/img/RIP (3).png"
+                capamt="1,200,000"
+                midtitle1="120,000 USDT"
+                midtitle2="1,200,000 USDT"
+                nodays="110 Days"
+              />
+            </Link>
           </div>
         </div>
       </div>

@@ -9,13 +9,14 @@ import TopNavAllThree from "./Components/Topnavbar_section/TopNavAllThree";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="mainly">
         <Aside />
         {/* content1 */}
 
         {/*  */}
         <div className="form-block">
           <TopNavAllThree
+            breadimg="/img/airdropperlogomob.png"
             title="Airdropper"
             subtitle="Create Airdrop"
             mainpara="Airdrop to multiple users in few clicks."
